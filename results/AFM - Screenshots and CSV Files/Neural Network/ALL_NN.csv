@@ -1,0 +1,2169 @@
+    ;ID   ;PREDICTION;REVIEW_ID             ;STARS
+1   ;7    ;1         ;k6MyscXKoxIT_AIS3T1iTQ;2    
+2   ;11   ;1         ;k6liPuj_dWH-JOBY5PcS2A;2    
+3   ;17   ;3         ;k7CSDzlwElXHC7Tg-3z2NA;4    
+4   ;21   ;1         ;k7MafNJdSsDaLiyEdBERBQ;1    
+5   ;36   ;3         ;k8oehk6hS3X3Igb6DbVRLQ;4    
+6   ;40   ;4         ;k9gKI3zJv_yVD6G_5gWwAw;3    
+7   ;41   ;3         ;k9jwyDeXknksuaCSOU645g;2    
+8   ;44   ;1         ;k9ox-ktTQdEauzN0X_Pqsw;1    
+9   ;56   ;3         ;kAbIXNtJcPrsJAtFP2DOyA;3    
+10  ;61   ;3         ;kAt-U0d8jeUuZM0DawsyaQ;1    
+11  ;70   ;2         ;kBVgd9CtWjyrzXJMWlTizQ;3    
+12  ;76   ;2         ;kBxF4J92Xzu85ATrWSS1Yw;4    
+13  ;78   ;5         ;kC2fVoLy2oXHYF4x0m63lA;1    
+14  ;82   ;3         ;kCX6QcDM99v6WT8QwY4TRA;4    
+15  ;86   ;2         ;kDD_TvUPK5jtPDUq-ZlZaw;1    
+16  ;99   ;4         ;kEDL09fITwKJbg3Z6adjUg;3    
+17  ;106  ;5         ;kEidVezcKEOr9ZhVKfoHyA;2    
+18  ;118  ;2         ;kFQljdQ7pKJtV2zW6gPsOQ;3    
+19  ;120  ;3         ;kFWj18yi41zB1JHvfzS7qA;3    
+20  ;139  ;2         ;kH9SkG3y8YbcJC5xVqsUDA;3    
+21  ;146  ;3         ;kHZVuVK0cthFU9QuePAl3w;2    
+22  ;147  ;3         ;kHbePpJngb-kZrITXjMpUw;3    
+23  ;158  ;3         ;kIcf3L98_QUV9A6hlOsFoA;1    
+24  ;174  ;3         ;kJfpTErc-_jyBwRYtcIk-w;4    
+25  ;197  ;1         ;kLg3YNAB_312YwHg03pY0A;2    
+26  ;206  ;3         ;kMiBUDBuMus7gL1SqK4uIQ;3    
+27  ;218  ;3         ;kNTxQN_mgNtKt86_EJ7djQ;2    
+28  ;227  ;1         ;kOOZb9h-1qaWGvCN8CGb3w;2    
+29  ;253  ;2         ;kQVsWAlKMhDTyXCsLj13OQ;3    
+30  ;263  ;3         ;kQv6vwYZ5waCMgnDwOInbw;1    
+31  ;267  ;3         ;kR5iCqcbsm2ad1iqFebTiQ;3    
+32  ;272  ;2         ;kRRHNGS6MiJyoIj6yz6xRg;3    
+33  ;273  ;3         ;kRRogSQh6kO0Pae01YqkSA;2    
+34  ;274  ;2         ;kRUBd1sVBYXASylBGJP1Mg;2    
+35  ;293  ;2         ;kTJGtO0B8E5QxIotRY4j8w;1    
+36  ;304  ;2         ;kTt_S38vJFD_tqPvNVupFQ;3    
+37  ;317  ;1         ;kUcwbxbJHJxa7L93_bC44g;2    
+38  ;327  ;1         ;kVREdDgP-wkXNKLBm2cHFQ;2    
+39  ;328  ;1         ;kVRbxPVDg4R8NnOokJZ7IQ;1    
+40  ;368  ;2         ;kYHNsZtiRjTBCjsFI32Q8g;3    
+41  ;369  ;1         ;kYSrmSuU8jBtEatYQ0PY5g;4    
+42  ;372  ;2         ;kYeWUmICkVJqwH_5N8400Q;5    
+43  ;379  ;1         ;kZKs1gGPW6kNi7Lbv0jKbg;1    
+44  ;384  ;3         ;kZaRQTkYnaHnDv96T5gtag;3    
+45  ;390  ;3         ;kZnTRu62sxyJt0_pwzGGPA;4    
+46  ;406  ;3         ;kaJ4OuNUgXYNWxm_AeiTvQ;4    
+47  ;421  ;2         ;kbQzm-LKzYOG-5eNDIe-lA;2    
+48  ;430  ;1         ;kcLPVgTRd4AP26u3W8fJ3Q;3    
+49  ;444  ;3         ;kdJmk_SzKlDivmDkREostw;4    
+50  ;498  ;1         ;kh7xIszrMf6ucp_rijpSnA;2    
+51  ;514  ;2         ;kic94bziZAERHDM23oLwhA;3    
+52  ;516  ;1         ;kj-m5nldmSVxKoqzJZ4dvw;1    
+53  ;517  ;3         ;kj5mbAhUZt2KVIysNckGRA;2    
+54  ;533  ;3         ;kkVlSPDRlokG-5_kYCuhkw;1    
+55  ;536  ;5         ;kktcvoHGoIEiv6YeAd0R9w;4    
+56  ;540  ;3         ;klKT7NCs4ZOVroMJdGvoIQ;1    
+57  ;557  ;5         ;knLdZb1_X2q18Br_iEQ20g;5    
+58  ;561  ;3         ;knte4vSR1BNZjafHtjT-lw;5    
+59  ;574  ;2         ;kp8CF1Eu66cTMbiP0U_WDA;1    
+60  ;585  ;4         ;kqHHGxsLid4D-Xjj9p65yw;4    
+61  ;590  ;4         ;kqgLzpn-icvIhw3CMEh7uA;3    
+62  ;633  ;3         ;ktrYPusMeAabbD46K1-VGw;2    
+63  ;643  ;2         ;kuaxHK9ofbmfvZMK1Q-h2A;2    
+64  ;664  ;3         ;kw-sIaDTkC3H2JH0mamkiA;5    
+65  ;666  ;3         ;kw7bnEafwZiWDQ4o-ZG8Ew;5    
+66  ;683  ;1         ;kxX1OGNJki4nu50rRWxm7Q;2    
+67  ;685  ;1         ;kxYDPlzWX_yfPagijzi8Mw;2    
+68  ;691  ;2         ;kxtm6hMIcQHi0dB1PrbxSQ;2    
+69  ;694  ;2         ;kxyCjYD3hSJkFN1I9v8FIw;3    
+70  ;706  ;3         ;kyWH8v12fuL72GW6Rf7okw;1    
+71  ;713  ;3         ;kzNuZP4FxPgB1CmRGy9gWw;2    
+72  ;715  ;3         ;kzQPoaCKWDajvfqZ8jjfMQ;5    
+73  ;723  ;2         ;kzrooKxxcx6LnEiT9NHpbw;1    
+74  ;725  ;3         ;kzzIBLFUWuBxkLvz1oJj0Q;3    
+75  ;743  ;4         ;l0hjGLAlI8BBpdb2QJam6A;3    
+76  ;746  ;2         ;l1MTn08SUi_lTwVih-dqow;2    
+77  ;749  ;2         ;l1hF5fyRvVn4xNduyEV_1w;3    
+78  ;761  ;3         ;l2MUSmL1s5C8PPdpwQXePg;1    
+79  ;772  ;3         ;l3InSVM0JtzD3s8isLq_tA;1    
+80  ;780  ;3         ;l3lgcwKWcJexAcZhbtWh2g;3    
+81  ;786  ;3         ;l4BXzLpe6UwvdBzP-rXM9Q;2    
+82  ;789  ;5         ;l4YodwYDazQt5hpl_jJ1xQ;2    
+83  ;794  ;2         ;l4kxY1OV0Ed_G2NPUpMYTQ;3    
+84  ;818  ;3         ;l6zrFwNstmULnofc0Niwqg;1    
+85  ;835  ;5         ;l987NGw5T6l2WKcYuw6D8w;1    
+86  ;837  ;1         ;l9b_MSXqNODYlqTPMcl8Pg;2    
+87  ;864  ;3         ;lCKpheN8rTwysOCw4S9aRQ;2    
+88  ;873  ;3         ;lCfdp0ks5w2HAaIDnTPVpQ;4    
+89  ;874  ;2         ;lChGvZVm9b-qMRyQzfziCw;2    
+90  ;879  ;1         ;lDMuL0Guq6Covoq0eexcSw;1    
+91  ;904  ;1         ;lFItbdCT412qK4NZWrwYAA;1    
+92  ;917  ;3         ;lGw7tSvTMWoC55LmDdCyYw;3    
+93  ;925  ;1         ;lHcb64Rbo-IGVuQbbEHE2g;4    
+94  ;931  ;4         ;lI3eN2O1xqEsxJEmNbKIZQ;3    
+95  ;960  ;1         ;lJeOw8B9hdOEDV7YP9EfCQ;1    
+96  ;964  ;1         ;lJzdqogNrZQ2LoEIWhMhuQ;2    
+97  ;965  ;5         ;lK8998u8bUieoK0A5xBIWg;5    
+98  ;988  ;3         ;lM1q-2dNPL-2Q3u_EEwvWw;1    
+99  ;994  ;2         ;lMTOVfHPgCen0Cm9IpvaIw;2    
+100 ;1,008;3         ;lNHagZhpZpuOEdtlCcUUGA;2    
+101 ;1,016;3         ;lORiYR4Ha2qvkX_QCpWLJQ;3    
+102 ;1,043;1         ;lQZz7AQseT0Q7jxPqw0DJw;2    
+103 ;1,045;2         ;lQn1K9KVKVZPEUYxAmQ-MA;2    
+104 ;1,054;3         ;lR__VmUFyaTP1AYloFi63g;2    
+105 ;1,056;1         ;lR_wHzeaEhmcmv0ac2WX5Q;1    
+106 ;1,062;4         ;lRzK2gxU9KmU621pLvFsTQ;2    
+107 ;1,067;3         ;lSJt82diTanH1TAMDGTYtw;1    
+108 ;1,105;5         ;lVz3OBsM3o9OBh8REhRygw;2    
+109 ;1,106;3         ;lWBGGLgBRZThfx8UPgyKUQ;3    
+110 ;1,122;3         ;lYYu-0NEx0zDtdLwbn_jVw;3    
+111 ;1,124;4         ;lYrt07uYklATO0Bpr9mSVw;2    
+112 ;1,138;3         ;lZtwhK1oyXsHogNhpoijAQ;1    
+113 ;1,146;3         ;l_Lc_HJnf0SdeuECBylmvw;3    
+114 ;1,148;1         ;l_YIRcTh2TAN7NcJuLAj5g;1    
+115 ;1,178;1         ;lbPS5X7rCHQHGqR6j4E4DQ;2    
+116 ;1,197;2         ;lcuSWVf_sVfBDCaJei1mEQ;5    
+117 ;1,208;1         ;ldWlwW3ujs8Lyhi6cyC94w;2    
+118 ;1,221;3         ;lf6BeRub76_kpW2nWIa2Gg;2    
+119 ;1,232;1         ;lgPP_BzB3mZAM6A79KiH1Q;5    
+120 ;1,248;1         ;lhWW9mSr-g5mzMH2GlYV5A;2    
+121 ;1,265;3         ;licmOoM7-nqymEYDICZDLA;2    
+122 ;1,290;1         ;lkqGSF7Pi3wIF8CzJ0iNnQ;1    
+123 ;1,294;5         ;llCMY-WDVhSR5vD28UU-2w;1    
+124 ;1,298;3         ;llcSNfYWOpI8lUs6auB-_A;2    
+125 ;1,306;3         ;lmDjNtaKFIWYYIWed6v5iQ;3    
+126 ;1,316;2         ;lmrONqNbzzrrt1o5I4oc0Q;2    
+127 ;1,320;3         ;ln9q9bQ36hA8teqeVmc43w;1    
+128 ;1,321;1         ;lnEZG5F0ZESc0dWhky3EDw;2    
+129 ;1,331;1         ;lo4GGLwsOU67_bF8T-7eNg;4    
+130 ;1,333;3         ;loE3io2XPBVPAFZ_tGkUQg;1    
+131 ;1,336;3         ;loR4LAjHCDyKRCu9vCxFrw;3    
+132 ;1,338;3         ;locd37gtmwUxoHPE1sb6GQ;4    
+133 ;1,355;3         ;lpm8blF6bcIrHgUFZ_q7qg;3    
+134 ;1,363;1         ;lqDd5O8a5uEUXkPp6W_Yxw;4    
+135 ;1,364;3         ;lqG1YtP3FyH4mcXQol_02w;3    
+136 ;1,378;3         ;lraEqBn5CaLvEbL6jalnsA;3    
+137 ;1,381;2         ;lruu2_wFPdecS-uXFHRQ9w;4    
+138 ;1,385;1         ;lsGI9wV7WgGMI4aUs-D5bA;2    
+139 ;1,396;1         ;ltBcCXoBXhSwT3NOkLrBdA;1    
+140 ;1,404;3         ;ltdfO-zX-T4WhqgPEA6j9g;4    
+141 ;1,408;4         ;ltmzRzyRkHkRTuvjeZRNiw;3    
+142 ;1,415;3         ;luEbt0vgX_sLF5LgAup55Q;4    
+143 ;1,417;1         ;luPSJcglYm2AIdUUelwg-g;2    
+144 ;1,436;3         ;lvZo--IpGEYg7X5XTQlmRw;2    
+145 ;1,438;2         ;lvbXaoVyPgb9p-buW9jx-g;1    
+146 ;1,444;1         ;lw7ThsHbatEpiln1f3iJ5Q;3    
+147 ;1,446;3         ;lwV9RXBv0RZgqdUlXChA7A;3    
+148 ;1,449;1         ;lwoEbDNuC5HVtIo2KtoVgg;1    
+149 ;1,457;3         ;lxg3D4Zh2DNx6ls_5izbCw;1    
+150 ;1,468;5         ;ly_VWhUV7s1bNeqiSvet2g;4    
+151 ;1,470;3         ;lyiaSVaEK61pztjotPKB5Q;2    
+152 ;1,485;4         ;m-4pwG0purE3b6cusWq5_A;1    
+153 ;1,488;1         ;m-H1vTZGpx_9xo9IuzugGw;1    
+154 ;1,492;3         ;m-R0-emOEBXfqtdcEWWmFQ;3    
+155 ;1,499;1         ;m0AwCN9Jk89GYxWv2I1bEA;2    
+156 ;1,512;2         ;m10-wu3c-9-1L5ocAylVKg;2    
+157 ;1,517;3         ;m1KByoRuxixw6wETjTvt1w;3    
+158 ;1,524;3         ;m1Yligg_TsNA6g_mPD09cA;3    
+159 ;1,538;1         ;m2WfqHEtc2YyPYRBrdrvyQ;2    
+160 ;1,545;2         ;m33gNTxKB76n9g_mWSwPhA;4    
+161 ;1,548;3         ;m3D9tEbUdphpIZNU4S664A;1    
+162 ;1,557;2         ;m3vDZWDdjRGmvVwFwjV2GA;2    
+163 ;1,558;5         ;m3yfB2l4JBVEkTIJkJplWw;4    
+164 ;1,564;3         ;m4MkEEy9Qwm5q1wnPHC5tg;1    
+165 ;1,565;1         ;m4R9eiwjSDHbB6wJ2lwecA;2    
+166 ;1,573;4         ;m5pNxNQCm1VA4N7We4ABiA;5    
+167 ;1,575;4         ;m65Lok2ysNG-DfJlPq1dsw;2    
+168 ;1,578;3         ;m66xG7Jw2VeAZvaK3T-Dzg;5    
+169 ;1,593;5         ;m7qucS0Fsj8zM9ySGME5Hg;1    
+170 ;1,597;5         ;m8dbrbdhDqYCt7YQcoiL8Q;4    
+171 ;1,600;2         ;m8yMygcHsAJhshKyLRe2mw;2    
+172 ;1,609;3         ;mA5iYxeYOpFedlHYGmODsA;3    
+173 ;1,614;3         ;mAQpiR73NL6pgHZoeueIHQ;2    
+174 ;1,628;2         ;mC23jrxmLP4TKtWTf0oT2Q;1    
+175 ;1,682;1         ;mGSIJstiPfuy7Z-yLDtCsg;5    
+176 ;1,691;1         ;mHV4d3cVYD9oI-AR3ULK2A;2    
+177 ;1,692;3         ;mHnsv9X_fNG9xr0xwgNEqA;1    
+178 ;1,707;3         ;mIZqwpd4--y9SB_qzw1iWQ;2    
+179 ;1,716;1         ;mJa_WwCJftv6LklxTH-v8w;1    
+180 ;1,731;3         ;mL9prHEAYv39WwJE7z23ag;4    
+181 ;1,754;5         ;mMhlMWH-gEeP-INfhmPjUw;3    
+182 ;1,755;3         ;mMiyO0jrs_VpJ_mkSy3PSQ;4    
+183 ;1,761;3         ;mNHpM0pnEIz74PfPovS9hw;3    
+184 ;1,774;5         ;mOgHk5XbPCoiMwp8b4pMCg;2    
+185 ;1,784;3         ;mP2JSuR-MueONLXZa71zxw;2    
+186 ;1,806;1         ;mR6HbOhLtwrrmJXYq3esEA;3    
+187 ;1,807;3         ;mR93DN0c0TVc8VroGa1b5w;1    
+188 ;1,821;2         ;mS6OUBdTNN7s3d7tJh78xw;3    
+189 ;1,825;3         ;mSGgKc-HFprO8_7xcETQ3Q;3    
+190 ;1,831;1         ;mStxr1OmNGCVNgAJIOxjow;2    
+191 ;1,834;2         ;mTA9aD7hzpF1G1pXRsqUMw;5    
+192 ;1,843;3         ;mTmnODelRs9yov1g30tn5w;3    
+193 ;1,859;2         ;mV5J9EuvdZLdpWHQVoMYeg;2    
+194 ;1,863;3         ;mVJ6KivCV4CCa3dNyleQKw;3    
+195 ;1,873;3         ;mW3b8LAZn9iEZBpkp2oG8g;4    
+196 ;1,882;2         ;mWvLx8jzpilAGESQMRFpyw;2    
+197 ;1,892;1         ;mYUAOxGuJmmjVaQJK_5mgg;3    
+198 ;1,898;5         ;mYx9GA_HRzyYUEe-z6pRtg;2    
+199 ;1,905;5         ;mZMjGDpFPIz1FhpS3eFNDA;2    
+200 ;1,910;1         ;m_N-7ELX1c-pIoxWsVEAwQ;1    
+201 ;1,914;1         ;m_ao1AX7YxXHc_FVpTQDaw;2    
+202 ;1,925;3         ;ma6LEEOkR_CcJBENVywiDQ;2    
+203 ;1,927;3         ;maLihctobOIsuxPHV3K8-g;1    
+204 ;1,931;5         ;magRyc96RU4fEd-zZMAqbA;3    
+205 ;1,936;1         ;mbBRBFaNRbbNx--4fWLYpg;1    
+206 ;1,942;3         ;mbeTv6ciXckuMP1yRp9IOw;3    
+207 ;1,948;3         ;mcCgcpojLbOk5iMLswgZCA;1    
+208 ;1,953;1         ;mceX-d0SgkT0fe_dIfsNOg;1    
+209 ;1,955;1         ;mdDhnCnzCZ3w3rcSFQCTiw;3    
+210 ;1,957;3         ;mdh1rQZAYnqmHpaINX1LbA;2    
+211 ;1,968;1         ;megrdTZz2A5_03IxJPbLKA;1    
+212 ;1,969;1         ;mejcgSYsfMIWQ9IVRP9PxQ;2    
+213 ;1,975;4         ;mfKtURbQD9mPLvZdH00UOA;3    
+214 ;1,999;5         ;mhWNmc0NVR9BTAhOgLOGoQ;3    
+215 ;2,002;5         ;mhoLGv_xXFRDfFmo4KSi_A;3    
+216 ;2,009;1         ;mim5fi6XCSdWLB9hw3p0Vw;2    
+217 ;2,013;4         ;mjJ2PDHak9aCbDxBFWvEyA;3    
+218 ;2,033;2         ;mlEEQxESOx8YktBF3EMAfg;3    
+219 ;2,050;3         ;mmOa95goGq48Kfr1RVmL8A;1    
+220 ;2,059;2         ;mmkvJHnZxas-CvkAUf1ohA;1    
+221 ;2,068;3         ;mnMCC-aSKFprHVwlz6ECKg;2    
+222 ;2,082;1         ;moV-1pAy0j4gwfrGhojYZg;3    
+223 ;2,091;5         ;mpHIsBt-Hf12dKyQutO9GA;2    
+224 ;2,095;1         ;mpYjAGl7VN3XLdq98RVUDw;2    
+225 ;2,107;5         ;mqWOzz4tNKgXV-bdVFA3Ew;2    
+226 ;2,110;1         ;mqg2cJeRXCbu3ewwaDdbEA;3    
+227 ;2,125;1         ;mrYlatyfMSjjcJSQCddlBA;1    
+228 ;2,134;3         ;mskL19GDk0TctIp6ZJUQBg;5    
+229 ;2,135;3         ;mss50-zSEgvG3g2BNTmLbQ;1    
+230 ;2,153;3         ;mu-LJptOK7l65HYMFNWQrQ;4    
+231 ;2,156;4         ;muPXJvzmjm44CAb8BR6XGg;2    
+232 ;2,158;2         ;muVah9VkEF3gNuLT9wCz-g;1    
+233 ;12   ;1         ;k6o29K46FOIJU54cx1mnkQ;1    
+234 ;68   ;1         ;kBRsQlvpxzAbFGOo-PYiIw;1    
+235 ;109  ;3         ;kElgYZoSWyDhdFxv3cxH9A;1    
+236 ;119  ;1         ;kFVFVBqVJBLG21bo6ZMErQ;2    
+237 ;121  ;1         ;kFlHB5lSJ8EQl-vZSlU7xg;1    
+238 ;149  ;1         ;kHoh7ZD6DBQHGaqwbVxM3Q;2    
+239 ;153  ;2         ;kIIqxMrklRCAvYxqPcDG4Q;1    
+240 ;195  ;1         ;kLY6z9LW6P9rw54YmkvKeQ;1    
+241 ;203  ;2         ;kMMk204cy7vDQHwC5aM2BQ;2    
+242 ;220  ;1         ;kNkkDLTJgabW8NXl4FB7rg;1    
+243 ;282  ;1         ;kSNzevdaLYDYnM1lb7iMFA;1    
+244 ;334  ;1         ;kVxwb_GfSNIt7sE9fxy6NQ;2    
+245 ;350  ;2         ;kXDeN9bnv3Jy999kdBTzJg;1    
+246 ;362  ;1         ;kXub6qRmBDrf4i_Z77YK6A;2    
+247 ;426  ;3         ;kc7Zm_RNcyXSA3raSMsV7Q;2    
+248 ;475  ;2         ;kg90OE1pacyE3khK97suyA;2    
+249 ;477  ;1         ;kgERtR37ybaa5iRoqP6Gyg;1    
+250 ;485  ;1         ;kgRtGx59WVl0Gvp1SAVB_A;1    
+251 ;491  ;1         ;kgdWZcR5zYJtmIL_K5ig8g;2    
+252 ;495  ;1         ;kgk4xPlOqEMx-4qCznKoeA;2    
+253 ;496  ;2         ;kh5VSvT9-1RGiILm7NHaeg;2    
+254 ;505  ;1         ;khxdJERChnTcLqDOhDG19A;2    
+255 ;544  ;1         ;kmD7ChtZ_6WGttR9HtTZpQ;2    
+256 ;573  ;3         ;kp67FIm5zxJPmwBqiWIDsA;3    
+257 ;584  ;1         ;kqD_W18l7UU-dno0k9ZDcw;1    
+258 ;591  ;1         ;kqiLYUwv-ZCwB46dduZJFA;2    
+259 ;595  ;1         ;kr-g6nSV8IU8rWhyULQxmA;3    
+260 ;614  ;1         ;ks8EF3MLGuLn_bOhzo-8Iw;1    
+261 ;624  ;1         ;kt7EWtHWDgM_L4ulHG4RMA;2    
+262 ;649  ;1         ;kuufIOOW3t6yIHE0A1P02w;1    
+263 ;669  ;3         ;kwWgkmaWrhRkgt2iNUQb8Q;1    
+264 ;731  ;1         ;l-Qm6Wjm_pUv8dIEndjmOg;1    
+265 ;735  ;1         ;l-_BGSJiijtjHqWmaR_FSA;1    
+266 ;759  ;1         ;l2CuW4t7ZIQiisB1t8GWmw;2    
+267 ;764  ;2         ;l2Y2U4bZaTkCi74vepteCA;2    
+268 ;770  ;1         ;l301FGFQF_ItEFnfyrHWcg;2    
+269 ;793  ;1         ;l4kgF4G8IPxuXJ0udwSWXw;3    
+270 ;808  ;2         ;l6DejNdLwGVL7lXG3B7aAQ;2    
+271 ;848  ;1         ;lAojhikpKIeuz7u3gj-IVw;1    
+272 ;851  ;2         ;lB3tELX6UMgxGu5DjSB6lw;1    
+273 ;930  ;1         ;lI3XHDW1YhrEMUjuQcX2bw;1    
+274 ;958  ;1         ;lJYs75l0fTzk7oWSZIVC5w;2    
+275 ;981  ;2         ;lLapioyREPCkJirdIdUO-w;1    
+276 ;990  ;2         ;lM4osiiDvnpPPgEUEgdMDA;1    
+277 ;997  ;1         ;lMXOGIIW0mEp6aNpz-aBWg;1    
+278 ;999  ;2         ;lMl9VLGW9XyNr-VXd8yBLw;2    
+279 ;1,007;1         ;lNDw9eEAP6iG3cK7MspXQw;1    
+280 ;1,086;2         ;lUAlHBQ5T_5oOMw4jG2Azg;1    
+281 ;1,088;2         ;lUUd0SJPL8ReXyn6SitAWQ;2    
+282 ;1,091;1         ;lUcMCZW8_rGmaY1Se3lb7A;1    
+283 ;1,107;2         ;lWIiY7EBSS9NEWH0kaqhgA;3    
+284 ;1,114;2         ;lX_ffRAcJ89jZ9sZxnZOcw;2    
+285 ;1,150;1         ;l_crEqfQJ7bsYilwb1zafA;2    
+286 ;1,153;2         ;l_uMYiRsPKCOrZ-iUC0omw;2    
+287 ;1,168;1         ;lb2-qc-e2SRPe72MjNllXA;2    
+288 ;1,172;2         ;lb9oAfvug-XtutbBx5FqOw;2    
+289 ;1,173;2         ;lbIniJN-BISxkKckL7n-qg;1    
+290 ;1,207;2         ;ldWN-NZE7AO_yGnyKWyGaw;2    
+291 ;1,227;2         ;lg24VpIxjJCF8kG7MvVckQ;3    
+292 ;1,263;1         ;liaey4DKW1gX6XKGb0KMLQ;2    
+293 ;1,274;1         ;ljOnjbo2BsCSiarjWRZMog;2    
+294 ;1,287;1         ;lkfAHHESA1ALoIry9fsQqA;2    
+295 ;1,304;1         ;llzcYr7hNgsSYWuhdc58Aw;2    
+296 ;1,341;1         ;loijKjMWL2xhvgKhxtgh0Q;1    
+297 ;1,350;1         ;lpVTkEj30crWZR_olTrPmg;2    
+298 ;1,351;1         ;lpX6FOhfaPe7P6n5TULxFg;1    
+299 ;1,367;2         ;lqS7NvlSiW3ECcVAQfhNJA;1    
+300 ;1,383;1         ;ls4rH5lnzAKyTRMjcOd8pA;2    
+301 ;1,413;1         ;lu3hqnMWUkEM3ZdJcQp4-Q;2    
+302 ;1,426;1         ;lumwIWLReOpwJVRF34jBHA;3    
+303 ;1,427;1         ;lv4fftuGn-4_KdyzYn8fCA;2    
+304 ;1,456;1         ;lxNYKtBI8JD2C88-EPBWMg;1    
+305 ;1,458;3         ;lxk4P9JjQR739rOXzWHbkQ;1    
+306 ;1,460;1         ;ly0ljJIsojIetOIBOoPh1Q;2    
+307 ;1,462;3         ;lyE7dRyJezP61tXYCwXbUg;2    
+308 ;1,493;1         ;m-_38rAScubxzna0C2S2JA;1    
+309 ;1,521;1         ;m1T7FCFpQNkLq3JtDe-NxQ;1    
+310 ;1,526;1         ;m1a0f39LDkueOrPxW7-KuQ;2    
+311 ;1,550;1         ;m3HQPMTBbVI1DgVUTpiTtQ;3    
+312 ;1,581;1         ;m6Vlso2laEFDjvgJ8-Tfpw;1    
+313 ;1,626;1         ;mBlNKvteqo97vti-Gvp2Tg;5    
+314 ;1,636;1         ;mCqmgOXzaQ9cXuIUx6IQ7w;2    
+315 ;1,645;1         ;mDRiDyDWJ7IylZwI18jqyQ;2    
+316 ;1,650;1         ;mDo-NraMC19egcES8lGw5A;2    
+317 ;1,666;1         ;mFUcu8sbaB1rdtON4BghBA;2    
+318 ;1,687;2         ;mHA9wC5cQHUnUOyJ0M2Vdw;2    
+319 ;1,698;1         ;mI3pQIodITJWGMeqhzvjkg;1    
+320 ;1,717;1         ;mJbiHyHzff5fDbWURhT-pg;1    
+321 ;1,733;1         ;mLL5shpAuP1XeECAOT1moA;2    
+322 ;1,745;1         ;mLuRtpDytRT-Tn4jp8JAPA;1    
+323 ;1,779;1         ;mOpV8DtCOp5QQRmSoy8kiQ;3    
+324 ;1,799;2         ;mQBxWovmYOg26DOPPUAF9Q;1    
+325 ;1,802;1         ;mQULwBmObkkZ3kjqcqsKhw;2    
+326 ;1,851;1         ;mUkRi6iTFz_d2hCWmnR65g;1    
+327 ;1,868;2         ;mVhyOq8G3H5d9PqxpI2wjQ;1    
+328 ;1,885;1         ;mX3pYyS_FzrTACs93GQ_ag;1    
+329 ;1,894;1         ;mYhwXpTQIcfoY5wHJv_8bg;2    
+330 ;1,926;1         ;maIxxz_2Az1OL9e4umcd9A;2    
+331 ;1,930;1         ;macRTTarWazL9K_nMyBxkg;2    
+332 ;1,987;1         ;mgVlLCRZ35XSOWG33KLnSg;2    
+333 ;1,992;2         ;mguenpuex6sLM90CSP9KUw;2    
+334 ;2,000;1         ;mhZzUKnuo2V99BgdqN0T9A;2    
+335 ;2,100;3         ;mpsSe9dsuMR7mlBQSV5T9Q;1    
+336 ;2,119;2         ;mrDjuYkmxZ1mS6dMVLwVaA;3    
+337 ;2,137;3         ;msvt6JLPvDKYITpVZfuY-w;2    
+338 ;2,140;1         ;mtJp-_7PwEEf4bpnEp5bAg;2    
+339 ;2,162;1         ;murv07RTDtah-E00NAxcSA;3    
+340 ;2,164;1         ;muxAd-XDujNONrwBzOVh4A;2    
+341 ;14   ;1         ;k6peCUM-kG3ZmW9NdPlJxw;1    
+342 ;97   ;1         ;kE6z8qPy-f32kmtMvOhVVQ;1    
+343 ;101  ;1         ;kEMehSy-TbSymxIqj5O3kA;1    
+344 ;128  ;1         ;kGEUYks5wVzmQ-BH_pSwWg;2    
+345 ;145  ;2         ;kHXGHo6CdWGnBykM9HqLiA;2    
+346 ;192  ;1         ;kLLFlRvtrmkdpiYKeRp7Yg;1    
+347 ;270  ;1         ;kRC1PZ3JKImDNuQv0sX0ag;2    
+348 ;295  ;1         ;kTLl46dJxcRl4Mm92vgbPw;1    
+349 ;343  ;1         ;kWjqyqdbTRYlPf3jokav5A;2    
+350 ;348  ;2         ;kX8e24duC1etFTGIjxSIZg;4    
+351 ;416  ;1         ;kaqRY92_zWhx8M0hWpdJog;1    
+352 ;419  ;1         ;kb7ApmvfWfGjsjMFWAlFxg;3    
+353 ;443  ;1         ;kdIfwJc3NyBLJN_YhTyLSQ;1    
+354 ;452  ;2         ;ke1zPtgIhjhjUe9XX9D33w;1    
+355 ;454  ;1         ;ke6qbDMXNFe2c1GvB0EtKw;1    
+356 ;558  ;2         ;knRocz5JOh5QBzI6ZKbzdQ;3    
+357 ;676  ;1         ;kwz_VCehtwww0VFbYnb70A;1    
+358 ;775  ;1         ;l3StFJB4gnjnibWyvG55WA;1    
+359 ;1,018;1         ;lO_E7s3Iz0uGzJ-NcohHaA;4    
+360 ;1,052;1         ;lRGpa-sSLUKtil6wDvViDw;1    
+361 ;1,055;1         ;lR_nRbv8rdrbTKAk4phV3Q;1    
+362 ;1,066;1         ;lSJ0MAfGF1ODsAXUWk2xvg;1    
+363 ;1,179;1         ;lbQSKb74wEyPXx17byvXGA;2    
+364 ;1,244;1         ;lhO8WLw7M8HVuO0kT4lreA;1    
+365 ;1,259;1         ;liOniSf_8kUimjdUPIIRqw;2    
+366 ;1,289;1         ;lkkg0ahnX3BNea2Jfvk7OA;2    
+367 ;1,440;1         ;lvweqBbw3Hko_paveniSzA;3    
+368 ;1,478;2         ;lzT1JBo1w_QmXAhjAVLcfA;4    
+369 ;1,531;1         ;m2-crf01hTZtPBrLgiH0nA;2    
+370 ;1,598;1         ;m8pg4n0sEbUJigEt62Mnjw;1    
+371 ;1,617;2         ;mAbOySX_zwsVOiTftoAu1Q;2    
+372 ;1,649;1         ;mDlCjNmOISzCbGccAdNuFw;1    
+373 ;1,742;5         ;mLgVg3SeMxVXjfjTAIu1Pw;5    
+374 ;1,823;1         ;mSENzCGk18WJzBLuOuEuEg;1    
+375 ;1,852;1         ;mUohZSnCkjQ7pfVcl8izxA;3    
+376 ;1,854;2         ;mUuDQjnhKoM_sGpInUlasw;2    
+377 ;1,961;1         ;mdtGgXKROCUJzukYq8tICQ;1    
+378 ;2,006;1         ;miOEAwSIqbxrwSoW1IdRgA;2    
+379 ;2,028;1         ;mkmhWRTBMvia0up2kATZZQ;1    
+380 ;2,052;1         ;mm_t2sbVPVGi4QyZ6tzFiA;2    
+381 ;2,058;1         ;mmjIBzxBBf0XhHQAUvESPQ;1    
+382 ;2,073;1         ;mnakYcEctSyqwCKE2AZx7w;2    
+383 ;89   ;1         ;kDWzGxxlysb7YJ-EL__vNA;2    
+384 ;112  ;1         ;kF0HLUhvkl39ZKAzFK4WwA;1    
+385 ;122  ;1         ;kFqirZdkjgDiXJlKlhwL6Q;3    
+386 ;134  ;1         ;kH3H17SDJwleXcq5npEYeA;1    
+387 ;160  ;1         ;kIkJv0TJz3pqM2QEfu2rVQ;1    
+388 ;172  ;1         ;kJMKZNz95ejYWL8ZMyKNRg;1    
+389 ;190  ;1         ;kLA0JQzMgLFoNXPBenbpzQ;2    
+390 ;228  ;1         ;kOWG7qRUMQv6Z_z7gHSKRw;2    
+391 ;229  ;1         ;kOX0K7CJVADCaE4DHkTQdQ;1    
+392 ;234  ;1         ;kP9_7ROd-bEvUmkZLDedkA;1    
+393 ;246  ;1         ;kPmEvI4YCMVURa0W-Hj42A;1    
+394 ;248  ;1         ;kPqSe6vt3cmlBmoV5H2AsA;2    
+395 ;306  ;1         ;kU141AJf9dLpEthnNbZaJA;1    
+396 ;308  ;1         ;kUEjrVqgpKaclhXY9FC5Ug;1    
+397 ;322  ;1         ;kUzVTaxt9C6TmHcYp-4JSA;1    
+398 ;403  ;1         ;ka52GKZqiyth0pF3LIdGfw;2    
+399 ;459  ;1         ;keV8SvbQc0KG4AMh_nTjtg;1    
+400 ;512  ;1         ;kib2EXEeqd8eaBMvZD5MVQ;2    
+401 ;531  ;1         ;kkRO9iytCOCKwTRYiQwqyw;3    
+402 ;588  ;1         ;kqSufHvCl4E24tOt48mG4w;2    
+403 ;621  ;1         ;ksk_0SPYL_FeCuyHvx66Sw;2    
+404 ;663  ;1         ;kvufTAHUcTnSZELcmtKcfA;2    
+405 ;677  ;1         ;kx-_VTgnozp0VWqFtf6BuQ;1    
+406 ;703  ;1         ;kyGQG0vWps383IEmSfMqWg;1    
+407 ;776  ;1         ;l3ZMLlwpcq8rQb00Z5v9Eg;1    
+408 ;790  ;1         ;l4_UkrG24jjM59KdVknMbQ;2    
+409 ;933  ;1         ;lIB41hy82PbJp5K2DQqfWw;1    
+410 ;968  ;1         ;lKL-KMTxwyhKiJxhQCngcw;1    
+411 ;977  ;1         ;lLH-B0vV_9IorF1S1nmpxA;1    
+412 ;1,048;1         ;lQyVuB6b97bgWN46EgwC0g;3    
+413 ;1,050;1         ;lRC83o5kSck-Mas_7itGnA;2    
+414 ;1,065;1         ;lS5mnvw3eDv2HdvUe0adXA;2    
+415 ;1,085;1         ;lUA5dauZrZAWRcK2YWO7jA;1    
+416 ;1,139;1         ;lZwh2sCezBxZz0ogZHAJ1g;1    
+417 ;1,164;1         ;laxgJHkzpdB0O1ZpdifZqw;2    
+418 ;1,191;1         ;lcPubtXukk2GQUqSsJJclQ;1    
+419 ;1,199;1         ;lczlFAMRhU9q0qBfrOOdog;1    
+420 ;1,201;1         ;ldE3QWhz8u13VnWsbIEFJQ;1    
+421 ;1,272;1         ;lj-UOHEyi-5Em8oGLGGdyw;1    
+422 ;1,369;1         ;lqY7zFESVM4kuontMFPWlQ;1    
+423 ;1,371;1         ;lr3ndp4UNbahkoNRedX8Wg;3    
+424 ;1,379;1         ;lrfWlQfN8r7H41OnjYslAQ;2    
+425 ;1,380;1         ;lrnX-0bACAjdWDkcVGN47Q;1    
+426 ;1,389;1         ;lsZWJI75NSwjSkjWU7HR4A;1    
+427 ;1,428;1         ;lv5bH2rIvzgQBMhDg03-eg;1    
+428 ;1,483;1         ;lzg5fnRv2WCEVD66pTxBjA;1    
+429 ;1,507;1         ;m0wkB-Kz2qbCe-kDOJJLCw;1    
+430 ;1,510;1         ;m1-FkkUNkFTlyMC3VLtj4A;2    
+431 ;1,530;1         ;m1wuBgvHopU76ZkSPvO7qg;1    
+432 ;1,542;1         ;m2eZMXXxsOqR2vcO3SIfDA;1    
+433 ;1,567;1         ;m4puvtfG2UVxbCFzg6rNUQ;1    
+434 ;1,632;1         ;mCKcMvyS6t_h0-DPigV4Sg;1    
+435 ;1,684;1         ;mGfZspcTQ1C8vq53ujGgTQ;1    
+436 ;1,732;1         ;mLGiwOjXPoY9Ms95hqpTug;1    
+437 ;1,804;1         ;mR-UvaPZYGZBvMFhClRVBw;1    
+438 ;1,855;1         ;mUuVw0LmqJILoWPmdbkoDQ;1    
+439 ;1,869;1         ;mVj9ZvK7UJ5UiJ9UrrejKg;1    
+440 ;1,877;1         ;mWTli9bGVR9uGZjtR68JFA;1    
+441 ;1,883;1         ;mX-Nz2mGMR1c8coPPdf92A;1    
+442 ;1,899;1         ;mYxVFekqOtJj7-t2Nykcpg;2    
+443 ;1,901;1         ;mZCeylqrBooLtP8COb3a6Q;1    
+444 ;1,903;1         ;mZK_RjtUiJ6Rzh6aiWsLvw;1    
+445 ;1,904;1         ;mZKxWN-xvrq53j65b5RQ0g;1    
+446 ;1,956;1         ;md_n7C_NzQV6yKP2zFhB1g;1    
+447 ;1,980;1         ;mg1hd1ylWOG-OzkN2xCm3A;1    
+448 ;2,010;1         ;mj-lh7jfWh0OaKk91j_elg;1    
+449 ;2,099;1         ;mpmQppAuq6JeFabBTStxDw;1    
+450 ;2,160;1         ;mujmH1iSh5jt6EKw3XC02A;2    
+451 ;16   ;2         ;k6wbS8YWuAxaInKz6MsZuA;2    
+452 ;19   ;1         ;k7F6Y-lMdO7P2wzRCBaSmQ;3    
+453 ;26   ;2         ;k8-BZsDOmPGKoN18D3Ptuw;1    
+454 ;33   ;5         ;k8bFIwLY_pkxTSml1OBhag;2    
+455 ;52   ;2         ;kAFz-pJXUVm0qeq0Cd-9ZA;3    
+456 ;60   ;5         ;kAly_STzgqGYUk_TmNtF1Q;5    
+457 ;91   ;4         ;kDa-BljozA0MFPhe1_Jhww;4    
+458 ;108  ;5         ;kEkoB2x1MTY6ozVVlRKxaw;5    
+459 ;126  ;2         ;kG9x2zKfpXO2jBSBB5jEtw;4    
+460 ;136  ;3         ;kH5gX8wAy1_qiA8i2TUBDg;2    
+461 ;137  ;5         ;kH5kEo1pSjoG-lKXtVidrg;1    
+462 ;161  ;5         ;kIlFEmtNM9UzoRpcdLPofg;5    
+463 ;162  ;1         ;kIleICAi_PfjEs-9nuW00w;2    
+464 ;163  ;3         ;kIsI0DLXJ_wLvJmJX9xVuw;1    
+465 ;178  ;5         ;kJxYBn-Zi6MdGuloHLauwg;2    
+466 ;183  ;3         ;kKiGQ5Aqm97OlcarblNE2w;4    
+467 ;193  ;5         ;kLLRg-AKgH7l7RNGLmzfPQ;2    
+468 ;200  ;3         ;kMDFiwTZFdYkpswQ__I2pw;4    
+469 ;205  ;2         ;kMhx_8H4KKDN-4VygCMNbw;2    
+470 ;219  ;4         ;kNj9zXxD4CGWHwIhC-RBGw;2    
+471 ;221  ;5         ;kNqpDGLEXBfY1J2Y79Peqw;2    
+472 ;252  ;4         ;kQCLYImZrnXPQ2GxC9Nc6Q;4    
+473 ;279  ;5         ;kSA9IEBxQBDZrsQYzP_ybw;3    
+474 ;301  ;2         ;kTnFA_ad5zjlhfjRLqElig;5    
+475 ;319  ;5         ;kUuSxT4KAc_3CzaYzIN_sw;1    
+476 ;324  ;3         ;kV-HIjSDzCgvkRLMloTc3g;1    
+477 ;347  ;5         ;kX7of2Xos5OR9aSB8A4QJQ;1    
+478 ;373  ;2         ;kYiNMAzDUo1jedcaFhmXMQ;5    
+479 ;386  ;5         ;kZdE9PbyAdhzRDJ219GHdQ;4    
+480 ;393  ;2         ;kZx7WvSBztNvCAIr4BCBjA;3    
+481 ;433  ;2         ;kcbBq0lWG4Dq0PDdOjZwCQ;3    
+482 ;484  ;2         ;kgQkb_N-B8UZeiJuwqHxeQ;2    
+483 ;523  ;2         ;kjsmBfqZTIfUbFlu7tk5uA;2    
+484 ;529  ;2         ;kkGQePfuVT0vlIKTNIo4cg;2    
+485 ;545  ;5         ;kmSj_2zgGBRe9X3BJRBQtQ;4    
+486 ;567  ;2         ;koFNKGhaODNaCoRxV_yVfg;1    
+487 ;629  ;5         ;ktRsOYRYYSeseobk9hKbow;2    
+488 ;667  ;5         ;kwDlsOw2EC5DZ55FB711NQ;4    
+489 ;672  ;4         ;kwkhqInB3IZObz6_HhyWlw;5    
+490 ;708  ;3         ;kytaKub4DD6CcnWac4iXTA;4    
+491 ;717  ;4         ;kzR0LpgPqOjCKp_lV1oYdA;3    
+492 ;722  ;5         ;kzlSFm98If7QHaMpOBvUsQ;4    
+493 ;726  ;1         ;l-64ngRG5NqsYeKRS1ig_g;2    
+494 ;745  ;5         ;l1ERaP96uLsHzhSgVI4QCQ;4    
+495 ;756  ;3         ;l21-zV_7Ty6YMXZlaYIeqg;3    
+496 ;783  ;4         ;l3scXwNpL4Yym-gTLWppdA;1    
+497 ;834  ;5         ;l8wZjXoN2xLFMem82yHOvg;5    
+498 ;902  ;5         ;lFA-xSTf3Lrh21qrwrx9sA;2    
+499 ;922  ;1         ;lHJxvJcqJQOt8HbLcnhdUw;1    
+500 ;923  ;5         ;lHZETyBGp1NV7Fhj-8HMOQ;4    
+501 ;982  ;4         ;lLcfNMtoChuAaKkzkDH0iQ;3    
+502 ;989  ;2         ;lM3OfVG0zi7HEv-P_-p84g;1    
+503 ;1,000;2         ;lN2EZRRyDhVeOIHLFOPcCw;4    
+504 ;1,001;5         ;lN2Kz2UMxqczQMQGBGb3Hw;3    
+505 ;1,003;3         ;lN67PFNOmMYG2vKz-F2PXg;1    
+506 ;1,020;2         ;lOjV3o0PbakLO0gkTFI16g;4    
+507 ;1,059;2         ;lRrf7qXPvjDIwIJNpJcBpg;1    
+508 ;1,083;2         ;lU6YU4bxJq5rwao90iP5DA;2    
+509 ;1,099;5         ;lVKIqqHiEKAcFv4DbyhguA;4    
+510 ;1,121;5         ;lYSiPZZR0WmmyXopVs1XxQ;4    
+511 ;1,142;2         ;l_EeDqxLh0xp--QZ9FgXhA;3    
+512 ;1,160;5         ;laN3qYdxXKlsm-ptMpH4qw;5    
+513 ;1,174;2         ;lbJfmIpn4KpPTXKnYSGKQA;1    
+514 ;1,187;3         ;lcE-iNpejgoctKnBQvObWQ;3    
+515 ;1,204;3         ;ldFZpnlTtIx5_FRgBdrC9Q;4    
+516 ;1,214;3         ;leEOD4mh5KUXkmVz_awn5g;2    
+517 ;1,219;3         ;lesbteA8PV8FuDRPd5Yd-g;3    
+518 ;1,255;5         ;lhtWQsJMMQ34tZ3xTX9MuQ;1    
+519 ;1,273;5         ;ljBlrqRo1Xi8BFOpZhR3TQ;2    
+520 ;1,322;3         ;lnKKXiFEJn3HP-EnJ_yQxg;3    
+521 ;1,372;4         ;lrI5EXcTOy7TaPFZqFiczw;4    
+522 ;1,405;1         ;lte-IPlByj3_9DbYtwXlyA;2    
+523 ;1,418;5         ;luStZgtAZkt14bpUxtcm_w;2    
+524 ;1,423;4         ;luYqnCpltW3S1_HI2m5gaA;5    
+525 ;1,482;3         ;lzfWlY5CaCyHO96V1U8wQA;3    
+526 ;1,495;1         ;m-nKQ0DpGeF7KqZXQVm3yg;1    
+527 ;1,497;2         ;m-y_DEGXyJyZb_gy1hfHNA;2    
+528 ;1,508;2         ;m0xKfwQ5chXWKhIQ4r3vKg;3    
+529 ;1,582;5         ;m6YMLg0gEp7n3ycaQS6xVQ;4    
+530 ;1,589;5         ;m7TarImHoh2u0QmvTCZvkQ;1    
+531 ;1,602;2         ;m9UYKn4M9XZCLZcyhYnTEg;1    
+532 ;1,604;2         ;m9l5QIEi1dhMVC2YHpdQRw;2    
+533 ;1,653;5         ;mDxX9OSY5NTEVpzCLIWLrA;2    
+534 ;1,659;5         ;mEO_GMQFD3qLKsnzE0K0oQ;5    
+535 ;1,665;5         ;mFNWtqjYPbPRbysNbfxa6A;5    
+536 ;1,667;3         ;mFY26Z_9tdpWQ0-bgTBE8w;2    
+537 ;1,675;5         ;mG-yitKDnH4D1GCsM3RUHg;5    
+538 ;1,689;3         ;mHN6pEaQhTAUduSTrHtwYA;2    
+539 ;1,728;5         ;mKbu79pB3bW-PXqyCIFmVA;5    
+540 ;1,758;2         ;mN42rk_gnvrJYQPt8H8Xeg;2    
+541 ;1,759;4         ;mN6gcgL_jgySkkYvpl620w;5    
+542 ;1,773;4         ;mOerJ_LubCFXZJ5gMAICTA;3    
+543 ;1,776;5         ;mOk4JhrHlhwdrCqeTFbTUw;4    
+544 ;1,781;2         ;mOuRIaEEDJArk1zMAgC3Gw;2    
+545 ;1,788;3         ;mPO2UmHGzz00m8SkCRS_pQ;1    
+546 ;1,789;3         ;mPW6By691w2InjACp3XmNA;3    
+547 ;1,791;5         ;mPaiEmUdT3VMJzSi02s5hQ;3    
+548 ;1,836;2         ;mTSIo04upBuTf1iU6ymR5g;1    
+549 ;1,871;2         ;mVrd5cK8MRwuJfZYkIioDg;4    
+550 ;1,872;2         ;mVws12phvx892QtCAqf6Wg;5    
+551 ;1,890;2         ;mXp7EHiqAsER5BGiAHKlcg;3    
+552 ;1,900;5         ;mZ3cTL2e6EypC1Mqa0ReWA;4    
+553 ;1,912;5         ;m_VllZ3Os3LeY9amigen3g;1    
+554 ;1,918;4         ;m_hMGf1OyPIMMs3IgUALRA;5    
+555 ;1,976;2         ;mfYcTiKy1GpSHNmKtW7EKw;4    
+556 ;2,040;2         ;mlgFvgHsXXVRh7YD4DRwxw;3    
+557 ;2,043;3         ;mltYTTXiXu0ou2znbmHofA;1    
+558 ;2,077;5         ;moAv_ZJ9oMA7d1OZIcW_KA;1    
+559 ;2,081;2         ;moTsbGJlW7oY80WSDiQevQ;3    
+560 ;2,105;2         ;mpy5yNgdo6UKwRFw_gxWRQ;1    
+561 ;2,146;5         ;mtmstueYtXFEfp8GuXANbA;3    
+562 ;5    ;3         ;k6A85ohthz6aUi621_NO2A;2    
+563 ;28   ;3         ;k87YwibhgbPa8ExTXUlWug;2    
+564 ;47   ;3         ;k9zkuQT3l17Ln0loLxTB3A;4    
+565 ;131  ;3         ;kGiQmDOEzLL7qszvU2iTAg;3    
+566 ;141  ;3         ;kHH1rNr1N9VM_SRIG_uhqA;1    
+567 ;169  ;3         ;kJ88iQ4LV80heBb6kNX7GA;1    
+568 ;202  ;3         ;kMLGqhHW7FfVQYpJp58xqw;2    
+569 ;242  ;3         ;kPb0XR0FEWWQ15jYanXSPg;2    
+570 ;271  ;3         ;kRI1pvut_zPvPxjmamErcA;2    
+571 ;313  ;1         ;kUVl2F0XHTTHcJrqwVUvQQ;1    
+572 ;329  ;3         ;kVXs0xlYISW6U0f8UwBfcQ;1    
+573 ;336  ;3         ;kW6eb1F4rKZuSWrB10p8EA;1    
+574 ;371  ;1         ;kYbCUyUMgZ93wlXo1_WNkg;2    
+575 ;402  ;3         ;ka45jOhw6B397praAQDpSA;2    
+576 ;425  ;3         ;kc1pmL7Iv53WO9qSGMPRmg;3    
+577 ;428  ;1         ;kcE6bYMX2zeWShBFaa1Heg;1    
+578 ;439  ;3         ;kcxwIxRSWgRPhdxzLfkYWw;1    
+579 ;462  ;3         ;keywUM89L0bmOXp3o4rfSg;1    
+580 ;489  ;3         ;kgd0mNL1G4V8X68UC2WQxQ;1    
+581 ;508  ;3         ;kiNxYLJNxsDI6e97HUhlwg;1    
+582 ;510  ;1         ;kiV8m39zpi6F5lrmmh0HWg;1    
+583 ;541  ;3         ;klSWTaA2QiGzRAEtmX7Low;1    
+584 ;552  ;3         ;kmuj0H3he0ONKlS1fkPdsw;3    
+585 ;553  ;1         ;kn0EijUJHhk2YZlb-I9wLw;1    
+586 ;648  ;3         ;kuuLMSm6bIrLPopQhyizOw;1    
+587 ;652  ;3         ;kv5Ek4mIRPR5thhWYvuS2w;3    
+588 ;729  ;3         ;l-MUJyCF79DU91uba4lflw;3    
+589 ;795  ;3         ;l4odGdlrSFzTn5sYUR05PQ;2    
+590 ;800  ;3         ;l5IbGNIq4eC7EiYuGRJOgw;2    
+591 ;819  ;1         ;l71PmMHKe_8SbmhALys0IQ;1    
+592 ;833  ;3         ;l8r6aoX6sBQLsR2fEMq3Tg;3    
+593 ;841  ;3         ;lAIWrlz0MtjYX4nPq2IV0Q;4    
+594 ;846  ;3         ;lAf2EeSVWreSUJze1pkOCw;1    
+595 ;854  ;3         ;lBHr0r5vtPD7IOrFg92C5Q;2    
+596 ;858  ;3         ;lBY-MygKQsPTJ6ZGuXCa6w;3    
+597 ;868  ;1         ;lCStbqUrjkhtNBW_f7WN2g;2    
+598 ;906  ;1         ;lFTmbnCGDrrNMh9NuZVz4w;1    
+599 ;912  ;3         ;lGAQ2hPK0CMDEJAGNQGWEw;1    
+600 ;921  ;3         ;lH7VY2yKQs4H-2MCl_bFhw;2    
+601 ;943  ;3         ;lITdS6rwaXNDQ69g3UHIIw;2    
+602 ;949  ;3         ;lIu6lXlSyt3PyWu0_xycWA;1    
+603 ;951  ;1         ;lIuh844SrWE1Xid8CTiIbA;2    
+604 ;957  ;3         ;lJY0fZ1D1wOUCmirVJ015Q;1    
+605 ;976  ;3         ;lLGZ9Roij4XWongHq05sew;3    
+606 ;1,005;3         ;lN7EepnJbwOQRiesvCciKg;1    
+607 ;1,014;3         ;lOAXWn412cePgzGKPveD-g;1    
+608 ;1,075;3         ;lTBEvQQ8lmOI7p4qkG9Kkg;1    
+609 ;1,097;3         ;lVEJ5xVz__99MyD4pRbJNg;2    
+610 ;1,128;3         ;lZBlqJyrQWgzNY-RQJq5bQ;2    
+611 ;1,307;3         ;lmF2Hm1288QXwAdhNYpgIw;3    
+612 ;1,339;3         ;lodmC7ke3cveCw8HlGb5pg;1    
+613 ;1,357;3         ;lpxZxe-NGuEk_kgVgX4lPw;1    
+614 ;1,424;3         ;lue8nm6_vBIl4PTuqmqcDw;1    
+615 ;1,439;3         ;lvdHihFE_OBVq8B--XP0sw;3    
+616 ;1,463;3         ;lyF2IhRkFxvo0MsLaetrCQ;2    
+617 ;1,568;3         ;m55MJUHciapY1KDxdRwmHg;1    
+618 ;1,587;3         ;m7FW4hYW0rxsSvdvpW7Qkw;1    
+619 ;1,594;1         ;m8Hp2y1ipp58AkR97Xzl0Q;1    
+620 ;1,612;1         ;mADjHM5JLOvUiOHCQY-ciw;1    
+621 ;1,654;3         ;mE5od4tx7Bi2lR0dr2Y9VQ;3    
+622 ;1,661;3         ;mEX73G582ytf-RVqMQMPGA;2    
+623 ;1,709;1         ;mIcRTFuZ0o1C5Bk6_S2Sbg;1    
+624 ;1,711;3         ;mIwT9Nj0V13T9Wv35O4ieA;1    
+625 ;1,721;3         ;mK8GTmmoYyLlsrHTqNDjAg;1    
+626 ;1,770;1         ;mOSyIggwhVvgXgl-d4y4jg;1    
+627 ;1,810;1         ;mRIMMbtzJ8_o32K-vZmzRA;1    
+628 ;1,827;1         ;mSOtaR0RPmTT3WFknxlE5g;2    
+629 ;1,839;1         ;mTXjKjU3DUHsYrCYRE4fyg;1    
+630 ;1,906;3         ;mZWyib2sGMDGSLO_Q2otfQ;1    
+631 ;1,911;3         ;m_UtptAKQSYJwjn5MokwuQ;3    
+632 ;1,917;3         ;m_e1tgDbzxXQm-UwsLGFvg;1    
+633 ;1,932;3         ;maqIhaM2PMsMd34itWTz4g;1    
+634 ;1,937;3         ;mbK-GSrT9UfB0GVv31k36Q;2    
+635 ;1,967;3         ;mefLIZXRoE2EJeO3ZlY43A;1    
+636 ;2,034;3         ;mlEar8hkYqWgdokmXcMBlw;1    
+637 ;2,039;3         ;mlfOluovkdPwpyCtYa5Xpw;1    
+638 ;2,051;3         ;mmSeWy88OwuXCifGMOy_xQ;1    
+639 ;2,057;3         ;mmj4xk6fyc_Lti_f0CVXaw;2    
+640 ;2,066;3         ;mnKlBPi6xWh_f-FHsKxw7g;1    
+641 ;2,067;3         ;mnKvps8EzgzSgWzdAnnAYw;2    
+642 ;2,111;5         ;mqqZVRWkYZfve0hirEGIzQ;1    
+643 ;2,114;3         ;mqslZFg7bxakUqtyQHefGQ;3    
+644 ;2,165;3         ;mv-WCeb-c-dwEmHDfqqYUw;1    
+645 ;2,167;1         ;mv0VgPAUOYViPWMU-gB_aQ;1    
+646 ;10   ;1         ;k6izxI7R4pLXBL8e_aSEfQ;1    
+647 ;105  ;5         ;kEXBaQw1krvGOvZvCig2eA;5    
+648 ;144  ;1         ;kHP_5ZTBVbCwzgh4QbJEBQ;1    
+649 ;189  ;1         ;kL20MYfzZrJbIFWfkrGebw;3    
+650 ;201  ;1         ;kMEmvlVYrxBg2RD982gL-A;2    
+651 ;265  ;1         ;kQyKipRc3TGNYuRnJ71sGA;1    
+652 ;354  ;1         ;kXMKUjOwXARR6DHPccynNA;2    
+653 ;357  ;1         ;kXaTH6hWkBXsxhczRcqZug;1    
+654 ;377  ;1         ;kZ9PLX_L4TxSzDO9vLT8KA;3    
+655 ;381  ;1         ;kZT9mQtinP0_RFuIwqTxrA;1    
+656 ;447  ;1         ;kdSmeLKm-0p5Em7e7tq3Rw;2    
+657 ;457  ;1         ;keUm_17Zw43FfXXTNWpxRA;2    
+658 ;474  ;1         ;kg1-upoFFrkFkRuxHg1r4Q;1    
+659 ;487  ;1         ;kgUXSTy5RjZDO33IPF2cLw;2    
+660 ;554  ;1         ;kn8xiK6EMZBmZorr4gFisA;3    
+661 ;615  ;1         ;ksFSGxRXttU2BIvNsnca8w;1    
+662 ;692  ;1         ;kxwzvTj3fAGJ9Rfz6G78ZQ;2    
+663 ;751  ;1         ;l1mqkyNHLNDzdhwQvxAjMQ;1    
+664 ;817  ;1         ;l6y6V6kCD5Io0V3txcGIhw;1    
+665 ;829  ;1         ;l8ao4L7ho0n9wYFGe_E6iw;1    
+666 ;830  ;1         ;l8e1p7qoDaLQOfevAzsKzA;2    
+667 ;852  ;1         ;lB5CgZseE3Z7L7TwwVj7eg;1    
+668 ;891  ;1         ;lEB46Kp576HnZDt6RcbXlQ;3    
+669 ;903  ;1         ;lFHUvg0YY46CcYIbeKhLiQ;2    
+670 ;916  ;5         ;lGZ4M6aemk7KgvFe4l8QWQ;4    
+671 ;966  ;1         ;lKB9GbZnFPHK8zDfAv1kSw;1    
+672 ;979  ;1         ;lLTL-fHYjKdD3NcYzqyMWQ;1    
+673 ;1,011;1         ;lNglJAVO2eh8zf2B8LI-EQ;5    
+674 ;1,071;1         ;lSzrCmxB82ZvbTFGZok3Ag;1    
+675 ;1,162;1         ;laSJbrff6vUOe6-C1V035g;5    
+676 ;1,200;5         ;ld9klYpc9cfGL871gPUUgA;4    
+677 ;1,203;1         ;ldEvV17XxqT2SLOKtFHbrA;1    
+678 ;1,211;5         ;le481XpV38xhbxDLQpE6DQ;2    
+679 ;1,218;1         ;lebR1WFE4a74Ttmi_bmlOg;2    
+680 ;1,260;1         ;liPt5HAAUxWQH2hDrtEoMA;5    
+681 ;1,300;1         ;lleaV4pA6yp59yYtryGaQQ;2    
+682 ;1,347;1         ;lpJz6wwboK_f7rdZbCeCyg;3    
+683 ;1,443;1         ;lw6BsBQVe-Y1UIbBZXOABQ;3    
+684 ;1,445;1         ;lw83B0GkfWth594RQZa3dw;3    
+685 ;1,448;1         ;lwbaPMQIG9nx5BCR7pUPDg;2    
+686 ;1,474;1         ;lz70UUyD4YHss_Zsh4npjA;2    
+687 ;1,496;1         ;m-ruG9upNZmtHm8srsG3sQ;1    
+688 ;1,511;1         ;m1-sRRFMYO-axt1ypseeWQ;1    
+689 ;1,514;2         ;m1Coj81h__SLLhOCj352OQ;1    
+690 ;1,585;1         ;m6jrYuWDxSuaNXeKuMqx8g;3    
+691 ;1,705;2         ;mIPYWJ7Qwo37Ef32ZAcFww;2    
+692 ;1,706;1         ;mIRy2Zw6B3n8cQXtOYxdug;2    
+693 ;1,763;1         ;mNO71a1DhKBxSHsAkAjqXg;1    
+694 ;1,798;1         ;mQB7hY-za7-VeiixWX9F-g;1    
+695 ;1,849;1         ;mUSo9yzxKhW0m7fsa8DUbw;1    
+696 ;1,861;5         ;mV7STDI21PKQqBtCInOySw;3    
+697 ;1,893;1         ;mYVsNTODbnQ9_dlNb2KbWQ;1    
+698 ;1,981;1         ;mg95lMfNrEz7qVLmjJTQbw;1    
+699 ;1,994;2         ;mh2SsSGzIdfU36nYCm0FFQ;2    
+700 ;2,021;1         ;mk7OfijVP6tSAUEHDZB7lQ;2    
+701 ;2,062;1         ;mn4db8yhxLfBQXlnvG0Kkw;2    
+702 ;2,138;1         ;msyHS6xE_3jHxu-Ca_902Q;2    
+703 ;2,139;1         ;mt3YhwULGoG3jSyRNzAftQ;1    
+704 ;8    ;1         ;k6QNPG8sxWIZLKmZuTAHbQ;2    
+705 ;29   ;1         ;k8PpBmfzzOTbESIu7PDMSA;1    
+706 ;81   ;1         ;kCUermgq2RSBM747t1V4dg;1    
+707 ;171  ;1         ;kJMH4gJO7dbmNB2lp0-Jkw;1    
+708 ;179  ;1         ;kK1FVDznP1PiYGz7q4Knlw;1    
+709 ;182  ;1         ;kK_SLaEiPYa56Jhagte_cw;2    
+710 ;188  ;1         ;kKyUEGrP_Bw94rt6YbENlA;1    
+711 ;255  ;1         ;kQWr-KcF8mUrb-sf4gXHxw;1    
+712 ;355  ;1         ;kXU5JSnwWRWvn9EWiMUm-g;2    
+713 ;380  ;1         ;kZRTpZVW_UXkwMP2jyjZeg;2    
+714 ;387  ;1         ;kZeNTZLLgqMh989sBD7AzA;1    
+715 ;392  ;1         ;kZuBKAFPu1xwOVH8QhkVmg;1    
+716 ;479  ;1         ;kgNBIpNf-GMrQa5xRbNE8w;1    
+717 ;500  ;1         ;khmFyk8XBrpNUQ2QL8DFUg;2    
+718 ;521  ;1         ;kje2txigMer97k-Uhac6Qw;1    
+719 ;526  ;1         ;kkBUVExqF4AhFcFmcTitHQ;1    
+720 ;530  ;1         ;kkPPJBWfy1hFwrfFpMX4fw;3    
+721 ;555  ;1         ;knA8RQBRDT4HkgIFWt15FA;1    
+722 ;581  ;1         ;kq8cki922e7UvW1hvsaqvA;1    
+723 ;582  ;1         ;kqAiUcHfa8beHzXvSBGtAQ;2    
+724 ;617  ;1         ;ksIVm14yJ88iHovbuQssAw;3    
+725 ;628  ;1         ;ktLYEobaJe8yzGGV--DE3g;1    
+726 ;630  ;1         ;ktS3dqATFpPq98gVc7z4mA;1    
+727 ;662  ;1         ;kvjR6j44jSyJbSkmldvGxw;1    
+728 ;665  ;1         ;kw670aqaHOnJ2fOhA2lTGg;1    
+729 ;690  ;1         ;kxemI-VcIxdKVW_wkX0IsA;2    
+730 ;698  ;1         ;ky5d3zcUIXs2SD-cekzKmg;1    
+731 ;700  ;1         ;ky8fl4HxH3SVeTNFHYzHmQ;1    
+732 ;709  ;1         ;kywSIk6ei85a4zUpmLXp-A;1    
+733 ;763  ;1         ;l2VtsMhkY_eNcHkK8VfHFg;1    
+734 ;766  ;1         ;l2ZuonLGhev9f12JIL29nQ;1    
+735 ;777  ;1         ;l3ZR1p-t86YRWPspMd6TiQ;1    
+736 ;782  ;1         ;l3sLoVB5_29-bax0_ZHe1Q;1    
+737 ;815  ;1         ;l6nBsDA1zebY6LbEJ6Phvg;1    
+738 ;866  ;1         ;lCNMGsTxSwCbeRQzt_GJ-A;1    
+739 ;911  ;1         ;lG04l7O7UbKbOSlFqDudGA;2    
+740 ;914  ;1         ;lGFKkCdsm_Koc0ikUJ7cuQ;2    
+741 ;937  ;1         ;lICrg0qeEWAB2mH2-uQAQg;1    
+742 ;939  ;1         ;lIJLDBpoZIWnbUQVJaqz2g;1    
+743 ;942  ;1         ;lISmDRR2s7ODXAbWlv93Xg;1    
+744 ;956  ;1         ;lJUfGUjSRrXcPM6QTZ7SIw;2    
+745 ;1,039;1         ;lQShtgomjbtOYjVeQs78Dg;5    
+746 ;1,058;1         ;lRoVB5jO3cqGIBue5RHFzg;1    
+747 ;1,163;1         ;laswydM6yu_cu9L_qlMUYA;1    
+748 ;1,195;1         ;lcjTSDCCkQlrcjHu4yZ0qg;1    
+749 ;1,209;1         ;ldYcVTxlemA0F-CQXo45Fg;1    
+750 ;1,236;1         ;lgp2CvZEvi3yz14vQvrMAA;1    
+751 ;1,242;1         ;lh81Re-p8Cq2GqUXdRS9gw;1    
+752 ;1,245;1         ;lhU3Qr6ppJxLp2jZ3lpOpA;1    
+753 ;1,312;1         ;lmVDeS0YgjnCZB6wHZJOnQ;1    
+754 ;1,326;1         ;lnkpep7WJGj9pAZ_acKHEw;1    
+755 ;1,362;1         ;lqBdeyCVFZwq8CMBkLXdyA;4    
+756 ;1,375;1         ;lrXlSG4YiszQAEkhbe6Pog;1    
+757 ;1,395;1         ;lt4nMiX0AymJcbJfjjYWQQ;2    
+758 ;1,441;1         ;lvxxHM9AVtZwb6v6w9sDIQ;1    
+759 ;1,479;1         ;lzXDj1hNiABtCUUy-xLMZQ;1    
+760 ;1,480;1         ;lz_OvyuTaVvoLC19a4ykBQ;1    
+761 ;1,516;1         ;m1I5ueu0DyInETIaf5BwMQ;1    
+762 ;1,563;1         ;m4LzDGv2wZBIs9s853gOqw;5    
+763 ;1,572;1         ;m5nRSIF2yLEeZfIVFewH5g;1    
+764 ;1,606;1         ;m9tQe3fRaXLwmh99UDb-eg;1    
+765 ;1,662;1         ;mEhzNYWTBrzCD68S8SuQlg;5    
+766 ;1,681;1         ;mGRcUx9EdKPXdbGwEkJBHw;1    
+767 ;1,816;1         ;mRlrdtT-JXhJkqvbBq450g;1    
+768 ;1,915;1         ;m_d2YhcV9YdFOG-DYxHIzw;1    
+769 ;1,954;1         ;mcyDHrQ5EM_i9bS0p9SoNQ;2    
+770 ;2,014;1         ;mjYlJYYUXA1wDLrniq02rg;1    
+771 ;2,061;1         ;mmstevNna2ASPL4ux-80uA;1    
+772 ;2    ;2         ;k5rmlYd-vagUXTioYJr5_w;3    
+773 ;6    ;5         ;k6EZ8jN-UGTLp_5VwefjUw;5    
+774 ;31   ;2         ;k8WFu91pc17C8iBfrGWnaw;2    
+775 ;34   ;3         ;k8f685mDE3xp73CKqN5E5Q;3    
+776 ;45   ;1         ;k9pn-EsHCS1QMcCuTsqVZQ;2    
+777 ;50   ;2         ;kAAPMjLJK6HnhKSfzfTy6A;2    
+778 ;72   ;2         ;kBhSLk2GjHgwOptbaHNkYA;3    
+779 ;74   ;4         ;kBkgZOaNcLL5GYyA5Jw00g;3    
+780 ;75   ;4         ;kBs6a3wAb6HaV26JngXs1A;4    
+781 ;77   ;3         ;kC-H83z7FaRTNm-DVgV4kg;4    
+782 ;80   ;5         ;kCP7o1bsfF7ZC_NskBWTuQ;2    
+783 ;84   ;5         ;kChXJcJarA5N8x8tiNvAUw;4    
+784 ;85   ;5         ;kDCFuIB-EQ_KfxERVzGj0Q;2    
+785 ;88   ;5         ;kDV0_1hh0TWvwgaD5WJydw;4    
+786 ;95   ;2         ;kE-5NvhpeCFBK5oFH6FKfw;3    
+787 ;98   ;3         ;kE8dT2Gm-Yzb-ExNyX2v8Q;2    
+788 ;102  ;5         ;kEOHfvUs571re8qvE9X61g;3    
+789 ;117  ;5         ;kFPeLh5HeLV-IL-jv_ARDA;4    
+790 ;125  ;3         ;kG4CIpISJStguZ9Ua4wWew;3    
+791 ;138  ;2         ;kH849-Fb0m2qcjA9ih8afQ;3    
+792 ;157  ;3         ;kIZR9BAcDGSpABh11dIkDw;4    
+793 ;173  ;3         ;kJdlDSIizd10NubMFVxLBQ;4    
+794 ;181  ;3         ;kK_CEbRCDfBAWtEOnT3nTQ;1    
+795 ;199  ;5         ;kM-fNUmUBO8kvJ6H4joK1A;4    
+796 ;231  ;2         ;kOgWSGyN3T6MSwnRWUzLvg;1    
+797 ;232  ;4         ;kOq-L4LEVIFfupNMYjgatw;4    
+798 ;233  ;2         ;kP3UNfPLdfh_E6Rh52HAog;4    
+799 ;238  ;4         ;kPGxAFQhKUe1rswjJWkdUw;4    
+800 ;240  ;2         ;kPV66ar8g9y7mGniqHzY9g;2    
+801 ;254  ;2         ;kQVun0WWHw4jww-W53gQ4w;3    
+802 ;261  ;4         ;kQsG0DmEohYyXFo9A2APmw;2    
+803 ;262  ;2         ;kQuVYGv3vONtzYIzE-mP3A;4    
+804 ;266  ;4         ;kR27cFHvJ3QggqB0kQPJsQ;3    
+805 ;280  ;4         ;kSIMi867ohMXMnbO_T6n8g;4    
+806 ;285  ;4         ;kSZHqMnsnL2ILmJJ-XJl-g;5    
+807 ;290  ;3         ;kT08qXUETZtOAcrSTdA2-w;4    
+808 ;296  ;2         ;kTMqNwp_7p0JUT6jmQ_Upg;1    
+809 ;300  ;3         ;kThMdsDHVyN4DDlbkZtBDQ;4    
+810 ;302  ;5         ;kTpc7yww18b4M-UE1iyj3g;5    
+811 ;303  ;3         ;kTpuu0La7_Phjo0kmgraBg;5    
+812 ;312  ;3         ;kUUvco_M626Yr1tYhP1Y0w;3    
+813 ;314  ;4         ;kUYYMLFv55aI4V_ujgc0Uw;4    
+814 ;321  ;3         ;kUwztAHuoe5qpnsnR1YKoQ;3    
+815 ;341  ;4         ;kWeQxdNtyccH0FONNRYynQ;5    
+816 ;353  ;5         ;kXKfCkKuC1_8Uc4lT_e7-w;5    
+817 ;359  ;5         ;kXiItqv4sTT2VGmZOxJr4A;4    
+818 ;375  ;2         ;kYlfaA8DH-8e8wYqB8QBIQ;3    
+819 ;376  ;3         ;kYtrsxZHzDViScG2FLFcvA;5    
+820 ;383  ;2         ;kZWgq8lQ5IIctu7u5MiiQA;4    
+821 ;389  ;2         ;kZfOaDLIKKBI58sHi3WI8w;3    
+822 ;391  ;2         ;kZoyb-7MG04RFrKDzR_ZsQ;4    
+823 ;400  ;2         ;ka-e5rN6vBXiuJpRHJ-30A;3    
+824 ;401  ;2         ;ka2jGwkVhuapSB8LC4nZLw;2    
+825 ;407  ;2         ;kaK4zcIvKqyDUIsx26Ydfw;4    
+826 ;410  ;5         ;kaeQ6nBfrJFTEwrzjmWchA;2    
+827 ;429  ;4         ;kcGKjFRXug47m9vqad3qEQ;2    
+828 ;431  ;3         ;kcRIueJR_ux4wAlhdi7MeA;5    
+829 ;436  ;5         ;kcqm2Y6J-LUFyB_IDXGzaw;3    
+830 ;458  ;4         ;keV6wGWHSFs9b-biIoLfHQ;2    
+831 ;466  ;3         ;kfAb2ajTLwdj0OWf68Erwg;3    
+832 ;472  ;5         ;kfws_t3x2uKvp5lsgC3BOA;4    
+833 ;492  ;3         ;kgf7nVPYf2rxOCzBUZAbAQ;3    
+834 ;503  ;3         ;khonVJeCQKte71HBDOwccA;5    
+835 ;520  ;5         ;kjVLWIRHxArlnyJ8WIULnQ;1    
+836 ;539  ;2         ;klGddtaSJnWCKjPrqIQ1Mg;3    
+837 ;542  ;1         ;klW1f_cNwBGoCl8Ha9XT1g;4    
+838 ;559  ;1         ;knYWxCnZf0QFJfRrVY12iQ;1    
+839 ;560  ;4         ;knf9r2_QOsv1QKY6quexFg;5    
+840 ;566  ;3         ;ko6SiPd5tJmAoIuBVgq5Og;4    
+841 ;570  ;2         ;koZqNFbSip9s_YIad-mOMA;4    
+842 ;571  ;5         ;kovEFzP02tC3iZBJQ7xBOw;4    
+843 ;594  ;2         ;kqnCjVafxHF0lWY8yxVcXw;5    
+844 ;600  ;4         ;krFv7iTC0hS-q_ddbmw-7w;1    
+845 ;616  ;3         ;ksHzxSGNOBoRyECQ7r78YQ;5    
+846 ;626  ;1         ;ktDw11DC-xUfwKXl4TPf-A;1    
+847 ;631  ;3         ;ktj0Z1LVxDxPEil-sGITag;3    
+848 ;635  ;4         ;ktvklZDFJPhkyly8jvpvDA;2    
+849 ;644  ;2         ;kubi7qTNSydhXxGY-5gpZA;4    
+850 ;675  ;4         ;kwyiry474-7AhqIEDOFYxA;4    
+851 ;693  ;2         ;kxxN4yMTZyENJfMmPi4w9Q;2    
+852 ;696  ;2         ;ky4qoFFs271B2uaHTqwPxQ;3    
+853 ;714  ;3         ;kzPVOWdER0R_ojgAIrM74w;3    
+854 ;716  ;5         ;kzQXyB1dSTxhMlxR_V7wsg;3    
+855 ;734  ;4         ;l-VAdWotAB1bHlUyGXT0nA;1    
+856 ;741  ;3         ;l0WbJ2Ol9PaWNpu89QCwyA;2    
+857 ;744  ;2         ;l0mQOoF5SBPlJR5xEVfM8Q;3    
+858 ;747  ;2         ;l1RmOtQB3liuppWRXxt0ZA;2    
+859 ;753  ;4         ;l1tbzagE1ieF7zzHGQlisg;5    
+860 ;754  ;3         ;l1wKTs8e58V6eGsO8FeT9A;4    
+861 ;762  ;1         ;l2Tf_SPyZeJGP2QdKbUveQ;1    
+862 ;765  ;2         ;l2Y8JELdqfX5f67zoVqvIg;1    
+863 ;778  ;4         ;l3j4sR87ZBj0tRWQvB5-FQ;3    
+864 ;781  ;3         ;l3pIJhTN4py-wJ-ReHRX_g;4    
+865 ;799  ;5         ;l5GnpGLS2oTkje1fOXO2NQ;5    
+866 ;802  ;5         ;l5WuCMP_uxqaRUvuP5TDEQ;5    
+867 ;812  ;5         ;l6Sp31Jvpa7hOCueOqEWLg;4    
+868 ;821  ;4         ;l75nY1xEHmcmm2c7x5y6EA;4    
+869 ;827  ;5         ;l8C09incUQnU_F1hXHufUA;5    
+870 ;831  ;5         ;l8jYY80l-oGyAbRkyS8HoQ;4    
+871 ;836  ;5         ;l9Ouc7DMXKQgj5l5b2B6Wg;5    
+872 ;840  ;2         ;lACeFheQ9ts6SZn6Ld88kg;3    
+873 ;847  ;4         ;lAgQASYhwq4UkL6N9cOsEQ;3    
+874 ;859  ;5         ;lBqQXHTjbrQtKUjwx3drRQ;3    
+875 ;870  ;4         ;lCa5mKu97hL7bzlV0aSoMw;2    
+876 ;881  ;4         ;lD_lTfY68ev47Y6uCCAb-g;5    
+877 ;883  ;3         ;lDfYTZ-bfVEG7py54fwPuw;3    
+878 ;884  ;2         ;lDfb4SuXIlkNa7yVlfLYQw;2    
+879 ;887  ;3         ;lDokUF3nkEn7bvxAp76ReQ;4    
+880 ;892  ;5         ;lEFI04N-FPongAMfykstiw;4    
+881 ;893  ;4         ;lENoMEvzA0KcUPmZE4wsOg;3    
+882 ;901  ;3         ;lF6GGjN0sIA8kwhle2h2zw;4    
+883 ;905  ;4         ;lFQb0BOQP17EbUHJTHEn7A;4    
+884 ;907  ;5         ;lFfy4ItGusMDFJ2ZkcabnA;5    
+885 ;915  ;5         ;lGYMSZrJ9a474nogcia1sQ;3    
+886 ;918  ;4         ;lH1LAjqqFz5jT_0kv-VuSA;4    
+887 ;919  ;2         ;lH1SxQKbflE147G1RkLIVA;4    
+888 ;920  ;4         ;lH2WVxlq-e1c0bKGFpGLFg;4    
+889 ;941  ;2         ;lIRLcsfWIwr9TUWMxzippw;1    
+890 ;944  ;2         ;lIgZgStjn4YaMQhemahXLQ;5    
+891 ;959  ;2         ;lJZk_c-slJYhagaVgg02UQ;1    
+892 ;971  ;2         ;lKazUmQvFrCJ6cRuBcGN7Q;2    
+893 ;973  ;4         ;lKo0-outIqyoEqjMRedzwQ;4    
+894 ;974  ;4         ;lKt_bWr_ppaZBw5kal7r_g;4    
+895 ;998  ;4         ;lMd3_zAcM_KQ4iH_szN7pQ;2    
+896 ;1,002;2         ;lN4ik3Y9mlwbZY1NG2uifw;2    
+897 ;1,009;2         ;lNT60yWU1jIZXwdwhiHQQA;3    
+898 ;1,021;5         ;lOnQuiS0IqtewCJaD8p8RQ;5    
+899 ;1,022;4         ;lOs5AIsHwsQ3KbJaI3lypw;4    
+900 ;1,023;3         ;lOwwYIz5BBco0L_uVjMoxA;4    
+901 ;1,024;3         ;lOzcrH7KXbRrp02Yf5xwpA;3    
+902 ;1,026;5         ;lP7jFwL9_O_MtEIcH4beYw;3    
+903 ;1,031;5         ;lPVqXW18z4JmzS56WHfUpg;5    
+904 ;1,034;3         ;lQ2v-kLrd3i4vY5bLfNunQ;4    
+905 ;1,036;5         ;lQBwg03SKEleZMks8rBOCw;3    
+906 ;1,037;2         ;lQL8ZicQsEyzrJpPqR-ZQw;4    
+907 ;1,038;5         ;lQLgA0SGJ386UKsAcTFwtw;5    
+908 ;1,049;4         ;lRAEq1-OpXNAjgpitYNcGQ;3    
+909 ;1,070;2         ;lSlexZzb_rHxJVVx-Xe0zg;3    
+910 ;1,077;4         ;lTHDy5pqLGggBoLNYG-hLA;2    
+911 ;1,092;2         ;lUebZpmkp98_7gKuBqi55g;3    
+912 ;1,104;4         ;lVvfv2dqYoY7m1WcFJyI7g;2    
+913 ;1,109;1         ;lWssiMzPhpZgHeoUWmNZxA;3    
+914 ;1,115;4         ;lY1IaUpLce1kT7Ia4BEdDw;5    
+915 ;1,149;2         ;l_Z8rjlzQ621BTGSAaXYEQ;1    
+916 ;1,151;3         ;l_kw0YmGinkTRc2HCpYjOQ;4    
+917 ;1,152;2         ;l_ty0SZqM0ugPk19iBvaJw;2    
+918 ;1,158;4         ;laDsB9sR0bfE9QaPMzx9Gg;1    
+919 ;1,170;2         ;lb6E5EX2eIT3OefSbe2UiA;4    
+920 ;1,177;3         ;lbOZLYyDczE4OoSmkmU74w;4    
+921 ;1,184;3         ;lbsuXDRcS5YJHV6wgbyKaw;5    
+922 ;1,186;5         ;lcDX8mXfo-BZ7HAw_IXtbQ;3    
+923 ;1,188;5         ;lcFsQh83BlpF_q5tb6DX8g;3    
+924 ;1,192;2         ;lcSOa6puJXxPt_D4gxFM4g;1    
+925 ;1,194;5         ;lcga-CRMFR7KmTur2uHrbA;2    
+926 ;1,198;3         ;lcwpuasHNRpRRsTVA4OzpA;3    
+927 ;1,225;2         ;lfjVetKy_QbXpYqtI7rAbg;4    
+928 ;1,226;2         ;lfkYl7ysplqdwo4too9UZA;3    
+929 ;1,229;2         ;lg4gjEODthtdZPR2uBwmGg;3    
+930 ;1,231;4         ;lgB2Prw7b5L-s1pSWYZrfA;3    
+931 ;1,235;3         ;lgiVWbkC-WTJPo_Z_0YhaA;4    
+932 ;1,239;5         ;lh3DWhv-Abs07VoqPzQiKg;2    
+933 ;1,246;2         ;lhU9JLjCHvZqJctRoV_zSA;1    
+934 ;1,250;2         ;lhdioJNDOgu5eSuZZMDisg;3    
+935 ;1,253;4         ;lhfiWKA1F89Dc8Lq4cM8kQ;4    
+936 ;1,271;3         ;liwZPKdxyzdzWDGi60ssqw;5    
+937 ;1,277;3         ;ljbJR8q_TFgASlyRxc17iw;4    
+938 ;1,280;4         ;lk71r1W1sTzDNhXflJ1ptA;2    
+939 ;1,285;2         ;lka7BAD5PAt16xgywo1UdQ;3    
+940 ;1,310;4         ;lmQccq9SQ1y9q2XkQ0zPxA;4    
+941 ;1,323;4         ;lnW9GCssDu-J_9UisjlMRQ;2    
+942 ;1,328;3         ;lnv6V7cibYXFQBhIC0yrmQ;5    
+943 ;1,348;3         ;lpMVJ4wE3n4CXHBmJNTazg;5    
+944 ;1,360;2         ;lq9fMMPbJ1lTBhO847o1yQ;2    
+945 ;1,366;4         ;lqQ22g3zXesdX_cRggShhA;3    
+946 ;1,376;2         ;lrZExCkGeNstK5z7ugbpLQ;4    
+947 ;1,377;3         ;lr_RvGmTZX-EJLI8JOdF0A;3    
+948 ;1,390;4         ;ls_gr7V5BtkrXdhiaOxlyA;4    
+949 ;1,400;2         ;ltNSxZiLkrmjh2mGhUwGcQ;4    
+950 ;1,406;3         ;ltfAadkD6921ZVHAGrvHmA;4    
+951 ;1,409;2         ;ltqk0BSegUw3d-GPL6p6NA;3    
+952 ;1,419;2         ;luThPIFoILqXVcwtzcrn5Q;3    
+953 ;1,437;4         ;lvb1_xHuaGtehueXBDBWKg;3    
+954 ;1,442;5         ;lw4L15atOeLwg0zVpozvVQ;3    
+955 ;1,451;2         ;lwrblgDRmuXgTx7ImQ5pWQ;4    
+956 ;1,455;3         ;lxCs5fIHYdHEVkoB4iNClg;3    
+957 ;1,475;3         ;lz8NCE8-BEa616OU_PsEsw;3    
+958 ;1,476;2         ;lzA5F4CrJJhAyvkvRxx0CQ;3    
+959 ;1,477;2         ;lzHQSeSA3hSDa1OsAXSoLw;4    
+960 ;1,484;2         ;lzmJiTUEy7l5FDlOhCh4Pw;3    
+961 ;1,486;2         ;m-9JP6qASbUkJsIkulvR1w;3    
+962 ;1,487;4         ;m-A6dqsHoDDPd8RbClEGhQ;4    
+963 ;1,491;4         ;m-LlB17MSaFdCIK-5R7ALA;3    
+964 ;1,500;3         ;m0LZmwUqdn2Ml0_mXarXyg;5    
+965 ;1,501;4         ;m0XRu-Qk-wmmmtjRVgf7Cg;1    
+966 ;1,503;5         ;m0pHrHuH1vxwnoX17etPbg;5    
+967 ;1,520;5         ;m1T3gsb063ho4IzW_XpukA;3    
+968 ;1,522;4         ;m1TezQGaV5B8X-psLnXACA;4    
+969 ;1,529;2         ;m1rmibWa5V3aY01U2_ovmw;4    
+970 ;1,535;3         ;m2QUe2kiB7x8Nfj9UdjPAA;3    
+971 ;1,536;2         ;m2TCCIx1bhEsmzTEKBoDZQ;4    
+972 ;1,537;4         ;m2VtT9t1rC3GS9_wIRwC_Q;3    
+973 ;1,547;5         ;m392CHGLs7jvEirA8ogJhg;3    
+974 ;1,560;4         ;m49G5DuRwk-wAWIXW8Dpkw;4    
+975 ;1,590;2         ;m7UNjfP5LcHmLMnxz7Hbhg;4    
+976 ;1,591;3         ;m7eKQA3IOuEk5PgBe_cQ8A;3    
+977 ;1,595;2         ;m8Kgw3Lk6w1eAPof0kW2bw;1    
+978 ;1,603;4         ;m9gcOkddFQN-KVkiU7i4SA;3    
+979 ;1,610;1         ;mA6Y7e1_wQblhZbMB4abdQ;2    
+980 ;1,633;3         ;mCOuuzE3VsEDMJwaeaIBOA;5    
+981 ;1,637;5         ;mCtQdvO8dE6ktDJJjCGaaw;4    
+982 ;1,639;5         ;mD-n5r-eYNG-AHPNh6fNUw;4    
+983 ;1,656;4         ;mEIRw5cMB2Tm5lMgWMTUuA;3    
+984 ;1,663;5         ;mEw93fZJxvg7UxUkQ1MTQw;5    
+985 ;1,676;1         ;mG0toVBBTAhBIzCMPxpqzw;3    
+986 ;1,680;2         ;mGOPlQmzxR4_Ve1lXnNEpg;2    
+987 ;1,696;4         ;mHzD6wXxhGGEuGu1HuPzqw;5    
+988 ;1,714;2         ;mJFHRRXlXrKQVJdng_SE4A;4    
+989 ;1,723;1         ;mK9g9T99ZTP18CSipVSWsg;3    
+990 ;1,730;5         ;mL2TqMRo4O79-JaAAB_ghQ;4    
+991 ;1,757;3         ;mMvWXRkae3JSnN2kRlnLsg;3    
+992 ;1,760;4         ;mNEtUrbSWBkg3DZYfqYh5w;5    
+993 ;1,764;1         ;mNQ4KkLwQeEptgvezL416Q;4    
+994 ;1,768;2         ;mOSGopOW3iOrg7WAbuyR3g;3    
+995 ;1,769;2         ;mOSazZ9oApzKcgNgq9MVWQ;4    
+996 ;1,771;4         ;mOWC1_v6Auz8lMKZRPYL_Q;5    
+997 ;1,780;3         ;mOtg7lcpAHAFOMpnghvW_g;4    
+998 ;1,785;3         ;mP4gJTAXMd8AVybluFUV-g;3    
+999 ;1,787;4         ;mPDKbZ_NM9bTpNXC9jkAEQ;4    
+1000;1,795;4         ;mPmPjzhmZEnH54kkn8tCYA;3    
+1001;1,797;4         ;mQ1ZBdkF73oo2Hbt9LQCGw;4    
+1002;1,800;2         ;mQIQC9_yjKcMuBu8B_YIUg;2    
+1003;1,801;1         ;mQKOaYjaimXTzQsRP5u4bw;3    
+1004;1,829;2         ;mSiKaiI3ei3X43Lsn0WFuQ;4    
+1005;1,835;3         ;mTAW_tbre8c64TO8yyDYAA;3    
+1006;1,862;3         ;mV9_JgH3UwzopXxoLzl4Qg;3    
+1007;1,889;2         ;mXcKeLf6pLLCgH-hKBwDAg;4    
+1008;1,907;2         ;mZlOteblBIiVhD1d6Vfu7w;5    
+1009;1,913;5         ;m__5tlmOcb9hgPp4bomvGQ;4    
+1010;1,921;3         ;m_uHorowJxqA5cpvTQHatA;2    
+1011;1,934;3         ;mb5JNuF8gNpfOkPtpBTRrA;2    
+1012;1,944;5         ;mbn9SJ_80cYqjO1LTumE_g;4    
+1013;1,959;4         ;mdkygQ9atvp4M77GuVNhOg;3    
+1014;1,966;4         ;meZluLIueXgBxdXjKb7T7w;4    
+1015;1,970;3         ;mesMyIuOLwfO8CQscldsag;2    
+1016;1,973;2         ;mf9z1ZR5f64FdY-vZoA5Mg;4    
+1017;1,989;4         ;mgXIvxIywEYZFeKC97b3IA;3    
+1018;1,993;4         ;mh-lcTyJycGY1zokYZ0y_w;5    
+1019;1,995;3         ;mhDgbp8yOgS3eIB8LrnddA;3    
+1020;1,998;5         ;mhSyhsOM8GQEcz2khQf3jQ;4    
+1021;2,023;4         ;mkLL9E64x3cckec-fEJJdg;4    
+1022;2,030;2         ;ml1s5b5lGSB_iRRPl7Sc3g;2    
+1023;2,031;3         ;ml4jPvHKBVqcMf4XyAp1EQ;3    
+1024;2,032;5         ;mlBW7Wr0RnMDLdXl3u6SEA;4    
+1025;2,038;2         ;mlWbnQRHs5HyF2FQYNHbFw;2    
+1026;2,053;3         ;mmdOSS8MOYQWOmamjkM9Pw;2    
+1027;2,089;1         ;mpH6g2e441C3Vwmry1Lfng;2    
+1028;2,108;2         ;mqXwSMprNwVf6p0XbVvFFw;2    
+1029;2,118;2         ;mrDE_2y_gjnidTlXevsUjQ;5    
+1030;2,124;3         ;mrVVd5JBV2j0cxUkARsRAA;4    
+1031;2,131;3         ;msUDJlnKUzogq1RgbfvzhQ;4    
+1032;2,147;4         ;mtocRPz5vQ_cpSfng3qLZQ;3    
+1033;2,149;4         ;mtuBGQf7Duc_gvmNTujLyw;3    
+1034;2,161;4         ;muqsAcZiOUcvfI4AD23-sA;1    
+1035;15   ;3         ;k6saneV94opxabFYfCTyiw;4    
+1036;49   ;2         ;kA6cWfauqY-_ibmrfC0t_A;2    
+1037;54   ;5         ;kAVh6bmhYiSYkH-UreTkjg;2    
+1038;55   ;1         ;kAZupwWYuc-BQ8aaY9RiJA;2    
+1039;69   ;3         ;kBUMbVe5yl-B-CbOvYUZsA;1    
+1040;104  ;4         ;kEU9N0v8PNbbnRcEn1F8lQ;3    
+1041;142  ;3         ;kHKk3jwmzAMxKmaX9nQJXg;3    
+1042;176  ;4         ;kJiEgKtQEdVUfBdUnyDcaw;3    
+1043;191  ;4         ;kLDCstjo0wZ_hXLYjFnpZg;2    
+1044;223  ;4         ;kO4bTjz86j85Y7HKZh3ayw;2    
+1045;236  ;2         ;kPEVB2cBNPTlwJQ1QzQ41Q;1    
+1046;241  ;3         ;kPYaMFxGbPwshCGAN3XZaQ;4    
+1047;243  ;3         ;kPdYlND9MX3v7K9y6YfalQ;3    
+1048;310  ;3         ;kUHl9tAEG71poeuhZ1RLrQ;3    
+1049;330  ;2         ;kV_nBsTar1d1EJ8NI3nyOA;2    
+1050;349  ;3         ;kXBwtkSUHBAsy1gHF_pyBA;1    
+1051;356  ;3         ;kXV1QPI6BerrW68pelPslQ;2    
+1052;396  ;2         ;k_X7RWd5Lo2F_GKEb1L9NA;3    
+1053;405  ;1         ;kaGMooje7nZWjuWKNev14A;2    
+1054;422  ;3         ;kbcZyJrVrMjEwVnjxVaiMg;3    
+1055;427  ;2         ;kc8r5rR5_2lbUo8UHz6oEg;3    
+1056;455  ;2         ;keHk_mqsy-KTzvpi7KL2Wg;2    
+1057;465  ;3         ;kf6d1jtnRiKo3ymcJlMOnw;1    
+1058;473  ;5         ;kfxHYoeO1ux2miMDbvz0EQ;2    
+1059;481  ;3         ;kgNgTS6oXD4zDBi4pW1owg;2    
+1060;518  ;3         ;kj6uNMlWxBKImSjTzZpH4g;1    
+1061;528  ;3         ;kkBrrj1wHrVoW_a4sB-oFg;3    
+1062;538  ;3         ;klByh159Dd18JgJRkRDIcQ;2    
+1063;546  ;3         ;kmU2KInVZklmejtgz5zRTg;2    
+1064;576  ;2         ;kpS5tog11WIXbCJaW0G1cA;2    
+1065;577  ;1         ;kpnG3TYSLRGJd2a3PIfOLg;2    
+1066;605  ;5         ;krPlvNfSYYdRwKLJAFgmQw;1    
+1067;607  ;4         ;krY1bhCldHJzGnWh-Nmn3A;2    
+1068;702  ;1         ;kyBeSv5EChcc3tWWrOt4lg;3    
+1069;711  ;1         ;kz6kMh54LbbXnDMBYg_Ilw;1    
+1070;727  ;3         ;l-8jEtNyi_W9sooB-xUzLw;3    
+1071;760  ;4         ;l2F53iFIW4j_IzxTjOqGwQ;2    
+1072;791  ;2         ;l4eHMMAvJBxZVWbxzywOsw;2    
+1073;804  ;3         ;l5ZcptvAqSY-d8Iw3UMaMQ;3    
+1074;806  ;1         ;l6B6MsJ4ktITRk2k4vKbdg;3    
+1075;807  ;3         ;l6C8rCz7aHwjaWWuexCBuA;3    
+1076;820  ;3         ;l72WV9xerjQj82kbHOFE-g;1    
+1077;900  ;3         ;lF3-rlTE3OKQoQVzKKIlqg;2    
+1078;910  ;2         ;lFyZUnjCjoBHSB1VzLGvrA;2    
+1079;932  ;1         ;lI90N1yu7iAqgJ54S0bTgg;2    
+1080;947  ;3         ;lImUVe61jBvzIkPc7AxNjg;1    
+1081;948  ;3         ;lIt-BahmKB2vJf-NeeZUQw;2    
+1082;975  ;1         ;lKyD8LgKW6ebLQXnnywiNw;4    
+1083;993  ;3         ;lMJav8ktmWL_177VcUBLFw;5    
+1084;1,030;3         ;lPMn1kNDoM8A_bQ_DLsDQQ;3    
+1085;1,078;3         ;lTN5QSeED09Do7dICzSaDQ;4    
+1086;1,111;5         ;lX6JWiXqZR-4476OjyrO2g;2    
+1087;1,113;3         ;lXVXtZL1WA6gCpXk_nzFYA;1    
+1088;1,120;3         ;lYKp9cm4lKLtzWkVZfCwdg;1    
+1089;1,130;3         ;lZSuLxtJsyHxZObaSDyNUg;3    
+1090;1,135;3         ;lZgk4JhuMHw6sIcbJ0NFFg;2    
+1091;1,144;3         ;l_FT3n7kn7zrvxpmBrbQ4w;1    
+1092;1,147;4         ;l_XDO7P1ghCuaHukWX_KLA;3    
+1093;1,157;2         ;la4bujyA2Ebt1dw6iX2o-Q;1    
+1094;1,167;3         ;lb01Wm23sr6poVf3NkbRNA;4    
+1095;1,176;3         ;lbMKehKay-lF-zAyRP0Awg;1    
+1096;1,234;3         ;lgVDkQ0s7NTYPzzbRZmUZw;2    
+1097;1,252;3         ;lhfJx6voBeecsbK2XKljnQ;4    
+1098;1,270;3         ;lis78bSe4uCHjZLvFVko_Q;2    
+1099;1,296;4         ;llRTGequecVgLjgk_S_JYQ;2    
+1100;1,324;3         ;lncyT4iQTDYkAItqZwiWLg;3    
+1101;1,342;3         ;loivepIkoMLFKdMtZta6lA;1    
+1102;1,374;2         ;lrUF524c-muI1SWqvjzorw;2    
+1103;1,410;2         ;ltsPsxVQCNLwl4HKZ-ZqPA;3    
+1104;1,412;4         ;ltxznAxvJArHRrhY2Wt3IQ;3    
+1105;1,430;3         ;lv7bE8_G6uDNbst5j54QNA;1    
+1106;1,434;1         ;lvT_M6L1hpsyt5HyvMhh6Q;2    
+1107;1,450;3         ;lwr699J00dpDsKI-UxvNbg;3    
+1108;1,473;3         ;lz3jBYPWJbZpLNX84QVvYg;1    
+1109;1,494;2         ;m-j7N0Ktmmp7lFVyAJSwLQ;3    
+1110;1,515;2         ;m1GPpkyIVhXyFXLcpT5Jng;2    
+1111;1,519;2         ;m1StnYzeWbiXwnffUinWmA;2    
+1112;1,532;3         ;m20HGQ5vC5vxY626SOtPvQ;4    
+1113;1,540;4         ;m2Xia3sP7BCeyWzulMVDPA;2    
+1114;1,625;1         ;mBggyudMtuw24l2Tfwwx_A;3    
+1115;1,629;2         ;mC5rnAb972tsjlvNPrUckw;2    
+1116;1,630;3         ;mCAU72CHrASHRwveNDGLfQ;2    
+1117;1,644;4         ;mDQqo-f0lHf0FqZfmGGICg;2    
+1118;1,655;3         ;mEFYFeMcoOAwAnnNb0B4aA;2    
+1119;1,658;3         ;mEOPnyXUGANc_MxdmXTj9g;1    
+1120;1,703;2         ;mIHZ0sGphvtUH5J-5l3Zdw;3    
+1121;1,719;3         ;mK-18Ny8SnVz8GrX9QlEQw;1    
+1122;1,767;3         ;mOLn71bmb0BwhK86hikewQ;3    
+1123;1,775;4         ;mOhdkFTwA42RwVjaGr7Z3Q;2    
+1124;1,778;3         ;mOniCEhAubRcY1QnEHBcmw;3    
+1125;1,794;3         ;mPjbZiKSP7r5fykDp5NcMw;3    
+1126;1,812;3         ;mRe2u_HKfkfAdG2MgiM2Xg;3    
+1127;1,813;3         ;mRfisNdaG-Ml-RFFZmQDIQ;2    
+1128;1,817;2         ;mRmj18SnrCAlLkPl96WtGA;1    
+1129;1,830;3         ;mSiaSTMRgZA-TsEqV5ki8w;3    
+1130;1,833;3         ;mTA1UUbGenIWN6dw_ARVfQ;1    
+1131;1,838;3         ;mTVIvP6xNTDib-RhCEghyQ;3    
+1132;1,853;3         ;mUsUhzIF6i-d_XF5vbWssw;3    
+1133;1,865;3         ;mVOUzsCu_m33uMbuq2RUZw;3    
+1134;1,884;3         ;mX0L8JOUhWcisH4dlihICw;3    
+1135;1,887;3         ;mXVR2yQNNFo8fxaj5Om4Kw;1    
+1136;1,916;3         ;m_d_60U1yLm90Lqt2tHWIw;2    
+1137;1,941;2         ;mbdUI9RTk577inQhV7JOrg;2    
+1138;1,963;3         ;me9cLu0-3PaBtGo9V5H6qA;3    
+1139;1,971;2         ;metlloeMhxsgJAnTOSQLOA;1    
+1140;1,974;3         ;mfKRFZqFvuzsFyv0OfXo3w;4    
+1141;1,977;4         ;mfb-5uvvme6Tsu5s-gfdUw;3    
+1142;2,011;2         ;mj0KmBiGqPDr-YNKF5Fo8g;2    
+1143;2,020;3         ;mk3Vr-UW0IFisqBCzHRVCg;2    
+1144;2,029;3         ;mkn36epNlWW8Eui9GvLMuA;1    
+1145;2,055;3         ;mmhhEMaASyxNd69tbU3fig;3    
+1146;2,079;3         ;moKNghEUb9MelZ81GX90QQ;1    
+1147;2,086;1         ;motPOoCNqHthu10sLEmpsg;3    
+1148;2,133;3         ;msZ9eb38i2vEP0EbKMV3aA;3    
+1149;2,150;4         ;mtuizwuBkQb6U93PK07CCA;4    
+1150;2,168;3         ;mv6GAfeBnOd0iwu0aiYITg;3    
+1151;48   ;2         ;kA43ynBwyj0mY5uy0xcWaQ;3    
+1152;135  ;1         ;kH4UdQ0ZhrOGJTq6gU6qzQ;2    
+1153;208  ;5         ;kMnDJt9gL__Pcm-QYNKxNg;4    
+1154;235  ;2         ;kPAM2XIw3dwAiQFP7rT16g;2    
+1155;258  ;2         ;kQ_2ISRuv8Qw7-G5kOBFaA;5    
+1156;277  ;1         ;kRcC8JDHQVSFJQwHxiSRFg;2    
+1157;287  ;1         ;kS_s_jwO-BDMJgW5VJx4aw;1    
+1158;423  ;5         ;kbdHv6_dr6YZd2mdrl4tOA;5    
+1159;424  ;2         ;kbsJCJFhmI6cYlWxMq7ckg;5    
+1160;442  ;5         ;kdIU5jXQBD3wsBHnr0aSVQ;4    
+1161;463  ;5         ;kf2Sw1Nsiv6LIrEbo6Q0ww;3    
+1162;537  ;2         ;kl0fKakCt1n9wNix-pJo4w;5    
+1163;572  ;2         ;kp11g9-OF3QSy9LtO-ZpQg;3    
+1164;620  ;5         ;kse7McAfAP7EO4YIpjUZFQ;1    
+1165;732  ;5         ;l-T50b4pt-T7k5yipQmzcA;4    
+1166;798  ;2         ;l5EIqtAaLSYjbAMpDExVXw;3    
+1167;860  ;5         ;lBvXH71q6OMDRk-FbC5bjA;2    
+1168;863  ;2         ;lCDo6Xy0W0Vii1cF9w7KYg;2    
+1169;1,032;2         ;lPYoAY_OlQFN-kj1PyFlTA;3    
+1170;1,119;2         ;lYKkSgVJQLGT8ZNLoy_uLQ;3    
+1171;1,145;2         ;l_Hd0c8kywU4WEYojY6w2w;3    
+1172;1,202;2         ;ldEjFOIj-F7Huj7j0YD8jw;1    
+1173;1,205;2         ;ldOKYoUKUrF__CEpsSbxZg;3    
+1174;1,256;2         ;li3NynYYAri8-DWA1t0R8Q;4    
+1175;1,295;5         ;llHR1RV3GAWedhlklmgsvg;2    
+1176;1,318;2         ;ln3G4lJvlwr6an8MlLWDLg;2    
+1177;1,356;5         ;lpv5u0sF1zq_dAciO2Bo8Q;2    
+1178;1,368;1         ;lqY6VOQOqaw3j__DTMUPAQ;3    
+1179;1,370;1         ;lqolVgWgvi-bGUYTsmUWBA;2    
+1180;1,464;2         ;lyFrVNei_7XJ3tOax1Mb6Q;5    
+1181;1,467;2         ;lyUp7eZdOEpDEB8uy63eKg;3    
+1182;1,561;2         ;m4E3ipyHRuKqll4yHyeL3A;2    
+1183;1,579;2         ;m6HSALed-nxgMV2bAyYs9g;2    
+1184;1,660;2         ;mET_lmroyUg78DM7YtGzhw;5    
+1185;1,695;2         ;mHxCGXCztLVJWViKKH75cg;3    
+1186;1,708;5         ;mIcN0lbOxOHUqxwLEJtevw;4    
+1187;1,724;2         ;mKKwTWPeV_tL8DpbdzoVaA;4    
+1188;1,751;5         ;mMZSby7MiTBb2LIynfvk8A;5    
+1189;1,793;2         ;mPgzlX--AamZ1M7-bIrjIw;2    
+1190;1,815;2         ;mRl37zodEzT1vIzwMrAgkg;3    
+1191;1,858;1         ;mV5CJrI3kZrFbEIjbF82KA;2    
+1192;1,874;2         ;mW4Oa3GhzqSRoJwBmXJ8FA;2    
+1193;1,881;2         ;mWcc0hSAz_6J55xNW61kSg;3    
+1194;1,964;5         ;meArtlfKenPf9AsORcFeAw;4    
+1195;1,984;5         ;mgHfrIKRQE1fiyk-xqfpZg;5    
+1196;2,122;5         ;mrNKykDAIKrtp7snyzkOUw;4    
+1197;2,123;2         ;mrRcojyU0PCzdFy9TDjO6g;4    
+1198;46   ;5         ;k9vldhModk-6u4DwrZKPUQ;2    
+1199;62   ;5         ;kAuHIsxR2giZbHxZQkFZJg;2    
+1200;96   ;2         ;kE2Q1xh2NFwBisQGfE-dqA;1    
+1201;140  ;5         ;kHCcYy5edhrKfLEEQmIDbg;3    
+1202;166  ;2         ;kJ-F2u97skiiaW_L44iUIw;5    
+1203;225  ;5         ;kODyiZwbHfkhgbH50CTUcw;1    
+1204;251  ;2         ;kQ9IQ3nW8s5fXe-yW1xLPQ;2    
+1205;283  ;2         ;kSR3UOa9hOU-3YdxfDxgvw;1    
+1206;286  ;5         ;kSZkvS-rs6sErVu2xfiRrg;1    
+1207;309  ;5         ;kUH63D68tJr9ivSmnBwq-Q;2    
+1208;315  ;2         ;kUag7s6yhb5JApEVOIYziw;1    
+1209;361  ;2         ;kXu6uq_XVA7j7VmODTFzSQ;1    
+1210;399  ;2         ;k_lmHcrgpklfZocoIIdXAQ;1    
+1211;453  ;5         ;ke34rqwwob5hWoDNa09Vfg;2    
+1212;456  ;2         ;keK6qgQap9fviohWvmZlcA;1    
+1213;490  ;2         ;kgdMtz2LytoxkLuy89ezsQ;1    
+1214;499  ;5         ;khXKJ3ekQxZu_LE6wVk7GQ;3    
+1215;548  ;5         ;kmefhGlGZqFKppNQ-ZPMOw;1    
+1216;564  ;2         ;knw780Lk-rEeUQf1LMkyHA;1    
+1217;603  ;5         ;krL-5O3EYzfWczITDZhkfg;2    
+1218;632  ;2         ;ktjfg23XKleG4TFc9JK6sQ;1    
+1219;653  ;2         ;kvGQODDh82K79mxu2Rs9Ig;3    
+1220;737  ;2         ;l-ey2OPQWGEqUN7KTN8skg;1    
+1221;792  ;5         ;l4g8kHxqTObiV22AnvuV5g;2    
+1222;822  ;2         ;l7JUJVzOgdSYIOpvLHxH0A;1    
+1223;826  ;2         ;l87KTHg9Na4bonWORsCu5Q;1    
+1224;857  ;5         ;lBXdps836pjDaaoy6Hm6Hg;1    
+1225;898  ;2         ;lEhO-JRrR54W0CkPnK4N-g;1    
+1226;899  ;2         ;lF--AYgtsuY0prQoHiOCiw;3    
+1227;913  ;2         ;lGCQ6gvLQYxuX8scgnECAw;1    
+1228;953  ;2         ;lJ1if_YdKMaJ9aeo1bIR3g;4    
+1229;1,019;5         ;lObMN2FP2PhY291uU0TYew;2    
+1230;1,181;5         ;lbXTMqYxXM8pHYbzK2D_vw;3    
+1231;1,233;5         ;lgTVz7qUMN0t8AzCBNEkmA;1    
+1232;1,291;2         ;lkyzVXifZQ4iesBEWhFkSw;1    
+1233;1,319;2         ;ln7lEoUQw4f-BTmKPpUHug;1    
+1234;1,388;2         ;lsZ9Yz8vpkkRFgTDhckWwg;2    
+1235;1,452;5         ;lwvX7j5SjCaEL-hdhBUFHw;4    
+1236;1,489;2         ;m-HmTFmI-Vk3lVz5VNxEMA;1    
+1237;1,490;2         ;m-JmJPHmG_TYGsaxTfuj9A;2    
+1238;1,527;2         ;m1d24gbx6MyU1MkpmnW_eg;3    
+1239;1,554;2         ;m3mcvH-VywqMJ478Bd3H8A;1    
+1240;1,566;2         ;m4XlZII0hKO6Om0MpxQzzQ;1    
+1241;1,642;2         ;mDMSI8K5xj9MOq3PJHpJUw;1    
+1242;1,674;5         ;mFz4FyI3PWc10rlXlA09Fg;2    
+1243;1,756;2         ;mMp3v_MRGzlcCwHnUI54XA;2    
+1244;1,783;5         ;mP-fLGvfO9tcUtmGSijgTA;1    
+1245;1,820;5         ;mS0eCWiLx5SJV9JWI0CE0Q;2    
+1246;1,822;2         ;mS7Iw4vM1t6aScL2JbY1jw;2    
+1247;1,844;2         ;mTxHGkdMmf_QSXUIgm1ehA;2    
+1248;1,919;2         ;m_hpgrsFmU52el26Fzexxg;3    
+1249;1,990;5         ;mgY1HsXnr8gH1Nitcj1t9Q;1    
+1250;2,008;5         ;miUMaVwu6k1ismcsl2sQzw;2    
+1251;2,037;2         ;mlT0dnn_OnIOniUWdBJhFg;2    
+1252;2,069;2         ;mnMIQrP0D4FVgFVpeyAPWQ;2    
+1253;2,090;2         ;mpH7Fvw0IFYx-eBnc4vGBA;1    
+1254;1    ;5         ;k5p2S0XdQNjAZD-9H92W6w;5    
+1255;13   ;5         ;k6oaT_4zB6FnGLm0CC0p2w;4    
+1256;18   ;5         ;k7Ev7MFB6KP10Il_5D4V-A;5    
+1257;22   ;4         ;k7ST1CngZGRHqPcTI75J1A;5    
+1258;24   ;3         ;k7gzHfJOx1XDd-PRu2ZaNA;5    
+1259;25   ;5         ;k7iUHRqEw8ww8GtWqQWQ4g;3    
+1260;30   ;5         ;k8VIm2aHvAMRhHfpZZTe_A;5    
+1261;38   ;3         ;k9IwpHzgBnu2tw72u8qF9A;4    
+1262;43   ;5         ;k9oXo7odCP43dpcUvFkB6g;4    
+1263;51   ;4         ;kADmKeVnHCUQXvzpxJ1xTw;5    
+1264;53   ;2         ;kAGRJC8eI35PufwGy2D5Fw;4    
+1265;58   ;3         ;kAd_qJS4pqw5KYP_aJt05Q;3    
+1266;64   ;5         ;kB26dtKitSbCRzo5TtTpmg;5    
+1267;65   ;5         ;kB5AB8hlXCmJZp51eF7ukg;5    
+1268;67   ;2         ;kBP52AaY7hHEHO8aJLGg2w;3    
+1269;79   ;5         ;kC3ON32mzb_f0NYbt9Ub0w;5    
+1270;83   ;5         ;kChJK698m98cgpAg5bEiXA;5    
+1271;87   ;5         ;kDQ1YdxSrjDqDEXb2-LZ9g;5    
+1272;90   ;5         ;kD_hvSuSj1J4ti3TOgmn_g;5    
+1273;92   ;5         ;kDeWE88NLlAuOzXIxMl6hg;4    
+1274;94   ;2         ;kDtuLs2t9ivRH9ZcWfnU-A;4    
+1275;107  ;5         ;kEiwnf6prZCAAEc1iGShRQ;4    
+1276;110  ;5         ;kEvl1OwnS5SbvoFoeceK8w;4    
+1277;111  ;5         ;kExB7E4w-22awBqw1ZdCLQ;4    
+1278;116  ;5         ;kFMGiOM-NZLzgSzNLEQAcQ;5    
+1279;123  ;5         ;kFvpbQondETQpD5wtgbwDw;5    
+1280;127  ;4         ;kGB0S7tP8YZVig5eYaz2Kw;3    
+1281;129  ;4         ;kGFdu2CYEKMaY6zpWvvkdA;5    
+1282;130  ;5         ;kGRvf1B-6fjHabk-k-GOSg;5    
+1283;132  ;5         ;kGmGUp9Vx8MdbUDExquLXw;4    
+1284;150  ;4         ;kHsgHpj0kbd5mGSlekgNKg;4    
+1285;151  ;5         ;kI4HY4CLAsUkD3RENDtVHQ;5    
+1286;152  ;3         ;kIECEtI1_asBCn1vPk2OIA;2    
+1287;155  ;5         ;kIUasYb5ApCVX1xBeVCMQw;4    
+1288;156  ;5         ;kIXdYrfG2KhheDpGrwpudA;4    
+1289;159  ;5         ;kIjfRRKYXgNjOkw9SVg0Sw;2    
+1290;164  ;3         ;kIt_zeEyEmB3eYDTFem9yw;3    
+1291;170  ;4         ;kJDhmbB0gznYHEcOeAx_rQ;5    
+1292;175  ;5         ;kJh_g5YrzTuC8bjCh0U59Q;5    
+1293;177  ;5         ;kJmLkWARPL0rQQvs20CU0w;5    
+1294;180  ;4         ;kKKpt7bUk9o46qaJaOyXMQ;4    
+1295;184  ;3         ;kKo9S7l0N4g25CQEGyLe-w;1    
+1296;185  ;3         ;kKsw76znJ-17vf7zIY30Og;4    
+1297;186  ;5         ;kKsyXK1p6--PqpdAUSb4OQ;4    
+1298;198  ;5         ;kLkD0hKW5WQ3FK38NVmmsw;4    
+1299;204  ;5         ;kMNp1_RgvNCe3MpQuKWxdA;3    
+1300;209  ;5         ;kMqeh51hH4kgMIB80TREqA;5    
+1301;211  ;5         ;kN9SPDsCPIQR_HXuCxcTwg;3    
+1302;213  ;4         ;kNBrPatHUVbyvRPoTdEafA;5    
+1303;216  ;5         ;kNR9cjrurSGO0X1E4iPRBw;5    
+1304;217  ;5         ;kNSkwirlhnHuV1DksHpscA;5    
+1305;224  ;5         ;kO5-sDqcJxd5hkDdWNpXWw;4    
+1306;244  ;5         ;kPfAxtYk3xovkXICk1tSVg;3    
+1307;247  ;3         ;kPoV-wXUAyaEPYFbagMaIA;3    
+1308;249  ;4         ;kPr5UDj4L756elKxgY2Fhw;5    
+1309;256  ;2         ;kQXSi7fN2d0YAxPBoXgVJQ;4    
+1310;257  ;5         ;kQYTvlfL_Y4FI7afNO0FMQ;5    
+1311;269  ;2         ;kR6f1jjXGWLpv2HqZ5uMEg;4    
+1312;276  ;4         ;kR_bUT5DstDd8q5_Rq8Z0g;4    
+1313;278  ;5         ;kRqbpR8IbntUiJLD2ehbww;2    
+1314;281  ;5         ;kSNupoip3k5z0DWjxSJZAA;5    
+1315;284  ;3         ;kSXoa0cqySKVXvnljQDaSA;3    
+1316;289  ;3         ;kSijK8QorCN_nJpWq0xm3A;4    
+1317;291  ;5         ;kT6qV70uHXaFNkj2PiTwTg;4    
+1318;297  ;5         ;kTQPk7LRsh1kX3nSRH5z9w;4    
+1319;298  ;5         ;kTQpOTYx4JM8PHyVQ9O87A;5    
+1320;299  ;5         ;kTgIWmByeotG8gHmrOQ__Q;5    
+1321;307  ;5         ;kU8V2jIZctCT24XzvO0llA;4    
+1322;311  ;5         ;kUUfoTesNz6MVk3zv4t7Rg;4    
+1323;316  ;4         ;kUcFWx30WkLiGhNXiZ6QYg;4    
+1324;320  ;5         ;kUvZiM5s6GLskhSfPyLcBg;3    
+1325;323  ;5         ;kUzXIin4b9S1bsgneNqjRA;5    
+1326;325  ;4         ;kV2skyND0f5xNyceQUl5pA;4    
+1327;326  ;5         ;kVACCJezaPCJB822jR_UJQ;3    
+1328;333  ;5         ;kVxT9HbpW5E1XYjzypcDUw;5    
+1329;335  ;5         ;kW4gFN8QSqjDshZtxmpJIQ;5    
+1330;337  ;5         ;kW8Ez5GKjKxHErZTsdU5Sw;5    
+1331;338  ;4         ;kWD0HOd7IeXgYwuaWCaCzA;4    
+1332;342  ;4         ;kWews5GIFSwr7SOkRq2M5Q;4    
+1333;345  ;5         ;kWtpSWq3-mbxuoui9Qe2lA;4    
+1334;358  ;4         ;kXhNd3IysDRp7YD2oY882g;5    
+1335;360  ;5         ;kXlnHaUykgpKkD9FVMtoig;5    
+1336;363  ;5         ;kXzGWvX_WwVNI6gayPXTdg;5    
+1337;364  ;5         ;kY0yAuRv2ETsuvM9yRNbEA;4    
+1338;365  ;5         ;kY3IR1DSoeMO3Cd48UDgFQ;2    
+1339;370  ;5         ;kYXsPH5ukSZB2AIgDbZIYg;4    
+1340;374  ;2         ;kYjHpuDD4BShpGxR79xduA;4    
+1341;378  ;5         ;kZC97g1drQcgbdSoAL4VCA;4    
+1342;382  ;4         ;kZTB8zsIzwjIhuJypjzlvA;5    
+1343;394  ;5         ;k_Bs8LKhn4nUl4NoJIfp2Q;3    
+1344;395  ;4         ;k_FqoyyOzr_FP1Er7-yaiA;5    
+1345;404  ;5         ;kaFVL6bqGDsNqJtA3Xc8rA;4    
+1346;409  ;5         ;kacOTYqt34gqvwiLZlu_sw;5    
+1347;413  ;4         ;kak4TQ1RIvsOn9TnthDN-w;4    
+1348;414  ;5         ;kancbUoWGFxxLp37xZ3prw;2    
+1349;415  ;3         ;kanypcF0F8sOUkfGq8jVHQ;5    
+1350;418  ;4         ;katErO9Tzp1Hxl5XFnkwcw;3    
+1351;420  ;4         ;kbJHJM_tB4IMkrSomTlbYA;4    
+1352;432  ;4         ;kcaEbWKMPRpZg06fGb8l0A;3    
+1353;434  ;3         ;kchRORYIKrfB3WHNIIbIIg;3    
+1354;435  ;5         ;kckZOMowOr0rtZJv29GG3Q;3    
+1355;437  ;4         ;kcsg4FI2kCJjzf0-yiG9QQ;5    
+1356;438  ;5         ;kcx5NTINP_RS6WzcAqvLIw;5    
+1357;440  ;5         ;kd45ptiSMM_DKxckmjCnww;4    
+1358;441  ;5         ;kdH76HJLbc3LxthBjW6Eqw;4    
+1359;445  ;5         ;kdNTyTk6wYnPJ70Jb_FgsQ;5    
+1360;446  ;5         ;kdQ6nWIwAsaylzvGTDNt1A;4    
+1361;449  ;3         ;kdcPMo3ViwYiCFLsgzWHyw;2    
+1362;450  ;5         ;kdsWJskeiUMKlBjXyj7UfQ;4    
+1363;451  ;3         ;ke1oq8ReewTmgOKiZT6TOA;4    
+1364;460  ;4         ;keX3cxN6UaxPqIu-nRFa9A;5    
+1365;461  ;5         ;ked57tv8tENhX8Pr3fa6lg;4    
+1366;464  ;3         ;kf31wXDle7HiUcS9rlV3PA;5    
+1367;467  ;4         ;kfSuR72bK2i8u_L_nK7z5A;5    
+1368;470  ;5         ;kfk0RTUhpxzH9Dxjmx08rA;3    
+1369;471  ;5         ;kfuTBjbBmaN-T3FU5V-3Yg;4    
+1370;476  ;5         ;kgBg2ZDfEzafCepb1n2TaQ;4    
+1371;480  ;5         ;kgNEvP0waBEiMwPUJxFOWw;4    
+1372;483  ;5         ;kgQ_WflQMKSzWFAIx_g8mw;4    
+1373;488  ;3         ;kgWh-PYyN9BMZr5448Hhug;5    
+1374;494  ;5         ;kgiTst_Jg9qMJN23bygVzw;4    
+1375;497  ;5         ;kh7rlu2CHNVE_B6lE1vHIg;1    
+1376;501  ;5         ;khnC4eDVH9B-h8TN8LE0zQ;5    
+1377;502  ;5         ;khnWwMhr7ygs9IEum-hhAg;5    
+1378;506  ;4         ;ki5NNwJsgwj8zYrfyLvduw;5    
+1379;509  ;3         ;kiQJ91QhYUTFMT0TnY-qQA;5    
+1380;511  ;4         ;kiXnkxhKYCuN1ZqZO1igoQ;4    
+1381;513  ;5         ;kibHTUeE-bHGR8cfQNs1wg;5    
+1382;519  ;3         ;kjDmqcpZigVjtW7pNCZq7A;5    
+1383;522  ;5         ;kjk6l_ItlQituM4_P97I4w;5    
+1384;527  ;5         ;kkBYL_ndDYNRNJOIQICRHA;5    
+1385;534  ;5         ;kkaOlPyLWv-80Vge_RL1Ag;5    
+1386;535  ;5         ;kkr0mVoJ8QX_iTUSQLrUbA;3    
+1387;543  ;2         ;km-bpcLuZLzV1Ys6QERnsQ;5    
+1388;549  ;5         ;kmeiyJoJluJYkJnytSC6ZA;5    
+1389;550  ;5         ;kmkz7Wp2xtk9OkgaqyVz4A;3    
+1390;551  ;3         ;kmrQXNnIxijCakx2p05Maw;2    
+1391;556  ;5         ;knJrJ4E1GnMG154AWLRt9w;4    
+1392;562  ;4         ;knuRdRAAxRvYi039z5PNjA;5    
+1393;563  ;5         ;knuVPveHfcYHlC_10h8XoQ;2    
+1394;565  ;5         ;knwYyQOMmlkEK99rNhxg0w;4    
+1395;568  ;2         ;koJZlU_IbWjFo85bCMHnHw;3    
+1396;578  ;5         ;kppuV53AV6_Sn_d7aUN9XQ;5    
+1397;579  ;5         ;kpqRukuVQVkwDEthxM0uEg;3    
+1398;580  ;5         ;kq2ki1sW2HBUxogacJPX9g;5    
+1399;583  ;5         ;kqDGNHbMLk9vYerAMFnAGg;4    
+1400;586  ;5         ;kqKaDoI4INIEZTHwTUSggg;3    
+1401;589  ;3         ;kqeVau3DeoB2l-F3frqctQ;4    
+1402;592  ;5         ;kqjPc7QRfGvF90QrIaZtoA;4    
+1403;596  ;5         ;kr0lojV8XUa7MouQgvy5fg;5    
+1404;598  ;5         ;kr5_Oun5kJYQQjRtr4osqQ;5    
+1405;599  ;5         ;krBTNUc8s6GKT4Hn1apglw;5    
+1406;601  ;5         ;krHS5fCIJzcfnEeYoehflg;5    
+1407;602  ;4         ;krKGYxY9U3rlT_Dx3dCSXA;5    
+1408;604  ;5         ;krNxHeZ8FUC_adL7CsNJvg;1    
+1409;606  ;3         ;krV7_doUurSqixxfnq9vwQ;4    
+1410;611  ;5         ;kry5WkKjabxslhqHx-i25Q;5    
+1411;613  ;3         ;ks3IijmfK66-pO_6JNgluQ;3    
+1412;618  ;4         ;ksOuZHKYmEihy7G4o04E5w;5    
+1413;619  ;3         ;ksYd1Ob2mMDP2V-qJGcmKA;1    
+1414;636  ;3         ;ktwuxCc2BwCoUHXtDc1hwg;5    
+1415;637  ;3         ;ktzu_TQP-Yy2dhQRYlw-gw;4    
+1416;639  ;5         ;kuNs3-NxCoY0Swg5CYvtdg;3    
+1417;640  ;5         ;kuSSCYscxzMFLtyb0UDYEA;3    
+1418;641  ;5         ;kuWydpQcom0F_FieK7edkQ;5    
+1419;646  ;3         ;kupxwQf-oEtCnGyow95Fig;4    
+1420;650  ;5         ;kuxOAngq7ow1YKXieWaOjA;4    
+1421;651  ;4         ;kv2ZJaX99QYMhtXGPKsmwQ;5    
+1422;654  ;5         ;kvN0Rc3zjayQgHu4QeAAjw;5    
+1423;655  ;5         ;kvRFgDq8OEtx4F3esBe9dA;4    
+1424;661  ;3         ;kve7agu_ZcKwe_Wl-6hTjg;5    
+1425;678  ;5         ;kx7CcITBZxfYIBHrV8nlXA;5    
+1426;681  ;5         ;kxS0AroVV_swT8KWQtNw2w;5    
+1427;684  ;3         ;kxXJX59xIdKAO7vZQ2SUmQ;4    
+1428;686  ;2         ;kxYNCDNS7aOPt9_JOaR2jA;5    
+1429;687  ;5         ;kxb3BLqI94W85NFWxvCdYA;4    
+1430;688  ;5         ;kxd9zzWwFHLRzth7Y34Kew;3    
+1431;689  ;5         ;kxeXg-p-wSW4jUECRyGy6g;5    
+1432;695  ;3         ;ky4Q8TG5-pp9DAkVen2HdQ;5    
+1433;707  ;5         ;kyYKj5QgF3q1_jGvb4MZhQ;4    
+1434;710  ;5         ;kz0QVX2HMdLC9qsLlyBfJQ;4    
+1435;720  ;5         ;kzbZAV6FzC56Ut5Jg-_Dtg;3    
+1436;724  ;4         ;kzy-XqbvsBIr61-JD-gbBw;5    
+1437;728  ;3         ;l-CcWDuIroBYeg_uqIw_tg;5    
+1438;730  ;5         ;l-OQkHLplqAnIhCsSCsC5w;4    
+1439;738  ;5         ;l-pq7lzD4tXjVuWktizVcw;5    
+1440;739  ;4         ;l-rAMzM_ez4DnhNAyW_CVg;5    
+1441;740  ;5         ;l0HCgeDTquKrJUq4CcFT_Q;5    
+1442;748  ;5         ;l1ZPHgHCD5KkuNpgpkvAJQ;5    
+1443;750  ;5         ;l1hZUxAHScrUJXflP3RFzw;4    
+1444;752  ;5         ;l1pum2x5vHBHZlkLQdueYA;5    
+1445;757  ;5         ;l23XaDZp5zFa4RiG02Zxmg;5    
+1446;758  ;2         ;l248bvoD0_M3KJylyJyvVQ;3    
+1447;767  ;2         ;l2hSKaue3eremSo9E-IdiQ;2    
+1448;768  ;4         ;l2rwIEk4R6tu0hyzf4eASw;5    
+1449;769  ;3         ;l2yVozxUDv_Be-JRxSp_YQ;2    
+1450;773  ;4         ;l3LrCuW2Vc_CivJRx1p7TA;5    
+1451;779  ;5         ;l3l1p5aDhU6JVDg31kwM1w;1    
+1452;785  ;3         ;l48OrLj6zpt_p1c5um6geA;5    
+1453;788  ;2         ;l4W7CMmwM62q_A_H4BbAHA;2    
+1454;797  ;5         ;l51hrPFuDiwkV1AmO3DF_Q;3    
+1455;801  ;5         ;l5VKz_2cFt_Q62bezgQyEg;5    
+1456;803  ;5         ;l5ZS1OcVlaF8yL24fpgvaQ;5    
+1457;805  ;5         ;l5qqvqfdTe4COpcovi8T8A;4    
+1458;810  ;3         ;l6KjImTPx_qzMvCoA3tt6w;5    
+1459;811  ;3         ;l6LeA95Z9hifY4spNoXJFg;3    
+1460;813  ;5         ;l6YJTv2esmZgpcKrF2fNkw;4    
+1461;816  ;4         ;l6negogotuc_TU3BorsB5w;5    
+1462;823  ;3         ;l7XmQ9AGrLLowD413a8Log;4    
+1463;824  ;5         ;l7wFAXAlzf6gK1Wcqrfk9w;4    
+1464;828  ;5         ;l8St0lLsarAPuSBksu90vQ;3    
+1465;838  ;5         ;l9p_mOhPWmX636-yqLeaJA;3    
+1466;839  ;5         ;l9qPp-DNIHcpCtsegJuKlA;5    
+1467;842  ;5         ;lAKRkmFQWxPAkoOkkpnJyQ;4    
+1468;843  ;5         ;lAQrEuuPsv5py3FgFSfMAg;5    
+1469;844  ;5         ;lAdUJi6JeTIXZNj1S-Cb9Q;5    
+1470;845  ;5         ;lAeeNNVoLZZOYonzx3BdOw;3    
+1471;849  ;5         ;lAprf17k-YhfTRUGetyx8w;4    
+1472;850  ;5         ;lB1Zjy_Ddlg7j8xRm40Q0A;5    
+1473;855  ;5         ;lBKL2ba5n94XurDE0RZOhA;4    
+1474;856  ;5         ;lBKbrAgtMVB8fLzbeKCwVw;5    
+1475;862  ;3         ;lC3Xa2k7qijVL52obycAtQ;5    
+1476;865  ;4         ;lCMKtalXvbZFCxtDAaDTKg;5    
+1477;867  ;5         ;lCPoQCJtjwb8WXT0M_sRtQ;4    
+1478;871  ;5         ;lCa7ITbG9pzbq7qX5BBxEQ;4    
+1479;872  ;5         ;lCeFWAYg-Fn8WPHrPJ9H2Q;3    
+1480;875  ;4         ;lCkhOruDTEUUpylO_ykFLQ;4    
+1481;880  ;4         ;lDU4f04tan6ZQLgSuFuAdw;4    
+1482;885  ;5         ;lDhuq-nCN35ggNjuwrMywQ;5    
+1483;888  ;3         ;lDqXN5jI7odPTlR3i2mMtg;3    
+1484;889  ;5         ;lDtYaLIKFVY7VdfGxtCpiQ;4    
+1485;890  ;4         ;lE17KVoKotFg_Lyny4DtJg;5    
+1486;894  ;2         ;lEPz-EmORcshvqJ4EMxbOw;3    
+1487;895  ;5         ;lESfpv9_JYJYUvX5AwX9OA;4    
+1488;908  ;5         ;lFswZsbIXOvDdbcQS1gHrQ;4    
+1489;924  ;3         ;lHb3NJnzuSv3fS8e4RU1Yg;3    
+1490;926  ;5         ;lHh1uan0W7afInWSghyBgA;3    
+1491;934  ;4         ;lIB4tN_ekyviU1vAZbSd2Q;5    
+1492;935  ;4         ;lIBwiMzV1kUmRUMGFlTsaQ;4    
+1493;938  ;5         ;lIEMYFNw0Sgd83bTPPIN6Q;3    
+1494;940  ;5         ;lIMDgIPlBp3bTiv6XVB8ow;4    
+1495;945  ;5         ;lIh_5aVgQizphFDCOKBWjw;5    
+1496;946  ;4         ;lIlJYLHvSiHQSDl44r7TdQ;3    
+1497;950  ;5         ;lIu7iEiNwtX6CH47ej-f-g;4    
+1498;952  ;3         ;lIzIPyYlS4vAQw7ycbc1dQ;5    
+1499;954  ;5         ;lJBvgEAQ_4GwX7nCD2NyJQ;2    
+1500;955  ;5         ;lJN0iFkow_Hn9bOAkdBSOg;4    
+1501;961  ;3         ;lJnSuC5KSkhO1GFNyQXz9Q;2    
+1502;962  ;2         ;lJtN2Rc4yL6KG-hHbfNouQ;4    
+1503;963  ;3         ;lJzQ4fJNwkqTbfuWpKunOA;3    
+1504;967  ;4         ;lKHz3j-_LJoS7XeXyR2oxA;2    
+1505;970  ;5         ;lKWoI04Lb5RY6XZjahVxZg;3    
+1506;972  ;5         ;lKhwq06Xn2s2nI2Q9iGsIQ;5    
+1507;978  ;5         ;lLNygWJ_k3QW54SFx3EfVA;5    
+1508;980  ;5         ;lL_Aw40hBclUnSSEiWwAJg;4    
+1509;983  ;5         ;lLd7Jd4k6a0TSSpTErTekA;3    
+1510;984  ;5         ;lLe-cnr_DZOYjrDqvJG9hQ;4    
+1511;986  ;5         ;lLtrLywZupiqhDBV4qq2Og;4    
+1512;987  ;5         ;lM-ZF5NzI4Ue7jAVVDh8VQ;4    
+1513;992  ;5         ;lMFE_FPQgi_lE4DWvI2p8w;4    
+1514;995  ;5         ;lMVlEwXtyEf42PXtDRQYdQ;3    
+1515;996  ;4         ;lMWzlT7Cw5sxZOg-NawR7Q;4    
+1516;1,004;3         ;lN73MHcMkcDS8Aph0ylHjA;3    
+1517;1,006;4         ;lN9xTvctt-glmnrWVvARkw;5    
+1518;1,010;5         ;lNYLYAbEZHTcniDhVVl1LQ;4    
+1519;1,013;4         ;lO5KyQaRPXm6akBquQ5ZLw;5    
+1520;1,015;2         ;lOPM5Rv8bFz_YtUglCQDDQ;4    
+1521;1,035;5         ;lQBn1eDa-DB3cAiT5K8yTQ;4    
+1522;1,040;5         ;lQTXXwQVI23k3z_RQ27GMw;5    
+1523;1,042;5         ;lQVOThq5cK4bcZDJtr6sug;4    
+1524;1,044;5         ;lQmCS6-jQfuUWRCmaZgoqw;5    
+1525;1,046;2         ;lQqBhwkqePBhf7e_oreCTQ;4    
+1526;1,047;3         ;lQv2bYJqJNgrI6TKumuWNQ;3    
+1527;1,057;4         ;lRmoj8Krwa3W_BLGn12OmA;4    
+1528;1,060;5         ;lRv5_a4HfPO6fZX3oqRaCg;4    
+1529;1,063;5         ;lS-3o9l3eWZXI1Em-GFz1Q;5    
+1530;1,064;4         ;lS-DhBLPGeI5UKQiLnjNOw;5    
+1531;1,069;3         ;lSdfbFLzw21WyHEmWHKC8g;2    
+1532;1,072;4         ;lT1mPQeKOklIw5fVPW6_8g;4    
+1533;1,074;3         ;lTATAkCRjNhuHSq-9hSFDw;5    
+1534;1,076;5         ;lTGFBBMxDbFWT46OGEfYcg;5    
+1535;1,080;5         ;lTads63Lrqg8a3Fi9hZSJg;4    
+1536;1,081;2         ;lTizTe9kljbrGTqyQPfgbA;3    
+1537;1,082;5         ;lU--xiNSXOUSh5YqxhQF6A;5    
+1538;1,084;5         ;lU7mBp5UL0SY6Poz-9Zbcw;5    
+1539;1,089;5         ;lUVof_wlMDm9AlxW_lUXrw;4    
+1540;1,090;5         ;lUY-6USHhO-eBnw95qbheg;4    
+1541;1,093;2         ;lUh5JH15hDseCz1nQvPRkg;4    
+1542;1,095;4         ;lUnPoXasXi8gNouLVbiGpw;3    
+1543;1,096;5         ;lUrzDa7rzB9kGOV0oiVTFA;5    
+1544;1,098;5         ;lVENQJE1XCorJOPbap5d6A;5    
+1545;1,101;4         ;lVZO-NRLfwhbOQU8cGFt3A;5    
+1546;1,103;5         ;lVmVJ5dObNHhDASXFR2MhA;4    
+1547;1,108;5         ;lWP1xaySaItvCZ5IODXkiQ;4    
+1548;1,110;5         ;lX3X92uLG8J1hxS37j75tA;3    
+1549;1,112;5         ;lXMwGPBPCofGLdbu0Zmv9w;5    
+1550;1,116;5         ;lY3aD9Ts5k4N2NXKUgV9yw;4    
+1551;1,117;5         ;lY4yWqmCyt1IGOo8exAl2w;4    
+1552;1,123;4         ;lYZOUmGS3Ple2S-bbZGFOw;4    
+1553;1,125;3         ;lYwCibJYtnPztuGA8MWosg;3    
+1554;1,129;2         ;lZRH7tDAhHak0lfuaBe_SQ;3    
+1555;1,131;5         ;lZV8kr6XsiqJx8mxuFG9Aw;4    
+1556;1,132;5         ;lZ_qnMKfpXTSZgOFsBGCxw;5    
+1557;1,133;5         ;lZbgcYPf8pAuyB8Zv6m-yQ;4    
+1558;1,134;4         ;lZfoBuuEK5d-AQv1goohRg;4    
+1559;1,137;5         ;lZm1HT8iil0U1BY8tzLfEA;5    
+1560;1,140;3         ;l_13f6C_FncUDxj4e6OYOw;5    
+1561;1,141;3         ;l_50PzjSQGxLJC0u-X6ixA;3    
+1562;1,156;3         ;la0gokTEbdnpS2avTs1Exw;5    
+1563;1,165;4         ;layfDSn3-XGmL4NUUtM7jw;4    
+1564;1,166;3         ;laynvq2fSamg9DVTvLha4g;1    
+1565;1,169;3         ;lb4wBdV8RZH88_GklHGwTw;4    
+1566;1,175;5         ;lbLI9bTxAdbUII8ScEas0A;5    
+1567;1,182;5         ;lbo50XyyWqbSWWQNxKCg-w;5    
+1568;1,183;4         ;lboG-uIC9fOWvQZ3uy3ZKw;4    
+1569;1,189;5         ;lcOUHgvTQ8HZZvTYTvwkAQ;4    
+1570;1,190;5         ;lcOjUMEfVKKjr7NEwSh1SA;4    
+1571;1,193;3         ;lcbYFL-LUlhxY1IG82qeDA;4    
+1572;1,206;5         ;ldUZ_62u5-OInRqH6XABKA;4    
+1573;1,210;5         ;ldmcj7l8gf_m1bwteIZKew;5    
+1574;1,215;5         ;leGcuFr4RTxWvSB8GoH3ag;4    
+1575;1,220;3         ;letEvg4VmLW5xMNcZAe6WQ;5    
+1576;1,222;5         ;lfEtLLtXEtEscJFD__ruNA;4    
+1577;1,224;3         ;lfSc9SIsX5KCuqFlxuO9Rg;1    
+1578;1,228;5         ;lg2xyDNtBDz7XEtKu0TaDw;5    
+1579;1,230;3         ;lg94wsQA9PXhHo7jN6IEIw;3    
+1580;1,237;3         ;lgsL9PiUrpCC4Gt__Hmz-Q;5    
+1581;1,240;5         ;lh7gRRhRbdgOU3UGUtS7bw;5    
+1582;1,243;5         ;lhElOg8JNZhafYt-GHPT-Q;4    
+1583;1,247;5         ;lhUBvhNfoZxi3GAlUte06A;3    
+1584;1,249;5         ;lhd7aMTEDmwXPMAGLElcpw;5    
+1585;1,251;3         ;lhf8RkkVozBjAsPgMAsm4w;5    
+1586;1,254;5         ;lhkJ8lgz7PNMrfabmBY8dA;5    
+1587;1,257;4         ;liBp_PoWNLm9WDM5lVlk4Q;5    
+1588;1,264;2         ;libwNpWQtUmMDXJgvsS-Mw;4    
+1589;1,267;5         ;lie2kj8EAzECZkXvXVzLkg;4    
+1590;1,269;5         ;lipz6XR8BbjeDET60TwSTg;4    
+1591;1,275;3         ;ljSr86p-Rz8n-Rjcwnb7Pw;5    
+1592;1,276;5         ;ljUGY9BJ203mcKsi-fOSAg;4    
+1593;1,281;5         ;lk7emQ-IUXnPh1G8O5roWA;4    
+1594;1,282;5         ;lkEp4rJ7c7uAiU7WQyhIRQ;5    
+1595;1,283;5         ;lkWgIrbiG5i_bAY0kq8bjQ;4    
+1596;1,284;5         ;lk_tsNkW_lhqMZprW_K_gg;2    
+1597;1,286;5         ;lkcbKfPgm6wVFcjWcXh8Zg;4    
+1598;1,305;5         ;lm7Vo2R5bgG2ZyD4XAKZ7g;1    
+1599;1,311;3         ;lmQj63RthsZfEae1WRrn0w;3    
+1600;1,313;4         ;lmbNaGDDo4rlUyMOKtt4Og;5    
+1601;1,314;5         ;lmn9XCgjzgs96wjaOO3Oyg;5    
+1602;1,315;4         ;lmpqLtSY1DIAKXs2wCIZ7A;4    
+1603;1,327;5         ;lnpDYkYNrgtZr5oDqyk03w;5    
+1604;1,330;3         ;lo2dBJwu4Otia65oGVvg1A;3    
+1605;1,332;3         ;loCyAhkHlWqU_etlp1__fw;3    
+1606;1,334;5         ;loF9c7YpH075ntgn-bDSBA;3    
+1607;1,335;3         ;loQeFNc-n1IMxxY_OjrC-A;4    
+1608;1,337;4         ;loULNZimjk3dr6AVuiWSPQ;4    
+1609;1,340;3         ;loi8sct-Vr9Qn4QKUBdaXQ;3    
+1610;1,344;3         ;lolYdm8bf8wCZxdyma3ZVw;1    
+1611;1,345;3         ;lovOcNOo94yyeTN39aNXXg;3    
+1612;1,349;5         ;lpQiRWXOvAiGiQbC-msKqQ;4    
+1613;1,352;4         ;lpXWL5kktGnd6jjJsxUr8A;5    
+1614;1,353;4         ;lpahmBixIp5TjUCkMMN4cA;5    
+1615;1,354;4         ;lpdyRjTZ2N867yquhIL2Fw;2    
+1616;1,358;5         ;lpyqiraS6_uBr-EbJmoqVg;5    
+1617;1,359;5         ;lq3vncafIYI0x5c4nuDMCg;4    
+1618;1,361;5         ;lqBIgHIhJBTmRG6rjxHoAQ;5    
+1619;1,365;4         ;lqMpmc2mJYnhQMtb6s4a0w;5    
+1620;1,382;5         ;ls19UXTV1e0i2l6mHGUwCw;5    
+1621;1,384;5         ;ls5Y0iF35olhVOF5NsZnlQ;5    
+1622;1,386;5         ;lsKjCHr6xOESTJPWqfY50g;4    
+1623;1,391;5         ;lsafcifvrzSslBUMipurWg;4    
+1624;1,392;5         ;lslw767dIRz7zp12-JTbHQ;5    
+1625;1,397;5         ;ltEFaekIpxt5yU5aj6erfg;4    
+1626;1,401;4         ;ltSFyHE-eEyWZYCCYcm1Bg;4    
+1627;1,407;4         ;ltlcl_d5lrvxa_IwFqKupQ;5    
+1628;1,411;5         ;ltvDJjafV83kFOsMjLGm4A;5    
+1629;1,414;5         ;luAxHPGE2iTGqgsMKy8yeA;5    
+1630;1,416;3         ;luIMQNGoM-1QApBl3guJyw;2    
+1631;1,420;5         ;luVsF22m05uilEhEPXwRTg;4    
+1632;1,421;3         ;luXVJne6S0L0-JWc4rX-8Q;4    
+1633;1,425;5         ;lummGm9aPAMvjd48zRvFkA;5    
+1634;1,429;5         ;lv7UoyWRRQezpB_QCgfTTQ;4    
+1635;1,432;3         ;lvEO97mpVGKoCm8bW2xbcw;5    
+1636;1,433;5         ;lvHBYS7hP1-B8kKHscESsA;4    
+1637;1,453;5         ;lx1RfWwWixzsaBhnR475OA;5    
+1638;1,459;3         ;lxr2Nd__EYqm6-VtmkeqOQ;5    
+1639;1,465;5         ;lyN70KCn6HKQtjloB-SBaw;4    
+1640;1,466;5         ;lyQ-bD_JYzwWWTP2mIiXuQ;5    
+1641;1,469;5         ;lyeg48OeNSDXp--tbblIsA;4    
+1642;1,471;4         ;lz1KcYYD_lEyVbeg_t-SSg;5    
+1643;1,472;5         ;lz27DL9Q5HhTFPxJxrn_qA;5    
+1644;1,502;3         ;m0kUe3u3OTuiplZMta8IuQ;3    
+1645;1,504;5         ;m0q_jGRDxxCiMQGcEbkJBg;5    
+1646;1,509;5         ;m0zkMmk3qdk_59autkNxtg;5    
+1647;1,513;5         ;m136LwKHr7mB4JgrGrg2lw;4    
+1648;1,523;4         ;m1WZSRX_wdvKp8FEJpSZIQ;3    
+1649;1,525;3         ;m1Z64JMefYaG5DR7bpUCcg;4    
+1650;1,533;2         ;m23S7TTM1A0WYUJ-ORuY_A;3    
+1651;1,541;5         ;m2Xp41rz6Xr-zRtL0SDhsQ;4    
+1652;1,543;5         ;m2m5e5qMHAxWqW1rPVOqHw;5    
+1653;1,549;4         ;m3FDeJcw3gdugZYyaKMOww;4    
+1654;1,552;3         ;m3VR26gzQ4dhAk3uKy1omg;4    
+1655;1,553;5         ;m3c_YresgYm-6mp6O3tgeA;3    
+1656;1,555;5         ;m3qFjl_y-vyzuqh7Vw0qsg;5    
+1657;1,559;5         ;m44AQDPzeUKHHbYB3QMZvg;5    
+1658;1,569;3         ;m5OUM0MCV8GaU1hdHQdWiQ;3    
+1659;1,570;5         ;m5WO78F1Sqcn6PqDFWOVsw;4    
+1660;1,571;5         ;m5cMmPgDrRkQ5y4AjTjmrQ;4    
+1661;1,574;4         ;m5zufhZFwBWUbs-q86YHoA;4    
+1662;1,576;5         ;m65knvooHCvZW7muGssPyw;4    
+1663;1,580;5         ;m6QHnR5Jit5ZMU5wRTYIDg;3    
+1664;1,583;5         ;m6gcNkbWvvy99upvw5byFg;5    
+1665;1,584;3         ;m6jSN7cmuY2cBorDg6_bsA;5    
+1666;1,588;4         ;m7MsN9qRVuvyf1Iklklv2Q;5    
+1667;1,592;5         ;m7ezKGEZ9hGDv7oqI9aIHQ;4    
+1668;1,596;5         ;m8Yd8cGY35ZTdiuMUdGQ_A;5    
+1669;1,601;4         ;m91IILyRDc6duBu4s0C3HA;3    
+1670;1,605;4         ;m9mNaNIEh_K5hUkeg0DILQ;4    
+1671;1,608;3         ;m9wl0QDsNsty6s07azXaOw;5    
+1672;1,613;5         ;mAEVDui-ehbwKnNr07v1cw;4    
+1673;1,618;5         ;mAjnHhx-FJZk03ZIwE8C_g;4    
+1674;1,621;3         ;mAy_C05J-oAO5WkKtpLc6Q;4    
+1675;1,623;5         ;mBA7v6c6AiGdy9N3RDIKaw;4    
+1676;1,624;5         ;mBOViPFEhnYGgnWt_TGfog;3    
+1677;1,627;3         ;mC0bJ54atePQHlrt5nS9WA;2    
+1678;1,631;5         ;mCDvJF1iqYeX38ohSwG_4A;3    
+1679;1,634;5         ;mCjUCaHbHDlMtYOS37rR2Q;5    
+1680;1,635;3         ;mClL30zDmpi3T6jMnN-atA;3    
+1681;1,638;5         ;mCupzSMIfbGaFcDcYJyjFA;5    
+1682;1,640;5         ;mD6JorfQmsrk7xzIGvXnZg;3    
+1683;1,643;5         ;mDQGplmgqWpw8GEZhgo7UQ;4    
+1684;1,646;2         ;mDVtY8x8911VyW_bsT_KHQ;4    
+1685;1,647;4         ;mDcXKfZGIpRkH4F-RuuWaA;5    
+1686;1,648;3         ;mDhkksQS-fg_hfsH1EgwwQ;4    
+1687;1,651;5         ;mDp8yzwdDRisWUTV7KxX5A;2    
+1688;1,652;5         ;mDpXzkLX-uOSYI6T6fuB3A;5    
+1689;1,657;5         ;mELxmW9iClDIgBAW4TyySw;5    
+1690;1,664;5         ;mF18KGQv-jm9R7XZxHrBsA;3    
+1691;1,669;5         ;mFji7QrKLNftETzc5YdCfQ;5    
+1692;1,671;3         ;mFmf4XtS0UtYiNd0wUIbTw;3    
+1693;1,672;3         ;mFqgRQ6J_iTumQgLzKVb1A;2    
+1694;1,673;5         ;mFwKnkz8z2VvR0_9v6S1Ww;5    
+1695;1,678;5         ;mGDCMdz0h9F6G3cvxnuBuQ;5    
+1696;1,679;5         ;mGNmHHBI1BT_yn7XHVOLyg;5    
+1697;1,690;4         ;mHRKjbhPPknsDwi7XaRDlA;4    
+1698;1,693;5         ;mHuUtSUPnQ_VKHoAEO4tWQ;5    
+1699;1,700;3         ;mI7enqVajxFbvchAdsvGKQ;4    
+1700;1,701;5         ;mI9hdpiNQgOTxL9x9qtKuA;5    
+1701;1,704;5         ;mII4-KM68InXX3ifdIOB4w;5    
+1702;1,713;4         ;mJ-TgI1R4FJcYjVkAo9DTQ;4    
+1703;1,715;5         ;mJZMWgG-klvvCEinDb6sgA;3    
+1704;1,722;4         ;mK8LEDLJRAy8h40RZiqC9Q;5    
+1705;1,725;3         ;mKNzghBjUhk49YIXfGtTbA;5    
+1706;1,729;5         ;mKwZOZABj5K9YPlivREldQ;4    
+1707;1,734;3         ;mLLQ-EGINodtGRyTX9MtNw;5    
+1708;1,735;5         ;mLM-8AXrjDIC1-pcGGIiTA;4    
+1709;1,737;5         ;mLT8_53AOH4A1jBxL8PF5w;3    
+1710;1,738;2         ;mLTTytdpKEKUAwW1MsAOAA;4    
+1711;1,740;2         ;mLYEfomuAPZFY0fzLmP1Vw;4    
+1712;1,741;3         ;mL_tzR_e4Odr9yCR-0CQYw;1    
+1713;1,743;3         ;mLh1TbwqfEzfaxgLcQBIig;3    
+1714;1,746;5         ;mLwEUwCQNGlFck0bUVf-xg;5    
+1715;1,748;5         ;mLy_t9roDkiTDU79BB6BeQ;1    
+1716;1,749;5         ;mMDH1XHH_TjsVPbliL_7tw;5    
+1717;1,750;4         ;mMR4y-UadA--Q09UQwQKIw;3    
+1718;1,752;3         ;mMb_CCSu-DaO__PBVL8cAg;1    
+1719;1,753;3         ;mMhSrU4btNTqOFs0gzxSbQ;4    
+1720;1,762;5         ;mNKAj3JpnLuwXVVA6cJHAA;5    
+1721;1,765;3         ;mNVsd3Bkzipd_gcUZrwMsQ;2    
+1722;1,766;5         ;mNs3EvsMxoUramyJEVFG2w;5    
+1723;1,772;5         ;mOWIjHQxr8o346jAqopHtA;5    
+1724;1,777;5         ;mOlWbVYCJaA69BfwyySOkA;3    
+1725;1,782;4         ;mOyiXInQa2MpfCsNJaAyyg;3    
+1726;1,786;5         ;mPA9S6IIYsbLQbLS3jUVtw;5    
+1727;1,805;5         ;mR3z1F7JSz33ykBxiDzjeg;2    
+1728;1,808;5         ;mRA0HkrwTZ308BpPwIsWtw;5    
+1729;1,809;5         ;mREGuZ_Mzk-2jTMdv4kkLA;4    
+1730;1,811;5         ;mRPm7QG1b9P20KVilgSqHg;5    
+1731;1,814;5         ;mRgIyo3pkrEUvwcHjiQ2sQ;5    
+1732;1,828;3         ;mSX7Bfet9Lb-sagNNy6ifw;4    
+1733;1,841;5         ;mTaM1FNwuCltKjcpk_Y26Q;5    
+1734;1,842;5         ;mTcturZo1IDnVnqLLoTDcQ;3    
+1735;1,846;3         ;mU2SDMVBb69n3tmo_nFREQ;5    
+1736;1,847;5         ;mU7o8QkDqmUpGOK2lSOc2A;5    
+1737;1,848;5         ;mUKaPuqakjqFt-aohYdsyw;5    
+1738;1,856;5         ;mUw7U-YQ2561fNBOhVjKDw;4    
+1739;1,857;5         ;mUwpY-zg7PGqskbcuiU7Sw;4    
+1740;1,864;4         ;mVNPaLc-7PfQgkm7_Idb_g;4    
+1741;1,866;5         ;mVS56WlyNyJpVcs3JGCLuw;4    
+1742;1,870;3         ;mVmzsPJQSVpewp1GouVmAA;5    
+1743;1,876;4         ;mWAoRCLu6oZk8lp79nFk_w;5    
+1744;1,878;5         ;mWVFoZhpKpXnEUgY6e7olA;4    
+1745;1,879;5         ;mWaB88lifcQR2VTZnW8kDQ;5    
+1746;1,880;5         ;mWaHeprLYjKad8erCZ9wzQ;5    
+1747;1,886;3         ;mXG2okHEcBUNFhIyf9Nkcg;3    
+1748;1,891;4         ;mXwzRgzCjeQb3dDOnVZ6vw;4    
+1749;1,895;4         ;mYrxR3ImFe632OTEXSy_rw;5    
+1750;1,896;5         ;mYurO6OVK_d1ofPTGV_kBw;4    
+1751;1,897;5         ;mYv7nOTAnv5TqoHMNmOJ2A;4    
+1752;1,902;5         ;mZF9VR7VGqDD75j7AiyKxg;3    
+1753;1,908;3         ;mZnzQ6UxoNmElM-TzDIH-w;5    
+1754;1,909;5         ;m_26XO95oRdHBtxrJTT2rQ;4    
+1755;1,920;5         ;m_pas1oGzK2mpEPIEScFjQ;3    
+1756;1,922;4         ;m_vhuRxM3rwq7U3hEDoceg;4    
+1757;1,923;3         ;m_zuY4Qm-1vUYToAmbYKpg;2    
+1758;1,929;3         ;maYwhuHBuzTYxSIKaZv9bw;5    
+1759;1,935;5         ;mbAW0X8kGa38jtkpSFXg5A;5    
+1760;1,938;5         ;mbPQv2G7uQMj9R3U1zOfUA;4    
+1761;1,939;5         ;mbT0A-fdrpsPpM1VZ_bKNQ;5    
+1762;1,943;5         ;mblY3gIjn767pG1T3x9c-w;4    
+1763;1,945;2         ;mbvNxGeNQCzfnEo8vmYNdw;5    
+1764;1,947;5         ;mc6ep3CMHD9wmsfe-MbSLA;5    
+1765;1,949;5         ;mcFxzIJvcQlTnVJkKnAB0Q;5    
+1766;1,951;5         ;mcacwVbT632Ov4Ibjqm5YA;4    
+1767;1,952;5         ;mcdVDYN9GUJOmRhJy0VVvQ;5    
+1768;1,962;5         ;me2uaFsfLcqekcFR8Y2CWA;5    
+1769;1,978;5         ;mfbpS4yyeCjW8Mw0jIZk1g;3    
+1770;1,983;5         ;mgFcRp9xepyJthGs8dS_WA;4    
+1771;1,985;3         ;mgMU6ezvefz4ckIBI08t5g;1    
+1772;1,988;5         ;mgWkkaWXTNymtDywXze64Q;4    
+1773;1,991;3         ;mgnRUYspKq4IzEIR8SBAuQ;1    
+1774;1,996;4         ;mhGGyne9Tg1qRLwM7MaqPQ;5    
+1775;1,997;3         ;mhONPXBrTV0op_uAyR-pew;4    
+1776;2,001;4         ;mhfocOYpLY9Rv723rGmZ8g;5    
+1777;2,003;4         ;mhycHf-NnzMsj6MPwy75xg;5    
+1778;2,004;4         ;mi8EahZKWiyFUUOqCT80_w;3    
+1779;2,007;5         ;miOVEGFEuyVj-jwDk96dtA;4    
+1780;2,012;5         ;mj6XJSOEhgAZ_cUWPpIS9A;5    
+1781;2,015;3         ;mjbWWf93kJ7Qkgr4d8nA0Q;4    
+1782;2,016;5         ;mjgQOE6NEZDKsX_nWWuFxQ;5    
+1783;2,017;5         ;mjon1QqLdX2E-yz6LSuVkA;5    
+1784;2,018;4         ;mk28gq7H3A_IUt_s6Whxew;5    
+1785;2,022;3         ;mk7aUU01Lt2xdWuYJ9ziGA;4    
+1786;2,024;5         ;mkNM1ct54my3nDMR7N8xNA;5    
+1787;2,026;4         ;mkegMCuD2Ny92NX6uaZh0w;5    
+1788;2,027;4         ;mkfZZkdKmnyMBIZJhdoxnQ;4    
+1789;2,035;5         ;mlKzzF8zRO7SR2FUYdC5dg;4    
+1790;2,041;5         ;mloP0eKb97F-Ia8LeOLUUg;3    
+1791;2,042;2         ;mltBB7xZmhM-1kkSaRp4Dg;4    
+1792;2,044;5         ;mlz2M1g4f4Qu0w1GtZ872Q;5    
+1793;2,045;5         ;mm0NI4dQmIR6GYHBWcNfcQ;5    
+1794;2,047;5         ;mmCan_PeNtBRe3X6_M_vsA;5    
+1795;2,048;5         ;mmCrnvNbOATcrG_FKk7xdw;2    
+1796;2,049;5         ;mmORhA3CJEaq6NGMb7jLZw;4    
+1797;2,054;5         ;mmeSNmtlVtmmaU8tiBKhlw;3    
+1798;2,056;5         ;mmiYsUiDhwOEL3vhGldLNA;4    
+1799;2,060;5         ;mmqyQtIEwujU4RMqBaodMQ;5    
+1800;2,063;4         ;mnBCfvGBUM2K7E_KdMmYdg;3    
+1801;2,065;5         ;mnJZS7-lnk1xKME-LDo91Q;4    
+1802;2,070;5         ;mnOF6r3pqrP9Ml2HSJEQqA;5    
+1803;2,071;3         ;mnTEmJUHI7p8O3u6a3zfgQ;4    
+1804;2,072;5         ;mnV7ru1NgpVzDHnDCBGIew;5    
+1805;2,074;4         ;mnm37hg0hF-_suqga2VtZA;5    
+1806;2,075;5         ;mnmtNzteudSTY05LDvFXpQ;4    
+1807;2,080;4         ;moT0D2uDHw2jsK6SQEKOAg;4    
+1808;2,085;5         ;monHAJNF2tCO5c7XY12jJQ;5    
+1809;2,088;5         ;mpFrmZmDax9UTTj6if8oag;5    
+1810;2,092;5         ;mpIVyY5ZXFeeg3rJrctUUg;4    
+1811;2,094;5         ;mpW4ltwZBkQLBNNDXS_fUQ;5    
+1812;2,098;4         ;mpgdXzZs8Jgp6kdFfI7H3w;5    
+1813;2,102;4         ;mpvef7KXns_gtGjxm65INg;5    
+1814;2,104;5         ;mpxFEd8zIbr6iqYXE5ZGiw;3    
+1815;2,106;5         ;mq9xAzk3yYom2t3qPFtX0Q;5    
+1816;2,109;5         ;mq_w2i61MFgnfU0ru9mCyA;5    
+1817;2,112;5         ;mqqejlEXhnr0-DOdVhW_DA;5    
+1818;2,116;5         ;mr6_Ze_lWZY2R2TvisfcDQ;5    
+1819;2,117;5         ;mr8Aa9mW3oTTjusbDnzRIw;5    
+1820;2,120;5         ;mrLjw8cgMCV6xgIayTSxMw;5    
+1821;2,128;5         ;ms1jCt9BQK1fwAtK0WeQcw;3    
+1822;2,132;5         ;msXTsooDjrhj0saMCFEGrg;5    
+1823;2,141;5         ;mtQeQtchf8M6_pXEnqGMyw;4    
+1824;2,142;3         ;mtXbxL7Wv74GdGpvB8aI7w;4    
+1825;2,143;4         ;mtYXDab6dnEnLQg0GDfB-Q;5    
+1826;2,145;5         ;mtinvcwy8naxvcUtw3-9IQ;5    
+1827;2,148;4         ;mtotbhDraeOJRznwRyW2Fw;5    
+1828;2,151;5         ;mtx6bIcTMVbuPmtjvOnOcw;5    
+1829;2,152;3         ;mty6Uo6wxLzUrt6qe0LWuw;5    
+1830;2,154;4         ;mu4MQwedqlxcSd3OwuJ9tA;5    
+1831;2,155;4         ;mu53Ex6W_-0monwgk6r9AQ;5    
+1832;2,157;2         ;muQHxMK0fjQ41FiotjXf5A;2    
+1833;2,159;5         ;muaC5anA1sfBKw7AWEZrMA;4    
+1834;2,163;4         ;muvgYaNaiFY_CTskBUjxkA;5    
+1835;4    ;3         ;k65qkhWl0nW2fWVbPoNHxQ;4    
+1836;27   ;3         ;k86UFJ4IaCuLCZwsuUp01g;5    
+1837;39   ;3         ;k9eO58lZAfSM7RhlF_9wFw;3    
+1838;42   ;3         ;k9lV_TOGUQCce9vagxI9aw;3    
+1839;57   ;3         ;kAckTUaZo5lLnSRXuZzeLw;3    
+1840;59   ;3         ;kAlW5qlc2gkcmtSIRQ1TWQ;1    
+1841;66   ;3         ;kBMUbbQMTHNEzbV87g_gyA;1    
+1842;93   ;1         ;kDnaZRsBDoZB-MWknpgPCw;3    
+1843;103  ;3         ;kEOjLcrxwHwyofyqV_2wNA;4    
+1844;114  ;3         ;kF5QFfNdjSPbyUZKEiZOIw;3    
+1845;115  ;3         ;kFFkNlOQ2EPTAbV-emMSuQ;2    
+1846;143  ;3         ;kHNmR7xtKxJ-l5EG9lSJ2g;4    
+1847;154  ;3         ;kIMGJBNjIsxHRQGsgng3NA;2    
+1848;165  ;3         ;kIzrAnvX51JI7_wHcpK31w;3    
+1849;167  ;3         ;kJ0O03x_0MYaluVsgU7WuQ;4    
+1850;207  ;3         ;kMmgqCh_LANmJd9kg9X5bA;3    
+1851;212  ;3         ;kN9yINl1b7ylVFn4u8I-7w;5    
+1852;214  ;3         ;kNModdu_kLc_z19wh5HGew;3    
+1853;226  ;3         ;kONx8nsMDjFHYbjrhUd6aw;1    
+1854;264  ;3         ;kQy7x4B-R5jiKJlqoAks4w;5    
+1855;268  ;3         ;kR6B9YnBSczGlCpuh1Vfjw;3    
+1856;275  ;3         ;kRWtkJetgTgceKNMD6fDgQ;1    
+1857;292  ;3         ;kTDvVKXErtuH9UFpxOnZ5g;4    
+1858;294  ;3         ;kTL_e1je98fLOfNA-j-Rnw;3    
+1859;305  ;3         ;kTzYmFGFDXYYoEmL3xt49g;1    
+1860;318  ;3         ;kUjb67yXWJTelVRNJd-QYQ;3    
+1861;332  ;3         ;kVujG3CMvoew40xqjimFFg;3    
+1862;339  ;3         ;kWOqoVU2SFzVz5MBtXT36w;5    
+1863;344  ;3         ;kWlZUCZXODaf1SRT7CD0_Q;2    
+1864;346  ;3         ;kWuSFNVcomDFoz25PZCTkw;1    
+1865;352  ;3         ;kXJK92FgcEqEg8QtWjMLiw;3    
+1866;366  ;3         ;kY7p5y1xNtVWOweRg8Jdow;3    
+1867;367  ;3         ;kYAw27Z1RxCPWIFs_lmDlw;5    
+1868;385  ;3         ;kZcItXH51jDZtOp83ayN6Q;3    
+1869;388  ;3         ;kZekH0Dz-ndDmVUfR1UdJQ;3    
+1870;397  ;3         ;k_Z4fRTizM5lznkPLz95fw;3    
+1871;398  ;3         ;k_f_7LM_J-qRx3ZUyy6-lw;3    
+1872;411  ;3         ;kaiM61MxCly7UFw4CyM1fA;4    
+1873;417  ;3         ;karOERpTD1ZKyXBB-Dklyg;3    
+1874;448  ;3         ;kdUwDHJdV5c9Lgt3kbPqEw;2    
+1875;468  ;3         ;kfckT788FU8si9Il5Fnk3w;2    
+1876;478  ;3         ;kgMl5YzhuHEOKXyoZv9bqw;4    
+1877;486  ;3         ;kgTASeCwdO57CYI0V5du9A;5    
+1878;507  ;3         ;kiD1eZWnhe1aSfBcNzcDPw;1    
+1879;524  ;3         ;kjx1MUILAv4Ij6vZIyUm3g;1    
+1880;525  ;3         ;kk977KYm4sfGU7ck2o6YaA;3    
+1881;532  ;3         ;kkSKap24wBzM1ns8QGBAhw;3    
+1882;608  ;3         ;krk-udP0wB5dhRrXVgcOTg;4    
+1883;609  ;1         ;krrAVndyE3JZjdJsj_PkQw;4    
+1884;622  ;3         ;kskxmcRxZIiOnVZTTu2N0A;3    
+1885;647  ;3         ;kutp8YUNY46FleADkJ_hLg;3    
+1886;656  ;3         ;kvSw_lBXxnZlZK32Mj8WIw;4    
+1887;660  ;3         ;kvdK_dqObVEBnhw5dBJFdA;4    
+1888;668  ;3         ;kwE7uRECq5tVWUV5DLywcA;1    
+1889;671  ;3         ;kwfKijZAYsdGloE_pKrxdA;3    
+1890;679  ;3         ;kxBanrMArFN8pWdTfAl5Dw;3    
+1891;697  ;3         ;ky5OramFp73Llu3jjVV6Hg;3    
+1892;701  ;3         ;ky9esOwiIO_1wwu5pAbchA;2    
+1893;718  ;3         ;kzVOBVS2tT0I5XAhlZ2QoQ;2    
+1894;733  ;3         ;l-U-A-6l_Ol4QtRTVbViqQ;3    
+1895;736  ;3         ;l-_pvXIgJkrO2VjDXB4kvg;2    
+1896;755  ;3         ;l1yrlcb5QedgvgYaUJCJbw;3    
+1897;784  ;3         ;l4-pFcMM8W-mqOhBcx3Ccg;2    
+1898;876  ;3         ;lCo8KRhvpM_7c_HTTWH9Cw;3    
+1899;936  ;3         ;lIBzSohEl25SES7Eq0Azgw;1    
+1900;969  ;3         ;lKSwLMbJmx7rxT8m47FMeg;3    
+1901;991  ;3         ;lM74AflWqXGmmzk7iu9hnw;3    
+1902;1,017;3         ;lOVUK1eV-f_XY4uWKZWSyQ;5    
+1903;1,028;3         ;lPC_cfNY8XlHhMPaAS2urg;3    
+1904;1,073;3         ;lTADgoOJvTQ_TEYcpcA_6w;3    
+1905;1,094;3         ;lUjH_RXcsWS2VtIEu1jy8w;2    
+1906;1,102;3         ;lVZOQz2Qatv6ZdEBVBxQPg;3    
+1907;1,126;3         ;lZ5LXxbHd6LDo_mzLtJfRg;5    
+1908;1,127;3         ;lZ5pt7D2lNjK4-9MsLUoZQ;4    
+1909;1,136;3         ;lZkoEhAGaFR9ikCVAGbPYA;3    
+1910;1,143;3         ;l_EvS4wSQ9Gk19nE25flsA;4    
+1911;1,159;3         ;laIfU8T6CwavaJcjtk9HWw;2    
+1912;1,161;1         ;laP71mErH37zHInVw8khag;2    
+1913;1,180;3         ;lbQXecpY6kpQFf0ik5jhKQ;4    
+1914;1,196;3         ;lcpXComvKmzy1jsAFqCByQ;2    
+1915;1,212;3         ;leA9EJ_oZJ3UdRRmuijvJQ;3    
+1916;1,223;3         ;lfJidHsRUWV4dUU5Kt8eWg;1    
+1917;1,241;3         ;lh7k4fSTXcNUpNdJ0WCbag;1    
+1918;1,266;3         ;lidXFReFiExR-Wjoh3Q4zg;1    
+1919;1,278;3         ;lk0AUo4XP0aHMqaTES0Cpw;3    
+1920;1,288;3         ;lkjdq3yd7b7CMqSNr70Rag;1    
+1921;1,293;3         ;ll3Q5UdJwzBJS2p0U5rg9A;3    
+1922;1,297;3         ;llZGCIq_5SRQKBVgcVYAXA;2    
+1923;1,302;3         ;llqx5F4yv5fbw4MxDSx7Mg;4    
+1924;1,317;3         ;lms_4q20zg5swC-ejjhUZw;4    
+1925;1,329;3         ;lny-Dbl6Sw5M5Iqou6v6Pw;4    
+1926;1,387;1         ;lsSxteMgSvHXPIKiMDxRZQ;4    
+1927;1,393;3         ;lsngpUOTnCLM2O7vMkEeHw;2    
+1928;1,394;1         ;lt1QNsjpeQBi4hgHNSSIVA;4    
+1929;1,398;3         ;ltKhDGY1FjKxV_zqJXGyrg;5    
+1930;1,402;3         ;ltbdHAiQa2kP5HQeWFY5WQ;4    
+1931;1,431;3         ;lvDDkVwYlxX_LYxaZDdMCg;1    
+1932;1,454;3         ;lx2P-EnoxZibKkA_ymMnBw;5    
+1933;1,481;3         ;lzaZ-EemsXqu5riOnARDXw;4    
+1934;1,506;3         ;m0tdNuf-hFyskPL7La_H3Q;5    
+1935;1,518;3         ;m1OEiQ44sjwA1ubDaT-lXg;3    
+1936;1,534;3         ;m2AJ28oHbhuSAgPICmzNpQ;3    
+1937;1,539;3         ;m2XQt1nAqgn-_mMP2gzeag;3    
+1938;1,544;3         ;m33dnSlQAFyf7-SZ6GXttg;1    
+1939;1,556;3         ;m3qPozkhNfCxYu-UqYBVcw;3    
+1940;1,586;3         ;m6n6UjnuwGmZGEMAKGkIHQ;3    
+1941;1,607;1         ;m9vB-Jd_OvW3YzXY5h-Xuw;3    
+1942;1,611;3         ;mA9rP3UaNnZ1ze2cTozIxQ;3    
+1943;1,615;3         ;mAV7jjQK-Y3A-iLq6RebSg;5    
+1944;1,620;3         ;mAx3hohLn4Z-bNmGHW0Zag;2    
+1945;1,641;3         ;mDHBcNV9Lhl29nT0JjEVMg;3    
+1946;1,677;3         ;mG1zbA80n5r-3vKO1yQrgw;4    
+1947;1,683;3         ;mGe0a0Czpi9kuuBXtcilEA;4    
+1948;1,694;3         ;mHuqx1czKMpMNDpG9vjbDw;4    
+1949;1,699;3         ;mI77N57f34j5jlmR-1_gdw;5    
+1950;1,720;3         ;mK6yGB0cWNBRKSPRQWdk-g;3    
+1951;1,726;3         ;mK_-Zk0pkqCfZoQjd-Sl-A;4    
+1952;1,736;3         ;mLSL6d295YnBMLApSvWVOw;5    
+1953;1,744;3         ;mLiiD4LPYEINzlyorfuFPA;3    
+1954;1,747;3         ;mLxx1hHnqdullTqX7V0TqQ;3    
+1955;1,790;3         ;mPWDwy1YesN7QEU97VMTAA;3    
+1956;1,796;3         ;mPusi58-_9I4EUqKFl3G-g;2    
+1957;1,803;3         ;mQURmAGGQmpUrbvFM8h9Og;4    
+1958;1,818;3         ;mRqFiQXqlltiR7GYhx4FxQ;1    
+1959;1,819;3         ;mRw3WkhKrkgjsi8y8qEWSQ;1    
+1960;1,840;3         ;mTZoOLgaLW_ZiAqJK5dUkA;4    
+1961;1,845;3         ;mU1gQFe3D_LW_lZKRpDV0w;1    
+1962;1,850;3         ;mUew0gjnO8iNpPR4SjIkIg;3    
+1963;1,875;3         ;mW4TE0wKK5xD0rQBOCoPQg;5    
+1964;1,924;3         ;ma2tyyavEebtjw87F8iQAQ;3    
+1965;1,958;3         ;mdhSwRUEURlnesdu83bZSw;2    
+1966;1,965;3         ;meNBN2vryj6Vgt4mvPcHCw;1    
+1967;1,986;1         ;mgQkkDx1dngsGxXS43fBaw;5    
+1968;2,019;1         ;mk31nD4Vh7bUru6j8dowdg;4    
+1969;2,036;3         ;mlOFp7Jj9JWJtozw4QXN-w;4    
+1970;2,076;3         ;moA8iDUcLXPe6lUkrPSeaQ;5    
+1971;2,084;3         ;mofjrxK1ifDA6w1Ch0ilXQ;3    
+1972;2,087;3         ;mp02N1wINOBw5m0X-Z5oBg;3    
+1973;2,097;1         ;mpgAyk3fmR91TZf0ujED9Q;3    
+1974;2,103;3         ;mpwIzweX2Nzj1Pb72tYKYQ;3    
+1975;2,126;3         ;mr_hrUSRvmXngMHQEsIVlA;2    
+1976;2,127;3         ;mrqUL0zgzPlQS19SoR5evA;3    
+1977;2,129;3         ;ms3VpB1shjUyclSbBnKkmg;3    
+1978;2,130;3         ;msEBpo-KUw6SHHTa5xeyyA;3    
+1979;2,136;3         ;msuwyGp3y_qRWY-X-S86SA;1    
+1980;2,144;3         ;mtgd5cOrfjmiBFV7tMz-hg;3    
+1981;3    ;4         ;k5ufKnhXzJAjrH-rRefvWw;3    
+1982;9    ;5         ;k6RNYthak62PCwDlTx_lfg;4    
+1983;20   ;5         ;k7FxqUHrRCWV6D7WQUODtg;5    
+1984;23   ;4         ;k7VdxkU7HTc0e017RGDAQw;5    
+1985;32   ;5         ;k8Y5B_NqNQk49J2pK23oJQ;3    
+1986;35   ;4         ;k8jGz10EwVpcZ7uGnuOlHg;1    
+1987;37   ;5         ;k9DCNKezkcEjZDKS2NUiBQ;5    
+1988;63   ;4         ;kAufuJExuQibEse8zwakew;4    
+1989;71   ;4         ;kBgt0urrw0CQ0KK-pVU98Q;1    
+1990;73   ;5         ;kBi9g6hlwwlUpoTo0kWxEA;5    
+1991;100  ;4         ;kELNuHo80owuyd7JdFbB3w;5    
+1992;113  ;5         ;kF1MQDuM-O0tMACB4s2l3A;5    
+1993;124  ;5         ;kFzh9-kjfkfLOKdlAaqlGA;5    
+1994;133  ;5         ;kGzhp-Df0Ad-LFDe02XMGw;5    
+1995;148  ;5         ;kHh1TFuvtlu0qoAq4xmJpg;3    
+1996;168  ;5         ;kJ7NX96Sr-pybST9ytM7bA;5    
+1997;187  ;5         ;kKug0fj5qcVJMjIhZ4bBFw;4    
+1998;194  ;5         ;kLSCB_N7aphOzZ7wBe7JiA;5    
+1999;196  ;4         ;kLYR7RI4G0_SYswV4CqsNA;5    
+2000;210  ;5         ;kN29G8olhPxPPaVkiED0EQ;5    
+2001;215  ;4         ;kNQaO7SJZ_ef5vuexyVw9w;5    
+2002;222  ;4         ;kNxSXcvE4V3rdeI100-7Kw;1    
+2003;230  ;5         ;kOdZ4gfrzkjSOlOsJ-PofQ;1    
+2004;237  ;5         ;kPFuonIqiSMC3G6T7eo-gg;4    
+2005;239  ;5         ;kPOVEWZlUPEccXU3HQm0RA;4    
+2006;245  ;5         ;kPff_xbXJ_4ViPGJRCS7cA;4    
+2007;250  ;4         ;kQ4LTDhfyGPYnoKwKjSXLQ;1    
+2008;259  ;4         ;kQasiBhKSBOcad6IrBLDBw;5    
+2009;260  ;5         ;kQirRULgiTpmk8vfEKJh8Q;5    
+2010;288  ;5         ;kSa8_g-Heek9a26eAxJ2xQ;5    
+2011;331  ;5         ;kVqGQ96jqzUxsOKAytI3lg;5    
+2012;340  ;4         ;kWSNO-0Goe45mcK52sy0Jw;2    
+2013;351  ;4         ;kXHAJ5KFQpqU1-ZT7cUqew;1    
+2014;408  ;5         ;kaM_CM-JUQRtsC32SoJ2Ag;1    
+2015;412  ;4         ;kajS4chQ_nNpU_ZksM3ECw;3    
+2016;469  ;5         ;kfi8SSbXCA1BHdQpjmVCOQ;3    
+2017;482  ;4         ;kgQZv6M16LNOsGmseHkdQQ;2    
+2018;493  ;4         ;kggpvL7zOzpD8ARsB3wljQ;2    
+2019;504  ;5         ;khxJOWoVeQoquNXhi2FnlA;5    
+2020;515  ;5         ;kilKHHGJVmmcOinZuxhALw;5    
+2021;547  ;5         ;kmXOLUQY03gUK7FG7AVfQw;5    
+2022;569  ;4         ;koKHN59xZxmiolhn0RsdMg;1    
+2023;575  ;4         ;kpDhRxVsadZ4ih2MGsgjCA;3    
+2024;587  ;4         ;kqQkx_8rJFbjRfqlonBPBQ;4    
+2025;593  ;5         ;kqmoCqQFw9pPIxC58uE_Ww;4    
+2026;597  ;5         ;kr2XmdDprzF8nFxEBTXffg;5    
+2027;610  ;5         ;kruVg5CHmUjzxW623awxGg;4    
+2028;612  ;5         ;ks-_frhpncz_ybDtseu4Xw;4    
+2029;623  ;4         ;ksvYDZiLCRpJhsVTM-ArJA;1    
+2030;625  ;4         ;kt894GDI67JOgIW2lmaIKg;3    
+2031;627  ;4         ;ktKBlqn-7SO3Qtvd97jHuQ;1    
+2032;634  ;4         ;ktsNQcoa1EoExukNoIEgWQ;2    
+2033;638  ;4         ;ku4GU-ZqJGRJ8xEcZrZzEA;4    
+2034;642  ;4         ;kuZ3cqe0b-JmY29U-5msWA;4    
+2035;645  ;5         ;kunqsb49Qu0SbUZCwmggcw;3    
+2036;657  ;5         ;kvTLAroQOWK0UWY5bjhv1Q;5    
+2037;658  ;5         ;kvU7I4W6fC45724Z9nQNlw;4    
+2038;659  ;5         ;kvWtHsGPoDbAuRl_CVCVcg;5    
+2039;670  ;5         ;kwYuv9m1b7yLr8vskdyHjg;5    
+2040;673  ;5         ;kwlHpbKdTxdg1jC-ca_8Fw;5    
+2041;674  ;4         ;kwsSip_FNxN9-bwgcv3DaA;1    
+2042;680  ;5         ;kxGi_B8hazztJg5XeSt1Ng;5    
+2043;682  ;5         ;kxUsUFMdyhCpuUOZwb0COg;5    
+2044;699  ;5         ;ky5z2x_3-ToVExIMqXkkKg;5    
+2045;704  ;4         ;kyQWBithkNwZPQCxZM178w;4    
+2046;705  ;5         ;kyTw9no8_o6EbFSpYuUuEg;5    
+2047;712  ;5         ;kzNNQuHq849wIzbNGYdS8A;5    
+2048;719  ;4         ;kzYEKtTqe0TJxku0Jc8z0Q;1    
+2049;721  ;5         ;kzkBsa5nLHKKMTFwyy5h-A;3    
+2050;742  ;4         ;l0eWwyx8uchK72lO830gwQ;2    
+2051;771  ;4         ;l39yDireyi0db4LOGH4l_w;2    
+2052;774  ;5         ;l3P53AtgARNuigEHKd2G1Q;4    
+2053;787  ;5         ;l4OtUy1gTD8GThqBS0yd_Q;4    
+2054;796  ;4         ;l4qrOgtTju1BS9PkggYMow;5    
+2055;809  ;5         ;l6HT2dolYA-EIp0SSAjQOA;5    
+2056;814  ;5         ;l6kbwn1p1NqkPr6Wl0w1Ug;4    
+2057;825  ;5         ;l80wTEqBz8ALbWOmeapn7w;5    
+2058;832  ;5         ;l8m4ywqv7vcpwifnvASjGw;4    
+2059;853  ;5         ;lBHC40wTVDhzIk4c_JhqDw;4    
+2060;861  ;5         ;lC1iaSeP3jjG64DS-nwS4A;5    
+2061;869  ;5         ;lC_Higf49tjidmGRDCRvkg;5    
+2062;877  ;5         ;lCoNzz5HBqkTPQfj69cFVg;4    
+2063;878  ;4         ;lCvtAQNZ1H9bUrKT5sQadQ;4    
+2064;882  ;5         ;lDdqKwtcQ8HwWQDgMLkwuA;5    
+2065;886  ;5         ;lDizOFOG_x8XFhWPU8zkJA;4    
+2066;896  ;4         ;lEV8jMwLRnwHufuI-dZYvg;3    
+2067;897  ;4         ;lEcTBLv7HuXlDWNnSTyTpg;2    
+2068;909  ;4         ;lFxVHK8z-5awfM1emq6upA;2    
+2069;927  ;5         ;lHhOEa2fuB96ziAQd8IUmA;4    
+2070;928  ;4         ;lHp6ZnB9SbD7idvBHWfVKA;1    
+2071;929  ;4         ;lHtFWwrp8SRiIDrxwVzBUQ;3    
+2072;985  ;5         ;lLkMDkoU6vQeTeoKuU9ixA;4    
+2073;1,012;4         ;lO-yUZ3V9ysG9Y5S9DEaLw;5    
+2074;1,025;5         ;lP3FfW7rm_67rDrqq--0jw;5    
+2075;1,027;5         ;lPCM-x0r8bzIvPsCOfSBRg;4    
+2076;1,029;4         ;lPHY8ecG18OaX6AUb8kQtg;4    
+2077;1,033;5         ;lPeG0XWsCVWHMvZ83JAkWA;3    
+2078;1,041;4         ;lQUDJ-x1j0C3DwGNMafU6Q;1    
+2079;1,051;4         ;lRFGOq9FiqBz3M0YfZBTEA;4    
+2080;1,053;5         ;lRRsGRGn4FagKA2TnWQzKw;5    
+2081;1,061;4         ;lRvexBwkVUuA_hb76UiG9A;5    
+2082;1,068;5         ;lSdH6G57FBTjnWdKnK8k3g;5    
+2083;1,079;4         ;lTZ6SjdcG56_HgBF8vNLCw;3    
+2084;1,087;4         ;lUT9XXlxpKzG91lMFA7tFA;3    
+2085;1,100;5         ;lVOcacyuCzeT6d6QH9z0Vw;2    
+2086;1,118;5         ;lYBIeUEUwywzcoU4UcIaVQ;4    
+2087;1,154;4         ;l_wVGiQqdTpj7lfc_0YG-Q;3    
+2088;1,155;4         ;la-kCbmRfuKfmt1UGyAYuQ;2    
+2089;1,171;5         ;lb8wHPTEmBFalVwFzGE5Bg;5    
+2090;1,185;4         ;lbwYPbyQdOZQu3RvkjYJtg;5    
+2091;1,213;4         ;leC-1Tn5JqhaQDRhgxAjyg;2    
+2092;1,216;5         ;leNttdxj0WZZwmDfvMKtWA;4    
+2093;1,217;5         ;lea5cmexKZUJ7B5HviLUgg;5    
+2094;1,238;5         ;lh2qNtbmL8u20mdbDQQPSA;1    
+2095;1,258;4         ;liLkaiJlCjkLX9lTd7LT7g;4    
+2096;1,261;4         ;liVXe_a61Yw2whDyk5DBNw;3    
+2097;1,262;5         ;liXnuWDILwZ0EV1LQ1bqzw;5    
+2098;1,268;5         ;ligJgIWtSci7apli5ADNOw;5    
+2099;1,279;5         ;lk69x9wXsmjOoXGWs1eTiA;5    
+2100;1,292;5         ;ll-HI5Rtw7YFhBrOwuyvaA;5    
+2101;1,299;5         ;lldBFgyVrhYFtvzFTbYG8w;4    
+2102;1,301;5         ;llqGd3el88zzgGCmtnFGPw;5    
+2103;1,303;4         ;lly-kR1pSMCvS5Xf6wI3Dw;4    
+2104;1,308;5         ;lmHm3o1nsuVPWGpa1EueUQ;3    
+2105;1,309;5         ;lmN7F0-Jj1sEDRPXvdhhPg;4    
+2106;1,325;5         ;lniX24dzl_x6jPfZMBBA0w;5    
+2107;1,343;5         ;lojftuXPVq6WAXS_PzioeA;5    
+2108;1,346;5         ;lp11ohz7EZAm_V5CPtFksg;5    
+2109;1,373;4         ;lrIxTxkzheXlE0DomzE5Ag;5    
+2110;1,399;5         ;ltLVwt3JYhcMvixRFUZEJg;5    
+2111;1,403;5         ;ltd8YmsqmAb8ETS52Gt_6g;4    
+2112;1,422;5         ;luY7WWe3GLTHcefuXq-qNg;5    
+2113;1,435;4         ;lvYc_Duv5WUTAZ5Ta9HxXA;4    
+2114;1,447;5         ;lwW-4D2S09KbftP7oKtzGg;5    
+2115;1,461;5         ;ly19KvX7djZ9rtjMvtvneg;5    
+2116;1,498;4         ;m09uPmAylAfHk-76f3bc5w;2    
+2117;1,505;5         ;m0tNv8CRaYJIvzZmTU6W2w;4    
+2118;1,528;5         ;m1kf8CXNtLhB_ym0EF2J7w;4    
+2119;1,546;5         ;m36S1rlDU34WVSuSJIzWag;5    
+2120;1,551;5         ;m3VNcyUPF4sFeO_pV0YZ1g;1    
+2121;1,562;5         ;m4GC5Qo6q_dRg0zmHuCr5w;5    
+2122;1,577;5         ;m66G-Ln69mIEwKWsNATZXw;3    
+2123;1,599;4         ;m8xu9AVbpsybof-wWhsGTw;1    
+2124;1,616;4         ;mAWbWZa9-n2OoOcRjbGtew;1    
+2125;1,619;5         ;mAx0Lyws9SDD1fTa7DvS4g;4    
+2126;1,622;5         ;mB3JpSHqXQ3zXE3mIB-n_w;1    
+2127;1,668;5         ;mFgDjYhFEIk35QVYdp8Ogw;5    
+2128;1,670;5         ;mFkgSgb1-YIksdjeUt9fwQ;4    
+2129;1,685;4         ;mGiSw1CTo5TJJ5JUcHxRTg;2    
+2130;1,686;5         ;mGl13sEJ3yGKDHMAtp_jjw;5    
+2131;1,688;5         ;mHG1mfvy0ZrgRrPkrOmGKg;5    
+2132;1,697;5         ;mI0smTUrtX-ilKMQVwWCBg;5    
+2133;1,702;4         ;mIFYYKGOKXrYHvbhnM4Lkg;1    
+2134;1,710;4         ;mIdxuyeCZ6cDHHMtz_8AmQ;4    
+2135;1,712;4         ;mIx5IyXIuJnMATZS0Sqrww;3    
+2136;1,718;5         ;mJjdL2j-c69hUK41Ld5TdA;5    
+2137;1,727;5         ;mKbTHE32_sTOUXGesYkQdQ;5    
+2138;1,739;5         ;mLWxCT9ZSC7TNCvZEILsLg;5    
+2139;1,792;5         ;mPcyPUZXmmVY67_GwfeYYg;4    
+2140;1,824;5         ;mSGdH7GYF53xDBBxNOPdxw;5    
+2141;1,826;5         ;mSN7vM65k8LRMV47mR5AHw;5    
+2142;1,832;5         ;mSytxIpaWE7-rAYG3oAhhQ;4    
+2143;1,837;4         ;mTSqoWV9A8QOEtdTfg0EDQ;3    
+2144;1,860;5         ;mV7GWJ5oD7cFYBxy8LgvkA;5    
+2145;1,867;5         ;mVgB_2wND3s_0lxuJgQyQg;4    
+2146;1,888;5         ;mXYivKdDcsqlmlZITdEc-Q;5    
+2147;1,928;5         ;maPXWx9-PP7YEPZMeWcQjQ;5    
+2148;1,933;5         ;mb-I3FIFK_ZfDyJ50FdEhA;4    
+2149;1,940;5         ;mbdQdvXZegTN5-t3rWYFlQ;5    
+2150;1,946;5         ;mbzT8A-ajJXyt4YV6Mp3sg;5    
+2151;1,950;4         ;mcP-Wb9nDkaR6Mla1Oi_og;5    
+2152;1,960;5         ;mdsIQcxY3E-VCShMfdB-qQ;4    
+2153;1,972;4         ;mf7eVEGVhDOU_zdy1eQj-w;5    
+2154;1,979;5         ;mffBC8Hm_4bAgxQIpL-DHg;5    
+2155;1,982;5         ;mg9Na-TjWL_8wR_RU_-LkA;4    
+2156;2,005;4         ;miGY5Hit3QcD1W6cWvOcxA;4    
+2157;2,025;5         ;mkcmNZOg8rKEzURNVlSDdA;5    
+2158;2,046;5         ;mm36T41PI-LJ-4l0BDL3fA;5    
+2159;2,064;5         ;mnIzIHl_jlsHQAL7AQguNw;4    
+2160;2,078;5         ;moBsmtWCcY9FeHMRG7SSWw;3    
+2161;2,083;5         ;moZOa8VOsACr0EfMDLplOQ;4    
+2162;2,093;4         ;mpLdBKmC-cu_QQuvJ3wgZQ;3    
+2163;2,096;5         ;mpbDUKf7_ZSaXNEwxLVYow;4    
+2164;2,101;5         ;mptVuGtqKZ4K4N1J-FX2vw;5    
+2165;2,113;5         ;mqsOch5kXChgnTO84jIigA;3    
+2166;2,115;5         ;mqwDHxOOI3nnvd61VQAXvA;5    
+2167;2,121;5         ;mrMDmrcjLOl_SRcZAg1zvw;4    
+2168;2,166;5         ;mv-q9AGThVbBvQzEmbVEnA;5    

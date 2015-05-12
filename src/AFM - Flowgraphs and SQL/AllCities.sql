@@ -1,0 +1,253 @@
+
+
+----SENTIMENT TABLE **TRANING** SAMPLE NOFLIP-------
+DROP TABLE "YELP"."TRAIN_REVIEW_SAMPLE";
+CREATE COLUMN TABLE "YELP"."TRAIN_REVIEW_SAMPLE"
+(
+"REVIEW_ID" NVARCHAR(4000) PRIMARY KEY,
+"TEXT" CLOB MEMORY THRESHOLD 1000,
+"STARS" INTEGER CS_INT
+);
+
+INSERT INTO "YELP"."TRAIN_REVIEW_SAMPLE"(REVIEW_ID, TEXT, STARS) 
+SELECT  REVIEW_ID, TEXT, STARS FROM  "YELP"."REVIEW"  LIMIT 10;
+
+
+create fulltext index Train_review_sample_indx ON "YELP"."TRAIN_REVIEW_SAMPLE" ("TEXT")
+configuration 'EXTRACTION_CORE_VOICEOFCUSTOMER'
+TEXT ANALYSIS ON;
+
+
+-------COUNT AND TRANSPOSE-----
+			SELECT "REVIEW_ID",
+				SUM(CASE TA_TYPE WHEN 'StrongPositiveSentiment' THEN "total" END) AS SP,
+				SUM(CASE TA_TYPE WHEN 'WeakPositiveSentiment' THEN "total" END) AS WP,
+				SUM(CASE TA_TYPE WHEN 'WeakNegativeSentiment' THEN "total" END) AS WN,
+				SUM(CASE TA_TYPE WHEN 'StrongNegativeSentiment' THEN "total" END) AS SN
+			FROM (
+				SELECT "REVIEW_ID", TA_TYPE, COUNT(*) AS "total"
+				 FROM "YELP"."$TA_TRAIN_REVIEW_SAMPLE_INDX"
+				 WHERE  TA_TYPE = 'StrongPositiveSentiment' OR
+						TA_TYPE = 'WeakPositiveSentiment' OR
+						TA_TYPE = 'WeakNegativeSentiment' OR
+						TA_TYPE = 'StrongNegativeSentiment'
+				 GROUP BY "REVIEW_ID", TA_TYPE
+				)
+			GROUP BY "REVIEW_ID"
+			
+			
+------------------------REPLACE ? WITH 0--------------------			
+UPDATE TRAINING_REVIEW SET MyField = 0 WHERE MyField IS NULL;
+
+
+--------------------- SENTIMENT VIEW--------------
+
+
+
+DROP VIEW "YELP"."SENTIMENT";
+CREATE VIEW "YELP"."SENTIMENT" AS
+select * from (SELECT "REVIEW_ID",
+				SUM(CASE TA_TYPE WHEN 'StrongPositiveSentiment' THEN "total" END) AS SP,
+				SUM(CASE TA_TYPE WHEN 'WeakPositiveSentiment' THEN "total" END) AS WP,
+				SUM(CASE TA_TYPE WHEN 'WeakNegativeSentiment' THEN "total" END) AS WN,
+				SUM(CASE TA_TYPE WHEN 'StrongNegativeSentiment' THEN "total" END) AS SN
+
+			    
+				FROM (
+					SELECT "REVIEW_ID", TA_TYPE, COUNT(*) AS "total"
+					 FROM "YELP"."$TA_TRAIN_REVIEW_SAMPLE_INDX"
+					 WHERE  TA_TYPE = 'StrongPositiveSentiment' OR
+							TA_TYPE = 'WeakPositiveSentiment' OR
+							TA_TYPE = 'WeakNegativeSentiment' OR
+							TA_TYPE = 'StrongNegativeSentiment'
+					 GROUP BY "REVIEW_ID", TA_TYPE
+					) 
+				GROUP BY "REVIEW_ID") t
+				LEFT JOIN (
+						SELECT "REVIEW_ID","STARS" FROM "YELP"."REVIEW"
+				) y ON y."REVIEW_ID" = t."REVIEW_ID";
+
+
+
+DROP VIEW "YELP"."SENTIMENT_TEST";
+CREATE VIEW "YELP"."SENTIMENT_TEST" AS
+				SELECT * FROM 
+					(
+						SELECT "REVIEW_ID",
+						SUM(CASE TA_TYPE WHEN 'StrongPositiveSentiment' THEN "total" END) AS SP,
+						SUM(CASE TA_TYPE WHEN 'WeakPositiveSentiment' THEN "total" END) AS WP,
+						SUM(CASE TA_TYPE WHEN 'WeakNegativeSentiment' THEN "total" END) AS WN,
+						SUM(CASE TA_TYPE WHEN 'StrongNegativeSentiment' THEN "total" END) AS SN
+
+						FROM(
+								SELECT "REVIEW_ID", TA_TYPE, COUNT(*) AS "total"
+								 FROM "YELP"."$TA_TRAIN_REVIEW_SAMPLE_INDX"
+								 WHERE  TA_TYPE = 'StrongPositiveSentiment' OR
+										TA_TYPE = 'WeakPositiveSentiment' OR
+										TA_TYPE = 'WeakNegativeSentiment' OR
+										TA_TYPE = 'StrongNegativeSentiment'
+								 GROUP BY "REVIEW_ID", TA_TYPE
+							) 
+								 GROUP BY "REVIEW_ID"
+					)t
+					LEFT JOIN (
+								SELECT "REVIEW_ID","STARS" FROM "YELP"."REVIEW"
+							   ) y ON y."REVIEW_ID" = t."REVIEW_ID"
+
+
+			  
+DROP VIEW "YELP"."SENTIMENT_TRAIN";
+CREATE VIEW "YELP"."SENTIMENT_TRAIN" AS
+					SELECT * 
+					FROM (
+							(SELECT * 
+							FROM "YELP"."SENTIMENT_TEST") x
+							LEFT OUTER JOIN ( SELECT "REVIEW_ID","STARS" FROM "YELP"."REVIEW"
+									  ) y ON y."REVIEW_ID" = x."REVIEW_ID"
+
+					 )
+
+--************CREATE TRAINING SENTIMENT TABLE*********
+
+
+DROP TABLE "YELP"."SENTIMENT_TABLE_TRAINING";
+CREATE COLUMN TABLE "YELP"."SENTIMENT_TABLE_TRAINING"
+(
+"REVIEW_ID" NVARCHAR(4000) PRIMARY KEY,
+"SP" INTEGER,
+"WP" INTEGER,
+"WN" INTEGER,
+"SN" INTEGER 
+);
+
+
+INSERT INTO "YELP"."SENTIMENT_TABLE_TRAINING"(REVIEW_ID, SP,WP, WN, SN) 
+SELECT * FROM (
+						SELECT "REVIEW_ID",
+						SUM(CASE TA_TYPE WHEN 'StrongPositiveSentiment' THEN "total" END) AS SP,
+						SUM(CASE TA_TYPE WHEN 'WeakPositiveSentiment' THEN "total" END) AS WP,
+						SUM(CASE TA_TYPE WHEN 'WeakNegativeSentiment' THEN "total" END) AS WN,
+						SUM(CASE TA_TYPE WHEN 'StrongNegativeSentiment' THEN "total" END) AS SN
+
+						FROM(
+								SELECT "REVIEW_ID", TA_TYPE, COUNT(*) AS "total"
+								 FROM "YELP"."$TA_TRAIN_REVIEW_SAMPLE_INDX"
+								 WHERE  TA_TYPE = 'StrongPositiveSentiment' OR
+										TA_TYPE = 'WeakPositiveSentiment' OR
+										TA_TYPE = 'WeakNegativeSentiment' OR
+										TA_TYPE = 'StrongNegativeSentiment'
+								 GROUP BY "REVIEW_ID", TA_TYPE
+							) 
+								 GROUP BY "REVIEW_ID"
+					)t
+
+------------------------REPLACE ? WITH 0--------------------			
+UPDATE "YELP"."SENTIMENT_TABLE_TRAINING" SET SP = 0 WHERE SP IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TRAINING" SET WP = 0 WHERE WP IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TRAINING" SET WN = 0 WHERE WN IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TRAINING" SET SN = 0 WHERE SN IS NULL;
+
+
+
+
+
+
+
+
+--************CREATE TEST SENTIMENT TABLE*********
+
+DROP TABLE "YELP"."SENTIMENT_TABLE_TEST";
+CREATE COLUMN TABLE "YELP"."SENTIMENT_TABLE_TEST"
+(
+"REVIEW_ID" NVARCHAR(4000) PRIMARY KEY,
+"SP" INTEGER,
+"WP" INTEGER,
+"WN" INTEGER,
+"SN" INTEGER 
+);
+
+
+INSERT INTO "YELP"."SENTIMENT_TABLE_TEST"(REVIEW_ID, SP,WP, WN, SN) 
+SELECT * FROM (
+						SELECT "REVIEW_ID",
+						SUM(CASE TA_TYPE WHEN 'StrongPositiveSentiment' THEN "total" END) AS SP,
+						SUM(CASE TA_TYPE WHEN 'WeakPositiveSentiment' THEN "total" END) AS WP,
+						SUM(CASE TA_TYPE WHEN 'WeakNegativeSentiment' THEN "total" END) AS WN,
+						SUM(CASE TA_TYPE WHEN 'StrongNegativeSentiment' THEN "total" END) AS SN
+
+						FROM(
+								SELECT "REVIEW_ID", TA_TYPE, COUNT(*) AS "total"
+								 FROM "YELP"."$TA_TRAIN_REVIEW_SAMPLE_INDX"
+								 WHERE  TA_TYPE = 'StrongPositiveSentiment' OR
+										TA_TYPE = 'WeakPositiveSentiment' OR
+										TA_TYPE = 'WeakNegativeSentiment' OR
+										TA_TYPE = 'StrongNegativeSentiment'
+								 GROUP BY "REVIEW_ID", TA_TYPE
+							) 
+								 GROUP BY "REVIEW_ID"
+					)t
+
+------------------------REPLACE ? WITH 0--------------------			
+UPDATE "YELP"."SENTIMENT_TABLE_TEST" SET SP = 0 WHERE SP IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TEST" SET WP = 0 WHERE WP IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TEST" SET WN = 0 WHERE WN IS NULL;
+UPDATE "YELP"."SENTIMENT_TABLE_TEST" SET SN = 0 WHERE SN IS NULL;
+
+
+
+
+
+----SENTIMENT TABLE **TEST** SAMPLE NOFLIP-------
+DROP TABLE "YELP"."TEST_REVIEW_SAMPLE";
+CREATE COLUMN TABLE "YELP"."TEST_REVIEW_SAMPLE"
+(
+"REVIEW_ID" NVARCHAR(4000) PRIMARY KEY,
+"TEXT" CLOB MEMORY THRESHOLD 1000
+);
+
+INSERT INTO "YELP"."TEST_REVIEW_SAMPLE"(REVIEW_ID, TEXT) 
+SELECT TOP 10000 REVIEW_ID, TEXT FROM  "YELP"."REVIEW" ORDER BY  REVIEW_ID DESC;
+
+create fulltext index Test_review_sample_indx ON "YELP"."TEST_REVIEW_SAMPLE" ("TEXT")
+configuration 'EXTRACTION_CORE_VOICEOFCUSTOMER'
+TEXT ANALYSIS ON;
+
+
+
+--***********************************************************************************
+
+
+----TRAINING LENGTH SAMPLE REVIEW_TABLE-----
+DROP TABLE "YELP"."TRAIN_REVIEW_TEXT_LENGTH";
+
+CREATE COLUMN TABLE "YELP"."TRAIN_REVIEW_TEXT_LENGTH"
+(
+"REVIEW_ID" NVARCHAR(4000) ,
+"BUSINESS_ID" NVARCHAR(4000),
+"TEXT_LENGTH" INTEGER,
+"STARS" INTEGER 
+);
+
+INSERT INTO "YELP"."TRAIN_REVIEW_TEXT_LENGTH"(REVIEW_ID,BUSINESS_ID, TEXT_LENGTH, STARS) 
+select REVIEW_ID,BUSINESS_ID, LENGTH(TEXT), STARS  from "YELP"."REVIEW" limit 10000 ;
+
+SELECT TOP 10 * FROM "YELP"."TRAIN_REVIEW_TEXT_LENGTH";
+
+SELECT TOP 10 * FROM "YELP"."TRAIN_REVIEW_TEXT_LENGTH" order by review_id desc;
+
+----TEST LENGTH SAMPLE REVIEW_TABLE-----
+DROP TABLE "YELP"."TEST_REVIEW_TEXT_LENGTH";
+
+CREATE COLUMN TABLE "YELP"."TEST_REVIEW_TEXT_LENGTH"
+(
+"REVIEW_ID" NVARCHAR(4000),
+"BUSINESS_ID" NVARCHAR(4000),
+"TEXT_LENGTH" INTEGER
+);
+
+INSERT INTO "YELP"."TEST_REVIEW_TEXT_LENGTH"(REVIEW_ID,BUSINESS_ID, TEXT_LENGTH) 
+select TOP 10000 REVIEW_ID, BUSINESS_ID, LENGTH(TEXT)  from "YELP"."REVIEW" order by review_id desc;
+
+SELECT * FROM "YELP"."TEST_REVIEW_TEXT_LENGTH" LIMIT 10;
+
+
