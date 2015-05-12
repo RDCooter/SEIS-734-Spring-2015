@@ -1,0 +1,36 @@
+create or replace procedure sp_business_category as 
+
+bus_id varchar2(255);
+ 
+CURSOR c1 is SELECT business_id FROM business;
+
+BEGIN
+Open c1;
+LOOP
+Fetch c1 into bus_id;
+EXIT when c1%NOTFOUND;
+
+sp_parse_business_category(bus_id);
+
+END LOOP;
+
+Close c1;
+
+COMMIT;
+
+END;
+
+create or replace PROCEDURE sp_parse_business_category (x in varchar2)
+ AS
+
+begin
+
+insert into business_category (
+select business_id, trim(regexp_substr(str, '[^,]+', 1, level)) str
+  from (SELECT business_id, categories str FROM business where business_id = x) t
+  CONNECT BY instr(str, ',', 1, level - 1) > 0);
+  
+commit;
+
+
+end;

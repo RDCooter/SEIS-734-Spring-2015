@@ -1,0 +1,119 @@
+SELECT TO_CHAR(REVIEW_DATE,'YYYY'), COUNT(*)
+FROM REVIEW
+WHERE text like '%\%'
+GROUP BY TO_CHAR(REVIEW_DATE,'YYYY')
+ORDER BY TO_CHAR(REVIEW_DATE,'YYYY');
+
+
+DESC REVIEW
+
+  SELECT COUNT(*) FROM review WHERE text like '%"%';
+  
+  
+  
+  UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2006';
+    
+    COMMIT;
+  
+  UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2007';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2008';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2009';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2010';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2011';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2012';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2013';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2014';
+    
+    COMMIT;
+    
+    UPDATE review
+  SET    text = REPLACE (text, '\', ' ')
+    WHERE 
+    text like '%\%'
+    AND TO_CHAR(REVIEW_DATE,'YYYY') = '2015';
+    
+    COMMIT;
+    
+ select business_id, categories from business where business_id = 'zgy27FSnvwdINfk5cXBIyQ';   
+ 
+ create table business_categories as (
+ select business_id, trim(regexp_substr(str, '[^,]+', 1, level)) str
+  from (SELECT business_id, categories str FROM business) t
+  CONNECT BY instr(str, ',', 1, level - 1) > 0);
+ 
+ select count(*) from (
+ select business_id, trim(regexp_substr(str, '[^,]+', 1, level)) str
+  from (SELECT business_id, categories str FROM business) t
+  CONNECT BY instr(str, ',', 1, level - 1) > 0);
+ 
+ 
+ select count(*) from business;
+ 
+ 
+with temp as  (
+       select 108 Name, 'test' Project, 'Err1, Err2, Err3' Error  from dual
+       union all
+       select 109, 'test2', 'Err1' from dual
+     )
+
+SELECT distinct Name, Project, trim(regexp_substr(str, '[^,]+', 1, level)) str
+  FROM (SELECT Name, Project, Error str FROM temp) t
+CONNECT BY instr(str, ',', 1, level - 1) > 0
+order by Name
