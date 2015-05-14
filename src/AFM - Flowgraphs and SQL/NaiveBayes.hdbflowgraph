@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="_MXCAEO3-EeSy34csT4Oebg" name="NAIVEBAYES" generateProcedure="true" generateTask="false" targetSchema="PAL_DEV">
+  <annotations xmi:id="_MXCAEe3-EeSy34csT4Oebg" key="sap.afm.layout">
+    <annotations xmi:id="_MXCAEu3-EeSy34csT4Oebg" key="x" value="10"/>
+    <annotations xmi:id="_MXCAE-3-EeSy34csT4Oebg" key="y" value="10"/>
+  </annotations>
+  <annotations xmi:id="_MXCAFO3-EeSy34csT4Oebg" key="sap.afm.palette" value="">
+    <annotations xmi:id="_MXCAFe3-EeSy34csT4Oebg" key="additions" value=""/>
+  </annotations>
+  <annotations xmi:id="_T9v8AO4NEeSjUOMZmI1oTQ" key="sap.afm.nodeType" value="ContainerNode"/>
+  <annotations xmi:id="_T9y_UO4NEeSjUOMZmI1oTQ" key="sap.afm.nodeInputs"/>
+  <annotations xmi:id="_T900gO4NEeSjUOMZmI1oTQ" key="sap.afm.nodeOutputs"/>
+  <tableMappings xmi:id="_UvjhgO4PEeSjUOMZmI1oTQ" source="_eryBge4MEeSjUOMZmI1oTQ" target="_UPCOaO4PEeSjUOMZmI1oTQ">
+    <attributeMappings xmi:id="_Uvjhge4PEeSjUOMZmI1oTQ" source="_eryBgu4MEeSjUOMZmI1oTQ" target="_UsMEcO4PEeSjUOMZmI1oTQ"/>
+    <attributeMappings xmi:id="_Uvjhgu4PEeSjUOMZmI1oTQ" source="_eryBhO4MEeSjUOMZmI1oTQ" target="_Us_8wO4PEeSjUOMZmI1oTQ"/>
+  </tableMappings>
+  <tableMappings xmi:id="_mz1KsPH-EeS3Cou4ow-hoA" source="_l3bz5PH-EeS3Cou4ow-hoA" target="_eryBd-4MEeSjUOMZmI1oTQ">
+    <attributeMappings xmi:id="_mz1KsfH-EeS3Cou4ow-hoA" source="_l3bz5_H-EeS3Cou4ow-hoA" target="_mzgakPH-EeS3Cou4ow-hoA"/>
+    <attributeMappings xmi:id="_mz1KsvH-EeS3Cou4ow-hoA" source="_l3bz6PH-EeS3Cou4ow-hoA" target="_mziPwPH-EeS3Cou4ow-hoA"/>
+    <attributeMappings xmi:id="_mz1Ks_H-EeS3Cou4ow-hoA" source="_l3bz6fH-EeS3Cou4ow-hoA" target="_mzjd4PH-EeS3Cou4ow-hoA"/>
+    <attributeMappings xmi:id="_mz1KtPH-EeS3Cou4ow-hoA" source="_l3bz6vH-EeS3Cou4ow-hoA" target="_mzksAPH-EeS3Cou4ow-hoA"/>
+    <attributeMappings xmi:id="_mz1KtfH-EeS3Cou4ow-hoA" source="_l3bz6_H-EeS3Cou4ow-hoA" target="_mzmhMPH-EeS3Cou4ow-hoA"/>
+  </tableMappings>
+  <nodes xsi:type="flowgraph:FunctionNode" xmi:id="_eryBcO4MEeSjUOMZmI1oTQ" name="NBCTRAIN" areaName="AFLPAL" functionName="NBCTRAIN" functionCategory="VAR_COLUMN">
+    <annotations xmi:id="_eryBce4MEeSjUOMZmI1oTQ" key="sap.afm.description" value="Classification based on Bayes rule."/>
+    <annotations xmi:id="_eryBcu4MEeSjUOMZmI1oTQ" key="sap.afm.displayName" value="Naive Bayes (Train)"/>
+    <annotations xmi:id="_eryBc-4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+    <annotations xmi:id="_eryBdO4MEeSjUOMZmI1oTQ" key="sap.afm.layout">
+      <annotations xmi:id="_eryBde4MEeSjUOMZmI1oTQ" key="x" value="286"/>
+      <annotations xmi:id="_eryBdu4MEeSjUOMZmI1oTQ" key="y" value="68"/>
+    </annotations>
+    <annotations xmi:id="_T92CoO4NEeSjUOMZmI1oTQ" key="sap.afm.nodeType" value="FunctionNode"/>
+    <annotations xmi:id="_T94e4O4NEeSjUOMZmI1oTQ" key="sap.afm.nodeInputs">
+      <annotations xmi:id="_T96UEO4NEeSjUOMZmI1oTQ" key="DATA" value="DATA_2"/>
+      <annotations xmi:id="_T97iMO4NEeSjUOMZmI1oTQ" key="PARAMS" value=""/>
+    </annotations>
+    <annotations xmi:id="_T-EFEO4NEeSjUOMZmI1oTQ" key="sap.afm.nodeOutputs">
+      <annotations xmi:id="_T-F6QO4NEeSjUOMZmI1oTQ" key="RESULTS" value="DATA_5"/>
+    </annotations>
+    <inputs xmi:id="_eryBd-4MEeSjUOMZmI1oTQ" name="DATA" regex="[ISD]+[IS]" kind="TABLE">
+      <attributes xmi:id="_mzgakPH-EeS3Cou4ow-hoA" name="SP" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_mziPwPH-EeS3Cou4ow-hoA" name="WP" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_mzjd4PH-EeS3Cou4ow-hoA" name="WN" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_mzksAPH-EeS3Cou4ow-hoA" name="SN" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_mzmhMPH-EeS3Cou4ow-hoA" name="STARS" type="INTEGER" nullable="true" length="0" scale="0"/>
+    </inputs>
+    <inputs xmi:id="_eryBeO4MEeSjUOMZmI1oTQ" name="PARAMS" regex="SIDS" kind="TABLE">
+      <attributes xmi:id="_eryBee4MEeSjUOMZmI1oTQ" name="NAME" type="VARCHAR" nullable="true" length="50" scale="0">
+        <annotations xmi:id="_eryBeu4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+      <attributes xmi:id="_eryBe-4MEeSjUOMZmI1oTQ" name="INTARGS" type="INTEGER" nullable="true" length="0" scale="0">
+        <annotations xmi:id="_eryBfO4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+      <attributes xmi:id="_eryBfe4MEeSjUOMZmI1oTQ" name="DOUBLEARGS" type="DOUBLE" nullable="true" length="0" scale="0">
+        <annotations xmi:id="_eryBfu4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+      <attributes xmi:id="_eryBf-4MEeSjUOMZmI1oTQ" name="STRINGARGS" type="VARCHAR" nullable="true" length="100" scale="0">
+        <annotations xmi:id="_eryBgO4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+    </inputs>
+    <outputs xmi:id="_eryBge4MEeSjUOMZmI1oTQ" name="RESULTS" regex="IS" kind="TABLE">
+      <attributes xmi:id="_eryBgu4MEeSjUOMZmI1oTQ" name="ID" type="INTEGER" nullable="false" length="0" scale="0">
+        <annotations xmi:id="_eryBg-4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+      <attributes xmi:id="_eryBhO4MEeSjUOMZmI1oTQ" name="MODEL" type="VARCHAR" nullable="false" length="5000" scale="0">
+        <annotations xmi:id="_eryBhe4MEeSjUOMZmI1oTQ" key="sap.afm.isReadOnly" value="true"/>
+      </attributes>
+    </outputs>
+    <tables xmi:id="_eryBhu4MEeSjUOMZmI1oTQ" type="_eryBeO4MEeSjUOMZmI1oTQ" active="true">
+      <rows xmi:id="_eryBh-4MEeSjUOMZmI1oTQ">
+        <values>&quot;THREAD_NUMBER&quot;</values>
+        <values>2</values>
+        <values>NULL</values>
+        <values>NULL</values>
+      </rows>
+      <rows xmi:id="_eryBiO4MEeSjUOMZmI1oTQ">
+        <values>&quot;IS_SPLIT_MODEL&quot;</values>
+        <values>1</values>
+        <values>NULL</values>
+        <values>NULL</values>
+      </rows>
+      <rows xmi:id="_eryBie4MEeSjUOMZmI1oTQ">
+        <values>&quot;LAPLACE&quot;</values>
+        <values>NULL</values>
+        <values>0.01</values>
+        <values>NULL</values>
+      </rows>
+    </tables>
+  </nodes>
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="_UPCOYO4PEeSjUOMZmI1oTQ" name="TEMPLATESINK" type="TEMPLATE_TABLE" authoringSchemaName="PAL_DEV" catalogObjectName="NBC_PAL_NBC_MODEL_TBL" dataLayout="COLUMN" truncateTable="true">
+    <annotations xmi:id="_UPCOYe4PEeSjUOMZmI1oTQ" key="sap.afm.description" value="Create a catalog object and write data to it"/>
+    <annotations xmi:id="_UPCOYu4PEeSjUOMZmI1oTQ" key="sap.afm.displayName" value="Data Sink (Template Table)"/>
+    <annotations xmi:id="_UPCOY-4PEeSjUOMZmI1oTQ" key="sap.afm.layout">
+      <annotations xmi:id="_UPCOZO4PEeSjUOMZmI1oTQ" key="x" value="514"/>
+      <annotations xmi:id="_UPCOZe4PEeSjUOMZmI1oTQ" key="y" value="114"/>
+      <annotations xmi:id="_UPCOZu4PEeSjUOMZmI1oTQ" key="width" value="100"/>
+      <annotations xmi:id="_UPCOZ-4PEeSjUOMZmI1oTQ" key="height" value="64"/>
+    </annotations>
+    <annotations xmi:id="_4J9vMO4QEeSjUOMZmI1oTQ" key="sap.afm.nodeType" value="DataNode"/>
+    <annotations xmi:id="_4LFJgO4QEeSjUOMZmI1oTQ" key="sap.afm.nodeInputs">
+      <annotations xmi:id="_4LojIO4QEeSjUOMZmI1oTQ" key="DATA_5" value="RESULTS"/>
+    </annotations>
+    <annotations xmi:id="_4NWaYO4QEeSjUOMZmI1oTQ" key="sap.afm.nodeOutputs"/>
+    <inputs xmi:id="_UPCOaO4PEeSjUOMZmI1oTQ" name="DATA_5" kind="TABLE">
+      <attributes xmi:id="_UsMEcO4PEeSjUOMZmI1oTQ" name="ID" type="INTEGER" nullable="false" length="0" scale="0"/>
+      <attributes xmi:id="_Us_8wO4PEeSjUOMZmI1oTQ" name="MODEL" type="VARCHAR" nullable="false" length="5000" scale="0"/>
+    </inputs>
+  </nodes>
+  <nodes xsi:type="flowgraph:DataNode" xmi:id="_l3bz4PH-EeS3Cou4ow-hoA" name="TRAINING_DATA" type="DATABASE_VIEW" authoringSchemaName="YELP" catalogObjectName="TRAINING_DATA" dataLayout="ROW" truncateTable="false">
+    <annotations xmi:id="_l3bz4fH-EeS3Cou4ow-hoA" key="sap.afm.layout">
+      <annotations xmi:id="_l3bz4vH-EeS3Cou4ow-hoA" key="x" value="130"/>
+      <annotations xmi:id="_l3bz4_H-EeS3Cou4ow-hoA" key="y" value="128"/>
+    </annotations>
+    <annotations xmi:id="_nTfiMPH-EeS3Cou4ow-hoA" key="sap.afm.nodeType" value="DataNode"/>
+    <annotations xmi:id="_nTfiMfH-EeS3Cou4ow-hoA" key="sap.afm.nodeInputs"/>
+    <annotations xmi:id="_nTfiMvH-EeS3Cou4ow-hoA" key="sap.afm.nodeOutputs">
+      <annotations xmi:id="_nTfiM_H-EeS3Cou4ow-hoA" key="DATA_2" value="DATA"/>
+    </annotations>
+    <outputs xmi:id="_l3bz5PH-EeS3Cou4ow-hoA" name="DATA_2" kind="TABLE">
+      <attributes xmi:id="_l3bz5fH-EeS3Cou4ow-hoA" name="REVIEW_ID" type="NVARCHAR" nullable="false" length="4000" scale="0"/>
+      <attributes xmi:id="_l3bz5vH-EeS3Cou4ow-hoA" name="ID" type="INTEGER" nullable="false" length="0" scale="0"/>
+      <attributes xmi:id="_l3bz5_H-EeS3Cou4ow-hoA" name="SP" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_l3bz6PH-EeS3Cou4ow-hoA" name="WP" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_l3bz6fH-EeS3Cou4ow-hoA" name="WN" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_l3bz6vH-EeS3Cou4ow-hoA" name="SN" type="INTEGER" nullable="true" length="0" scale="0"/>
+      <attributes xmi:id="_l3bz6_H-EeS3Cou4ow-hoA" name="STARS" type="INTEGER" nullable="true" length="0" scale="0"/>
+    </outputs>
+  </nodes>
+</flowgraph:ContainerNode>
